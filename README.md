@@ -8,6 +8,8 @@ The robot device drivers are in [teo-body](https://github.com/roboticslab-uc3m/t
 
 The robot vision and tts/asr are in [teo-head](https://github.com/roboticslab-uc3m/teo-head) but will soon be migrated. Keep up on this on: https://github.com/roboticslab-uc3m/QA/issues/2
 
+Also still lots of material on [the wiki](http://robots.uc3m.es)!
+
 We'll be porting material and updating little by little!
 
 Put an [issue](https://github.com/roboticslab-uc3m/teo-software-manual/issues/new) if you have any doubts!
