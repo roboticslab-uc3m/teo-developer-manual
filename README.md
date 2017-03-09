@@ -10,6 +10,8 @@ The robot device drivers are in [yarp-devices](https://github.com/roboticslab-uc
 
 The robot vision is in [vision](https://github.com/roboticslab-uc3m/vision). Tts/asr is there but will be migrated to [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices).
 
+While there is technically no software architecture diagram, as it is flexible, a good example can be found at: https://github.com/roboticslab-uc3m/follow-me
+
 Also still lots of material on [the wiki](http://robots.uc3m.es)!
 
 We'll be porting material and updating little by little!
