@@ -8,7 +8,7 @@ Note that the simulator of kinematics-dynamics, teoSim, will soon be replaced by
 
 The robot device drivers are in [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices).
 
-The robot vision is in [vision](https://github.com/roboticslab-uc3m/vision). Tts/asr is there but will be migrated to [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices).
+The robot vision is in [vision](https://github.com/roboticslab-uc3m/vision). Tts/asr is there but will be migrated to [speech](https://github.com/roboticslab-uc3m/speech).
 
 While there is technically no software architecture diagram, as it is flexible, a good example can be found at: https://github.com/roboticslab-uc3m/follow-me
 
