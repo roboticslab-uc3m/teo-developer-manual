@@ -4,7 +4,7 @@ Since the old `teo-main` was renamed, for now most material is in: [kinematics-d
 
 Soon you'll have a new funcional [teo-main](https://github.com/roboticslab-uc3m/teo-main).
 
-Note that `teoSim` simulator of [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics), will soon be replaced by components from [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins), which also includes collision avoidance. Keep up on this on: https://github.com/roboticslab-uc3m/QA/issues/2 and https://github.com/orgs/roboticslab-uc3m/projects/2
+Note that `teoSim` simulator of [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics) will soon be replaced by components from [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins), which also include collision avoidance. Keep up on this on: https://github.com/roboticslab-uc3m/QA/issues/2 and https://github.com/orgs/roboticslab-uc3m/projects/2
 
 The robot device drivers are in [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices).
 
