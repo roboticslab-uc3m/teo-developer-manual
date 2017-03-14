@@ -5,7 +5,7 @@ Welcome to the tentative entry point for TEO software. Here we will speak about:
 4. TEO humanoid robot research software
 5. TEO humanoid robot additional documentation
 
-## 1. TEO humanoid robot source code intended for use on any PC (teo-main)
+## 1. TEO humanoid robot source code intended for use on any PC
 
 The main TEO software repository intended for installing on any PC is called [teo-main](https://github.com/roboticslab-uc3m/teo-main). It pulls contents from the following repositories:
 
