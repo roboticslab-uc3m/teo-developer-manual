@@ -1,8 +1,15 @@
 # teo-software-manual
 
-Welcome to the tentative entry point for TEO software.
+Welcome to the tentative entry point for TEO software. Here we will speak about:
+1. TEO humanoid robot software intended for use on any PC
+2. TEO humanoid robot firmware intended for use inside the robot
+3. TEO humanoid robot demonstration software
+4. TEO humanoid robot research software
+5. TEO humanoid robot additional documentation
 
-The main TEO software repository is called [teo-main](https://github.com/roboticslab-uc3m/teo-main). It pulls contents from the following repositories:
+## 1. TEO humanoid robot source code intended for use on any PC (teo-main)
+
+The main TEO software repository intended for installing on any PC is called [teo-main](https://github.com/roboticslab-uc3m/teo-main). It pulls contents from the following repositories:
 
 - [teo-software-manual](https://github.com/roboticslab-uc3m/teo-software-manual): This TEO software manual.
 - [teo-hardware-manual](https://github.com/roboticslab-uc3m/teo-hardware-manual): The TEO hardware manual.
@@ -14,16 +21,22 @@ The main TEO software repository is called [teo-main](https://github.com/robotic
 - [speech](https://github.com/roboticslab-uc3m/speech)
 - [tools](https://github.com/roboticslab-uc3m/tools)
 
-Notes on [teo-main](https://github.com/roboticslab-uc3m/teo-main) and sub-repositories:
+Notes on [teo-main](https://github.com/roboticslab-uc3m/teo-main) and the repositories from which it pulls contents:
 - Due to ongoing migration efforts ([click here to read the full story](https://github.com/roboticslab-uc3m/QA/issues/2)), [teo-main](https://github.com/roboticslab-uc3m/teo-main) is still not fully functional. It is best to download and install each separate repository. If there is an issue on any given one, post a GitHub issue on the corresponding repository.
 - The `teoSim` simulator of [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics) will soon be replaced by components from [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins), which also include collision avoidance. Keep up on this on: https://github.com/roboticslab-uc3m/QA/issues/2 and https://github.com/orgs/roboticslab-uc3m/projects/2
 
-The robot device drivers are in [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices).
-
 The robot vision is in [vision](https://github.com/roboticslab-uc3m/vision). Tts/asr is there but will be migrated to [speech](https://github.com/roboticslab-uc3m/speech).
 
+## 2. TEO humanoid robot firmware intended for use inside the robot
+The robot device drivers are in [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices). Specifications are: teo-manipulation, teo-locomotion, teo-head.
+
+## 3. TEO humanoid robot demonstration software
 While there is technically no software architecture diagram, as it is flexible, a good example can be found at: https://github.com/roboticslab-uc3m/follow-me
 
+## 4. TEO humanoid robot research software
+xgnitive, textiles
+
+## 5. TEO humanoid robot additional documentation
 Also still lots of material on [the wiki](http://robots.uc3m.es)!
 
 We'll be porting material and updating little by little!
