@@ -1,5 +1,3 @@
-# teo-software-manual
-
 Welcome to the tentative entry point for TEO software. Here we will speak about:
 1. TEO humanoid robot software intended for use on any PC
 2. TEO humanoid robot firmware intended for use inside the robot
