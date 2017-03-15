@@ -15,7 +15,7 @@ The main TEO software repository intended for installing on any PC is called [te
 - [installation-guides](https://github.com/roboticslab-uc3m/installation-guides): Centralized administration of dependency installation guides.
 - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins): OpenRAVE plugins to interface OpenRAVE with YARP.
 - [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics): Kinematics and dynamics solvers and controllers.
-- [vision](https://github.com/roboticslab-uc3m/vision)
+- [vision](https://github.com/roboticslab-uc3m/vision): Vision processing.
 - [speech](https://github.com/roboticslab-uc3m/speech)
 - [tools](https://github.com/roboticslab-uc3m/tools)
 
