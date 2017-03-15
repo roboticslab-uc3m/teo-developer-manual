@@ -42,8 +42,8 @@ The robot device drivers are in [yarp-devices](https://github.com/roboticslab-uc
 We are in fact considering creating specific superbuild repositories for each TEO PC.
 
 ## 3. TEO humanoid robot demonstration software
-- [follow-me](https://github.com/roboticslab-uc3m/follow-me)
-- [waiter](https://github.com/roboticslab-uc3m/waiter)
+- [follow-me](https://github.com/roboticslab-uc3m/follow-me): A robotic face following and arm waving demo.
+- [waiter](https://github.com/roboticslab-uc3m/waiter): Robot waiter application.
 
 ## 4. TEO humanoid robot research software
 - [textiles](https://github.com/roboticslab-uc3m/textiles)
