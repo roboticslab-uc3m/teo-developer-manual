@@ -16,8 +16,8 @@ The main TEO software repository intended for installing on any PC is called [te
 - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins): OpenRAVE plugins to interface OpenRAVE with YARP.
 - [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics): Kinematics and dynamics solvers and controllers.
 - [vision](https://github.com/roboticslab-uc3m/vision): Vision processing.
-- [speech](https://github.com/roboticslab-uc3m/speech)
-- [tools](https://github.com/roboticslab-uc3m/tools)
+- [speech](https://github.com/roboticslab-uc3m/speech): Text To Speech (TTS) and Automatic Speech Recognition (ASR).
+- [tools](https://github.com/roboticslab-uc3m/tools): Additional software tools.
 
 Notes on [teo-main](https://github.com/roboticslab-uc3m/teo-main) and the repositories from which it pulls contents:
 - Due to ongoing migration efforts ([click here to read the full story](https://github.com/roboticslab-uc3m/QA/issues/2)), [teo-main](https://github.com/roboticslab-uc3m/teo-main) is still not fully functional. It is best to download and install each separate repository. If there is an issue on any given one, post a GitHub issue on the corresponding repository and we'll try to get back to you.
