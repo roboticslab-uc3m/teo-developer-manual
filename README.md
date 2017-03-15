@@ -1,9 +1,14 @@
 Welcome to the tentative entry point for TEO software. Here we will speak about:
+0. TEO humanoid robot software architecture
 1. TEO humanoid robot software intended for use on any PC
 2. TEO humanoid robot firmware intended for use inside the robot
 3. TEO humanoid robot demonstration software
 4. TEO humanoid robot research software
 5. TEO humanoid robot additional documentation
+
+## 0. TEO humanoid robot software architecture
+
+While there is technically no software architecture diagram, as it is flexible, a good example can be found at: https://github.com/roboticslab-uc3m/follow-me
 
 ## 1. TEO humanoid robot source code intended for use on any PC
 
@@ -28,13 +33,20 @@ Notes on [teo-main](https://github.com/roboticslab-uc3m/teo-main) and the reposi
 Keep up on the status of these issues on: https://github.com/roboticslab-uc3m/QA/issues/2 and https://github.com/orgs/roboticslab-uc3m/projects/2
 
 ## 2. TEO humanoid robot firmware intended for use inside the robot
-The robot device drivers are in [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices). Specifications are: teo-manipulation, teo-locomotion, teo-head.
+The robot device drivers are in [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices). TEO uses three instances of this repository:
+- teo-manipulation: For the TEO manipulation PC (arms and head joint control, JR3 force/torque sensors).
+- teo-locomotion: For the TEO locomotion PC (legs and torso joint control, XSENSE inertial sensor)
+- teo-head: For the TEO head PC (ASUS XTion Pro Live RGBD sensor, PointGrey RGB camera).
+
+We are in fact considering creating specific superbuild repositories for each TEO PC.
 
 ## 3. TEO humanoid robot demonstration software
-While there is technically no software architecture diagram, as it is flexible, a good example can be found at: https://github.com/roboticslab-uc3m/follow-me
+- [follow-me](https://github.com/roboticslab-uc3m/follow-me)
+- [waiter](https://github.com/roboticslab-uc3m/waiter)
 
 ## 4. TEO humanoid robot research software
-xgnitive, textiles
+- [textiles](https://github.com/roboticslab-uc3m/textiles)
+- [xgnitive](https://github.com/roboticslab-uc3m/xgnitive)
 
 ## 5. TEO humanoid robot additional documentation
 Also still lots of material on [the wiki](http://robots.uc3m.es)!
