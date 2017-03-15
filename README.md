@@ -1,4 +1,5 @@
 Welcome to the tentative entry point for TEO software. Here we will speak about:
+
 0. TEO humanoid robot software architecture
 1. TEO humanoid robot software intended for use on any PC
 2. TEO humanoid robot firmware intended for use inside the robot
