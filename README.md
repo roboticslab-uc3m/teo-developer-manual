@@ -13,7 +13,7 @@ The main TEO software repository intended for installing on any PC is called [te
 - [teo-hardware-manual](https://github.com/roboticslab-uc3m/teo-hardware-manual): The TEO hardware manual.
 - [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models): TEO OpenRAVE models.
 - [installation-guides](https://github.com/roboticslab-uc3m/installation-guides): Centralized administration of dependency installation guides.
-- [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins)
+- [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins): OpenRAVE plugins to interface OpenRAVE with YARP.
 - [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics)
 - [vision](https://github.com/roboticslab-uc3m/vision)
 - [speech](https://github.com/roboticslab-uc3m/speech)
