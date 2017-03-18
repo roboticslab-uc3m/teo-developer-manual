@@ -1,6 +1,6 @@
 Welcome to the tentative entry point for TEO software. Here we will speak about:
 
-1. [An overview on TEO humanoid robot software](#1)
+1. [An overview on TEO humanoid robot software](# 1. An overview on TEO humanoid robot software)
    1. TEO humanoid robot software architecture
    1. TEO humanoid robot software intended for use on any PC
    1. TEO humanoid robot firmware intended for use inside the robot
@@ -9,7 +9,7 @@ Welcome to the tentative entry point for TEO software. Here we will speak about:
 1. Developing TEO humanoid robot software
 1. Additional documentation about TEO humanoid robot software
 
-[# 1. An overview on TEO humanoid robot software](#1)
+# 1. An overview on TEO humanoid robot software
 
 ## 1.i. TEO humanoid robot software architecture
 
