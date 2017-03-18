@@ -9,6 +9,8 @@ Welcome to the tentative entry point for TEO software. Here we will speak about:
 1. Developing TEO humanoid robot software
 1. Additional documentation about TEO humanoid robot software
 
+# 1. An overview on TEO humanoid robot software
+
 ## 1.i. TEO humanoid robot software architecture
 
 While there is technically no software architecture diagram, as it is flexible, a good example can be found at: https://github.com/roboticslab-uc3m/follow-me
@@ -51,9 +53,9 @@ We are in fact considering creating specific superbuild repositories for each TE
 - [textiles](https://github.com/roboticslab-uc3m/textiles)
 - [xgnitive](https://github.com/roboticslab-uc3m/xgnitive)
 
-## 2. Developing TEO humanoid robot software
+# 2. Developing TEO humanoid robot software
 
-## 3. Additional documentation about TEO humanoid robot software
+# 3. Additional documentation about TEO humanoid robot software
 Also still lots of material on [the wiki](http://robots.uc3m.es)!
 
 We'll be porting material and updating little by little!
