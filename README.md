@@ -9,11 +9,11 @@ Welcome to the tentative entry point for TEO software. Here we will speak about:
 1. Developing TEO humanoid robot software
 1. Additional documentation about TEO humanoid robot software
 
-## 1.i TEO humanoid robot software architecture
+## 1.i. TEO humanoid robot software architecture
 
 While there is technically no software architecture diagram, as it is flexible, a good example can be found at: https://github.com/roboticslab-uc3m/follow-me
 
-## 1.ii TEO humanoid robot source code intended for use on any PC
+## 1.ii. TEO humanoid robot source code intended for use on any PC
 
 The main TEO software repository intended for installing on any PC is called [teo-main](https://github.com/roboticslab-uc3m/teo-main). It pulls contents from the following repositories:
 
@@ -35,7 +35,7 @@ Notes on [teo-main](https://github.com/roboticslab-uc3m/teo-main) and the reposi
 
 Keep up on the status of these issues on: https://github.com/roboticslab-uc3m/QA/issues/2 and https://github.com/orgs/roboticslab-uc3m/projects/2
 
-## 1.iii TEO humanoid robot firmware intended for use inside the robot
+## 1.iii. TEO humanoid robot firmware intended for use inside the robot
 The robot device drivers are in [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices). TEO uses three instances of this repository:
 - teo-manipulation: For the TEO manipulation PC (arms and head joint control, JR3 force/torque sensors).
 - teo-locomotion: For the TEO locomotion PC (legs and torso joint control, XSENSE inertial sensor)
@@ -43,11 +43,11 @@ The robot device drivers are in [yarp-devices](https://github.com/roboticslab-uc
 
 We are in fact considering creating specific superbuild repositories for each TEO PC.
 
-## 1.iv TEO humanoid robot demonstration software
+## 1.iv. TEO humanoid robot demonstration software
 - [follow-me](https://github.com/roboticslab-uc3m/follow-me): A robotic face following and arm waving demo.
 - [waiter](https://github.com/roboticslab-uc3m/waiter): Robot waiter application.
 
-## 1.v TEO humanoid robot research software
+## 1.v. TEO humanoid robot research software
 - [textiles](https://github.com/roboticslab-uc3m/textiles)
 - [xgnitive](https://github.com/roboticslab-uc3m/xgnitive)
 
