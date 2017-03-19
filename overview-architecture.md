@@ -1,4 +1,8 @@
 # Overview: Software Architecture
 
-While there is technically no software architecture diagram, as it is flexible, a good example can be found at: [https://github.com/roboticslab-uc3m/follow-me](https://github.com/roboticslab-uc3m/follow-me)
+There is technically no fixed software architecture. The following is an example of a good working functional architecture.
+
+
+
+Which can be found at: [https://github.com/roboticslab-uc3m/follow-me](https://github.com/roboticslab-uc3m/follow-me)
 
