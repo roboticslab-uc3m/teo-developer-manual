@@ -9,4 +9,4 @@
     * [Research](overview-research.md)
 * [Development](development.md)
 * [Additional Resources](additional-resources.md)
-* [TEO Diagrams](teo-diagrams.md)
+* [Appendix A: TEO Diagrams](appendix-a-teo-diagrams.md)
