@@ -1,6 +1,6 @@
-# Additional Resources for TEO Humanoid Robot software
+# Additional Resources
 
-Also still lots of material on [the wiki](http://robots.uc3m.es)!
+Still lots of material on [the wiki](http://robots.uc3m.es)!
 
 We'll be porting material and updating little by little!
 
