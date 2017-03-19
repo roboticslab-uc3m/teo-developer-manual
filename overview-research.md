@@ -1,5 +1,7 @@
-# TEO humanoid robot research software
+# Overview: Research
 
-- [textiles](https://github.com/roboticslab-uc3m/textiles)
-- [xgnitive](https://github.com/roboticslab-uc3m/xgnitive)
+* [textiles](https://github.com/roboticslab-uc3m/textiles)
+* [xgnitive](https://github.com/roboticslab-uc3m/xgnitive)
+
+
 

@@ -1,2 +1,4 @@
-# Developing TEO humanoid robot software
+# Development of TEO Humanoid Robot software
+
+
 

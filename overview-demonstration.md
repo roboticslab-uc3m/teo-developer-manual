@@ -1,5 +1,7 @@
-# TEO humanoid robot demonstration software
+# Overview: Demonstration
 
-- [follow-me](https://github.com/roboticslab-uc3m/follow-me): A robotic face following and arm waving demo.
-- [waiter](https://github.com/roboticslab-uc3m/waiter): Robot waiter application.
+* [follow-me](https://github.com/roboticslab-uc3m/follow-me): A robotic face following and arm waving demo.
+* [waiter](https://github.com/roboticslab-uc3m/waiter): Robot waiter application.
+
+
 
