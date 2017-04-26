@@ -2,10 +2,8 @@
 
 cmake_minimum_required(VERSION 2.6)
 
-set(KEYWORD "best-practices")
-
 # Start a project.
-project(${KEYWORD})
+project(TEO_SOFTWARE_MANUAL)
 
 find_package(YARP REQUIRED)
 list(APPEND CMAKE_MODULE_PATH ${YARP_MODULE_PATH})
