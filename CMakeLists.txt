@@ -13,10 +13,10 @@ include(YarpInstallationHelpers)
 yarp_configure_external_installation(teo-software-manual)
 
 file(GLOB md ${CMAKE_CURRENT_SOURCE_DIR}/*.md)
-file(GLOB assets ${CMAKE_CURRENT_SOURCE_DIR}/assets/*)
+set(assets ${CMAKE_CURRENT_SOURCE_DIR}/assets)
 
 yarp_install(FILES ${md} DESTINATION ${TEO-SOFTWARE-MANUAL_CONTEXTS_INSTALL_DIR})
-yarp_install(FILES ${assets} DESTINATION ${TEO-SOFTWARE-MANUAL_CONTEXTS_INSTALL_DIR}/assets)
+yarp_install(DIRECTORY ${assets} DESTINATION ${TEO-SOFTWARE-MANUAL_CONTEXTS_INSTALL_DIR})
 
 # uninstall target
 configure_file(
