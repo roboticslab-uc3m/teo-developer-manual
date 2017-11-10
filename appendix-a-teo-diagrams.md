@@ -1,7 +1,7 @@
 # Appendix A: TEO Diagrams
 
-## DH Coordinate Systems and Parameter Table
+## DH Parameter Table and Coordinate Systems Drawing
 
-[DH Parameter Table](assets/DH parameters.md)
+[DH Parameter Table](assets/dh-table.md)
 
-<img alt="DH" src="assets/DH.png" width="400" />
+<img alt="DH" src="assets/dh-drawing.png" width="400" />
