@@ -19,7 +19,6 @@ Notes on [teo-main](https://github.com/roboticslab-uc3m/teo-main) and the reposi
 
 * Due to ongoing migration efforts \([click here to read the full story](https://github.com/roboticslab-uc3m/QA/issues/2)\), [teo-main](https://github.com/roboticslab-uc3m/teo-main) is still not fully functional. It is best to download and install each separate repository. If there is an issue on any given one, post a GitHub issue on the corresponding repository and we'll try to get back to you.
 * The `teoSim` monolithic simulator of [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins) will soon be replaced by the modular architecture based on plugins from the same repo, which also include collision avoidance.
-* Tts/asr is being migrated to [speech](https://github.com/roboticslab-uc3m/speech), but is currently partially still in [vision](https://github.com/roboticslab-uc3m/vision) (used to be teo-head).
 
 Keep up on the status of these issues on: [https://github.com/roboticslab-uc3m/QA/issues/2](https://github.com/roboticslab-uc3m/QA/issues/2) and [https://github.com/orgs/roboticslab-uc3m/projects/2](https://github.com/orgs/roboticslab-uc3m/projects/2)
 
