@@ -11,7 +11,7 @@
 2. [Post an issue / Feature request / Specific documentation request](https://github.com/roboticslab-uc3m/teo-software-manual/issues)
 
 #### General workflow
-* In this pure documentation repo, we only use the `master` branch.
+1. This is a pure documentation repository, so we only use the `master` branch.
 
 #### Workflow for assets:
 1. Generate sources: `.ods` for tables (e.g. via `calc`), `.svg` for drawings (e.g. via `inkscape`).
