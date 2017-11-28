@@ -57,11 +57,11 @@ Taken at the center of mass.
 Moments of inertia: ( grams *  square millimeters )
 Taken at the center of mass and aligned with the output coordinate system.
 
-	Lxx = 939062.50	Lxy = 0.00	Lxz = 0.00
+	Lxx = 939062.50		Lxy = 0.00		Lxz = 0.00
 
-	Lyx = 0.00	Lyy = 939062.50	Lyz = 0.00
+	Lyx = 0.00		Lyy = 939062.50		Lyz = 0.00
 
-	Lzx = 0.00	Lzy = 0.00	Lzz = 528125.00
+	Lzx = 0.00		Lzy = 0.00		Lzz = 528125.00
 
 
 ### FrontalNeck
@@ -135,11 +135,11 @@ Taken at the center of mass.
 Moments of inertia: ( grams *  square millimeters )
 Taken at the center of mass and aligned with the output coordinate system.
 
-	Lxx = 1977587.12	Lxy = 2056.44	Lxz = 29730.11
+	Lxx = 1977587.12	Lxy = 2056.44		Lxz = 29730.11
 
-	Lyx = 2056.44		Lyy = 899729.49	Lyz = -3073.94
+	Lyx = 2056.44		Lyy = 899729.49		Lyz = -3073.94
 
-	Lzx = 29730.11		Lzy = -3073.94	Lzz = 1471749.05
+	Lzx = 29730.11		Lzy = -3073.94		Lzz = 1471749.05
 
 
 ### RootWaist
@@ -292,55 +292,37 @@ Taken at the center of mass.
 Moments of inertia: ( grams *  square millimeters )
 Taken at the center of mass and aligned with the output coordinate system.
 
-	Lxx = 701463.31	Lxy = -10454.91	Lxz = -10855.70
+	Lxx = 701463.31		Lxy = -10454.91		Lxz = -10855.70
 
-	Lyx = -10454.91	Lyy = 612806.24	Lyz = 11471.10
+	Lyx = -10454.91		Lyy = 612806.24		Lyz = 11471.10
 
-	Lzx = -10855.70	Lzy = 11471.10	Lzz = 326948.83
+	Lzx = -10855.70		Lzy = 11471.10		Lzz = 326948.83
 
 
 
 ### RightFrontalWrist
 
-Mass = 1170.00 g
+Mass  = 1170.00 grams
 
+Volume = 759343.98 cubic millimeters
 
-Volume = 759343.98 mm³
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
 
+	Ix = ( 0.03,  0.00,  1.00)   	Px = 880205.15
 
+	Iy = (-1.00, -0.03,  0.03)   	Py = 5332908.02
 
-Centro de Mass: ( mm )
+	Iz = ( 0.02, -1.00,  0.00)   	Pz = 5345304.27
 
-X = 2.91
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
 
-Y = -110.49
+	Lxx = 5329956.56	Lxy = 101.85		Lxz = 114750.55
 
-Z = 348.01
+	Lyx = 101.85		Lyy = 5345281.96	Lyz = -8070.00
 
-
-
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
-
-Medido desde el centro de Mass.
-
-Ix = ( 0.03, 1.00, 0.00) Px = 859430.57
-
-Iy = (-1.00, 0.03, 0.02) Py = 5223460.86
-
-Iz = ( 0.02, 0.00, 1.00) Pz = 5235919.67
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 5220622.78 Lxy = 111395.94 Lxz = -97.43
-
-Lyx = 111395.94 Lyy = 862290.39 Lyz = 7964.97
-
-Lzx = -97.43 Lzy = 7964.97 Lzz = 5235897.92
+	Lzx = 114750.55		Lzy = -8070.00		Lzz = 883178.92
 
 
 ## LEFT ARM
