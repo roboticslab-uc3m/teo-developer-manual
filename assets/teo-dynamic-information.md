@@ -329,85 +329,52 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 ### LeftFrontalShoulder
 
-Mass = 2000.00 g
+Mass = 2000.00 grams
 
-Volume = 516104.81 mm³
+Volume = 516104.81 cubic millimeters
 
-Centro de Mass: ( mm )
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
 
-X = -0.56
+	Ix = ( 0.04, -0.99, -0.14)   	Px = 2084628.91
 
-Y = 499.07
+	Iy = ( 0.00,  0.14, -0.99)   	Py = 4132456.63
 
-Z = -255.77
+	Iz = ( 1.00,  0.04,  0.00)   	Pz = 4230264.79
 
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
 
-Medido desde el centro de Mass.
+	Lxx = 4226791.05	Lxy = -85460.30		Lxz = -11670.89
 
-Ix = ( 0.04, -0.14, 0.99) Px = 2084628.91
+	Lyx = -85460.30		Lyy = 2127339.64	Lyz = 280493.15
 
-Iy = ( 0.00, -0.99, -0.14) Py = 4132456.63
-
-Iz = ( 1.00, 0.00, -0.04) Pz = 4230264.79
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 4226791.05 Lxy = -11670.89 Lxz = 85460.30
-
-Lyx = -11670.89 Lyy = 4093219.64 Lyz = -280493.15
-
-Lzx = 85460.30 Lzy = -280493.15 Lzz = 2127339.64
+	Lzx = -11670.89		Lzy = 280493.15		Lzz = 4093219.64
 
 
 ### LeftSaggitalShoulder
 
+Mass (user-overridden) = 1000.00 grams
 
+Volume = 112020.11 cubic millimeters
 
-Mass = 1000.00 g
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
 
+	Ix = (-0.37, -0.15,  0.91)   	Px = 1057896.04
 
+	Iy = (-0.93,  0.00, -0.38)   	Py = 1698815.91
 
-Volume = 112020.11 mm³
+	Iz = ( 0.06, -0.99, -0.14)   	Pz = 2215507.57
 
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
 
+	Lxx = 1610920.63	Lxy = 69037.63		Lxz = -214884.85
 
-Centro de Mass: ( mm )
+	Lyx = 69037.63		Lyy = 2187768.28	Lyz = -163003.88
 
-X = -6.93
-
-Y = 459.70
-
-Z = -357.13
-
-
-
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² ) Medido desde el centro de Mass.
-
-Ix = (-0.37, 0.91, 0.15) Px = 1057896.04
-
-Iy = (-0.93, -0.38, 0.00) Py = 1698815.91
-
-Iz = ( 0.06, -0.14, 0.99) Pz = 2215507.57
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 1610920.63 Lxy = -214884.85 Lxz = -69037.63
-
-Lyx = -214884.85 Lyy = 1173530.62 Lyz = 163003.88
-
-Lzx = -69037.63 Lzy = 163003.88 Lzz = 2187768.28
-
+	Lzx = -214884.85	Lzy = -163003.88	Lzz = 1173530.62
 
 ### LeftAxialShoulder
 
