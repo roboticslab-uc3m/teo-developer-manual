@@ -108,55 +108,38 @@ Taken at the center of mass.
 Moments of inertia: ( grams *  square millimeters )
 Taken at the center of mass and aligned with the output coordinate system.
 
-	Lxx = 335665140.35	Lxy = 162126.65	Lxz = 11858220.70
+	Lxx = 335665140.35	Lxy = 162126.65		Lxz = 11858220.70
 
-	Lyx = 162126.65	Lyy = 126531585.32	Lyz = 914091.01
+	Lyx = 162126.65		Lyy = 126531585.32	Lyz = 914091.01
 
-	Lzx = 11858220.70	Lzy = 914091.01	Lzz = 263359225.06
+	Lzx = 11858220.70	Lzy = 914091.01		Lzz = 263359225.06
 
 
 ### AxialWaist
 
-Mass = 1000.00 g
+Mass = 1000.00 grams
+
+Volume = 141815.56 cubic millimeters
 
 
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
 
-Volume = 391911.09 mm³
+	Ix = ( 0.00, -1.00,  0.01)   	Px = 899709.63
 
+	Iy = (-0.06, -0.01, -1.00)   	Py = 1470022.93
 
-
-Centro de Mass: ( mm )
-
-X = -4.09
-
-Y = 166.07
-
-Z = 1.04
+	Iz = ( 1.00,  0.00, -0.06)   	Pz = 1979333.10
 
 
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
 
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
+	Lxx = 1977587.12	Lxy = 2056.44	Lxz = 29730.11
 
-Medido desde el centro de Mass.
+	Lyx = 2056.44		Lyy = 899729.49	Lyz = -3073.94
 
-Ix = ( 0.00, 0.01, 1.00) Px = 899709.63
-
-Iy = (-0.06, -1.00, 0.01) Py = 1470022.93
-
-Iz = ( 1.00, -0.06, 0.00) Pz = 1979333.10
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 1977587.12 Lxy = 29730.11 Lxz = -2056.44
-
-Lyx = 29730.11 Lyy = 1471749.05 Lyz = 3073.94
-
-Lzx = -2056.44 Lzy = 3073.94 Lzz = 899729.49
+	Lzx = 29730.11		Lzy = -3073.94	Lzz = 1471749.05
 
 
 ### RootWaist
