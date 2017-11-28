@@ -173,46 +173,29 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 
 
-Mass = 2000.00 g
+Mass = 2000.00 grams
+
+Volume = 516104.81 cubic millimeters
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+
+	Ix = (-0.04, -0.99,  0.14)   	Px = 2084655.68
+
+	Iy = ( 0.00, -0.14, -0.99)   	Py = 4132399.01
+
+	Iz = ( 1.00, -0.04,  0.00)   	Pz = 4230179.01
 
 
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
 
-Volume = 516104.81 mm³
+	Lxx = 4226791.05	Lxy = 84382.30		Lxz = -11698.91
 
+	Lyx = 84382.30		Lyy = 2127281.33	Lyz = -280493.15
 
+	Lzx = -11698.91		Lzy = -280493.15	Lzz = 4093161.32
 
-Centro de Mass: ( mm )
-
-X = -0.55
-
-Y = 499.07
-
-Z = 255.77
-
-
-
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
-
-Medido desde el centro de Mass.
-
-Ix = (-0.04, 0.14, 0.99) Px = 2084655.68
-
-Iy = ( 0.00, -0.99, 0.14) Py = 4132399.01
-
-Iz = ( 1.00, 0.00, 0.04) Pz = 4230179.01
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 4226791.05 Lxy = -11698.91 Lxz = -84382.30
-
-Lyx = -11698.91 Lyy = 4093161.32 Lyz = 280493.15
-
-Lzx = -84382.30 Lzy = 280493.15 Lzz = 2127281.33
 
 
 ### RightSaggitalShoulder
