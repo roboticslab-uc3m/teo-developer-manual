@@ -54,8 +54,6 @@ Taken at the center of mass.
 
 	 Iz = ( 1.00,  0.00,  0.00)   	Pz = 939062.50
 
-
-
 Moments of inertia: ( grams *  square millimeters )
 Taken at the center of mass and aligned with the output coordinate system.
 
@@ -68,13 +66,12 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 ### FrontalNeck
 
-
-
 Mass = 2000.00 grams
 
 Volume = 3869318.16 cubic millimeters
 
 Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters ) Taken at the center of mass.
+
 	Ix = ( 1.00,  0.00,  0.02)   	Px = 7598184.97
 	 
 	Iy = ( 0.00,  1.00,  0.00)   	Py = 8325272.78
@@ -95,40 +92,27 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 ### FrontalWaist
 
-Mass = 15235.45 g
+Mass = 14235.45 grams
 
-Volume = 14541001.14 mm³
+Volume = 14791096.67 cubic millimeters
 
-Centro de Mass: ( mm )
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
 
-X = 39.73
+	Ix = ( 0.00, -1.00, -0.01)   	Px = 126525199.05
 
-Y = 415.74
+	Iy = (-0.16,  0.01, -0.99)   	Py = 261470522.58
 
-Z = 0.29
+	Iz = ( 0.99,  0.00, -0.16)   	Pz = 337560229.11
 
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
 
-Medido desde el centro de Mass.
+	Lxx = 335665140.35	Lxy = 162126.65	Lxz = 11858220.70
 
-Ix = ( 0.00, -0.01, 1.00) Px = 135413239.66
+	Lyx = 162126.65	Lyy = 126531585.32	Lyz = 914091.01
 
-Iy = (-0.16, -0.99, -0.01) Py = 279838093.94
-
-Iz = ( 0.99, -0.16, 0.00) Pz = 361272889.10
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 359244675.67 Lxy = 12691227.47 Lxz = -173515.59
-
-Lyx = 12691227.47 Lyy = 281859472.49 Lyz = -978303.34
-
-Lzx = -173515.59 Lzy = -978303.34 Lzz = 135420074.55
+	Lzx = 11858220.70	Lzy = 914091.01	Lzz = 263359225.06
 
 
 ### AxialWaist
