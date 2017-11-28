@@ -1,4 +1,4 @@
-#TEO
+##TEO
 
 TEO global dynamic information
 
@@ -7,21 +7,32 @@ Mass = 55900.00 grams
 Volume = 48633056.11 cubic millimeters
 
 Center of mass: ( millimeters )
+
 	X = 8.67
+
 	Y = -0.03
+
 	Z = 14.06
 
 Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
 Taken at the center of mass.
+
 	 Ix = ( 0.02,  0.00,  1.00)   	Px = 2282209291.83
+
 	 Iy = ( 0.00, -1.00,  0.00)   	Py = 13043664521.24
+
 	 Iz = ( 1.00,  0.00, -0.02)   	Pz = 15102428756.37
+
 
 Moments of inertia: ( grams *  square millimeters )
 Taken at the center of mass and aligned with the output coordinate system.
-	Lxx = 15098875242.10	Lxy = -827254.57	Lxz = 213401208.45
-	Lyx = -827254.57	Lyy = 13043664787.39	Lyz = -762897.83
-	Lzx = 213401208.45	Lzy = -762897.83	Lzz = 2285762539.95
+
+Lxx = 15098875242.10	Lxy = -827254.57	Lxz = 213401208.45
+
+Lyx = -827254.57	Lyy = 13043664787.39	Lyz = -762897.83
+
+Lzx = 213401208.45	Lzy = -762897.83	Lzz = 2285762539.95
+
 
 
 ## HEAD
@@ -45,6 +56,7 @@ Taken at the center of mass.
 
 Moments of inertia: ( grams *  square millimeters )
 Taken at the center of mass and aligned with the output coordinate system.
+
 	Lxx = 939062.50	Lxy = 0.00	Lxz = 0.00
 	Lyx = 0.00	Lyy = 939062.50	Lyz = 0.00
 	Lzx = 0.00	Lzy = 0.00	Lzz = 528125.00
