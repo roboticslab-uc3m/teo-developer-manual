@@ -475,255 +475,6 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 	Lzx = 100487.37		Lzy = -8069.63		Lzz = 882488.65
 
-## LEFT LEG
-
-### LeftAxialHip
-
-Mass = 849.45 g
-
-Volume = 185143.45 mm³
-
-Centro de Mass: ( mm )
-
-X = 0.95
-
-Y = -36.41
-
-Z = -146.00
-
-
-
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
-
-Medido desde el centro de Mass.
-
-Ix = ( 1.00, 0.02, 0.00) Px = 1564158.65
-
-Iy = (-0.02, 1.00, 0.00) Py = 1706392.72
-
-Iz = ( 0.00, 0.00, 1.00) Pz = 2645088.53
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 1564202.47 Lxy = 2496.11 Lxz = 0.00
-
-Lyx = 2496.11 Lyy = 1706348.90 Lyz = 0.00
-
-Lzx = 0.00 Lzy = 0.00 Lzz = 2645088.53
-
-
-### LeftSaggitalHip
-
-Mass = 1454.59 g
-
-Volume = 357656.76 mm³
-
-Centro de Mass: ( mm )
-
-X = 1.18
-
-Y = -92.00
-
-Z = -147.74
-
-
-
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
-
-Medido desde el centro de Mass.
-
-Ix = ( 0.01, 0.00, 1.00) Px = 1191564.94
-
-Iy = ( 1.00, 0.00, -0.01) Py = 1545840.34
-
-Iz = ( 0.00, 1.00, 0.00) Pz = 2270481.60
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 1545815.41 Lxy = -4.07 Lxz = 2971.75
-
-Lyx = -4.07 Lyy = 2270481.60 Lyz = -9.16
-
-Lzx = 2971.75 Lzy = -9.16 Lzz = 1191589.87
-
-
-
-### LeftFrontalHip
-
-Mass = 1891.52 g
-
-Volume = 5587643.87 mm³
-
-Centro de Mass: ( mm )
-
-X = -13.89
-
-Y = -264.55
-
-Z = -146.00
-
-
-
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
-
-Medido desde el centro de Mass.
-
-Ix = (-0.06, 1.00, 0.00) Px = 7447846.66
-
-Iy = (-1.00, -0.06, 0.00) Py = 15103348.97
-
-Iz = ( 0.00, 0.00, 1.00) Pz = 15112043.87
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 15077735.36 Lxy = -442073.53 Lxz = 0.00
-
-Lyx = -442073.53 Lyy = 7473460.27 Lyz = 0.00
-
-Lzx = 0.00 Lzy = 0.00 Lzz = 15112043.87
-
-
-
-### LeftFrontalKnee
-
-
-
-Mass = 1948.24 g
-
-
-
-Volume = 4141636.01 mm³
-
-
-
-Centro de Mass: ( mm )
-
-X = -10.36
-
-Y = -564.72
-
-Z = -146.00
-
-
-
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
-
-Medido desde el centro de Mass.
-
-Ix = ( 0.00, 1.00, 0.00) Px = 3843635.20
-
-Iy = ( 0.00, 0.00, 1.00) Py = 21411108.92
-
-Iz = ( 1.00, 0.00, 0.00) Pz = 21861710.56
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 21861710.01 Lxy = 3157.06 Lxz = 0.00
-
-Lyx = 3157.06 Lyy = 3843635.76 Lyz = 0.00
-
-Lzx = 0.00 Lzy = 0.00 Lzz = 21411108.92
-
-
-
-### LeftFrontalAnkle
-
-Mass = 1503.59 g
-
-Volume = 364099.32 mm³
-
-Centro de Mass: ( mm )
-
-X = -7.34
-
-Y = -721.90
-
-Z = -140.75
-
-
-
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
-
-Medido desde el centro de Mass.
-
-Ix = ( 1.00, 0.00, 0.06) Px = 1391550.41
-
-Iy = ( 0.06, 0.00, -1.00) Py = 1590780.84
-
-Iz = ( 0.00, 1.00, 0.00) Pz = 2416060.36
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 1392286.60 Lxy = 0.01 Lxz = 12088.37
-
-Lyx = 0.01 Lyy = 2416060.36 Lyz = -0.01
-
-Lzx = 12088.37 Lzy = -0.01 Lzz = 1590044.65
-
-
-### LeftFrontalAnkle
-
-Mass = 2633.40 g
-
-Volume = 828418.18 mm³
-
-Centro de Mass: ( mm )
-
-X = 7.78
-
-Y = -805.40
-
-Z = -126.99
-
-
-
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
-
-Medido desde el centro de Mass.
-
-Ix = ( 0.96, -0.27, 0.07) Px = 6271825.71
-
-Iy = ( 0.27, 0.96, -0.02) Py = 10528297.53
-
-Iz = (-0.06, 0.04, 1.00) Pz = 11930851.50
-
-
-
-Momentos de inercia: ( g * mm² )
-
-Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 6598101.45 Lxy = -1085605.09 Lxz = 362901.05
-
-Lyx = -1085605.09 Lyy = 10229357.94 Lyz = -136397.75
-
-Lzx = 362901.05 Lzy = -136397.75 Lzz = 11903515.34
 
 ## RIGHT LEG
 
@@ -993,3 +744,253 @@ Lxx = 7742029.63 Lxy = -1851656.76 Lxz = -455866.32
 Lyx = -1851656.76 Lyy = 13361747.79 Lyz = 147512.99
 
 Lzx = -455866.32 Lzy = 147512.99 Lzz = 14781323.09
+
+## LEFT LEG
+
+### LeftAxialHip
+
+Mass = 849.45 g
+
+Volume = 185143.45 mm³
+
+Centro de Mass: ( mm )
+
+X = 0.95
+
+Y = -36.41
+
+Z = -146.00
+
+
+
+Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
+
+Medido desde el centro de Mass.
+
+Ix = ( 1.00, 0.02, 0.00) Px = 1564158.65
+
+Iy = (-0.02, 1.00, 0.00) Py = 1706392.72
+
+Iz = ( 0.00, 0.00, 1.00) Pz = 2645088.53
+
+
+
+Momentos de inercia: ( g * mm² )
+
+Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
+de resultados.
+
+Lxx = 1564202.47 Lxy = 2496.11 Lxz = 0.00
+
+Lyx = 2496.11 Lyy = 1706348.90 Lyz = 0.00
+
+Lzx = 0.00 Lzy = 0.00 Lzz = 2645088.53
+
+
+### LeftSaggitalHip
+
+Mass = 1454.59 g
+
+Volume = 357656.76 mm³
+
+Centro de Mass: ( mm )
+
+X = 1.18
+
+Y = -92.00
+
+Z = -147.74
+
+
+
+Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
+
+Medido desde el centro de Mass.
+
+Ix = ( 0.01, 0.00, 1.00) Px = 1191564.94
+
+Iy = ( 1.00, 0.00, -0.01) Py = 1545840.34
+
+Iz = ( 0.00, 1.00, 0.00) Pz = 2270481.60
+
+
+
+Momentos de inercia: ( g * mm² )
+
+Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
+de resultados.
+
+Lxx = 1545815.41 Lxy = -4.07 Lxz = 2971.75
+
+Lyx = -4.07 Lyy = 2270481.60 Lyz = -9.16
+
+Lzx = 2971.75 Lzy = -9.16 Lzz = 1191589.87
+
+
+
+### LeftFrontalHip
+
+Mass = 1891.52 g
+
+Volume = 5587643.87 mm³
+
+Centro de Mass: ( mm )
+
+X = -13.89
+
+Y = -264.55
+
+Z = -146.00
+
+
+
+Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
+
+Medido desde el centro de Mass.
+
+Ix = (-0.06, 1.00, 0.00) Px = 7447846.66
+
+Iy = (-1.00, -0.06, 0.00) Py = 15103348.97
+
+Iz = ( 0.00, 0.00, 1.00) Pz = 15112043.87
+
+
+
+Momentos de inercia: ( g * mm² )
+
+Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
+de resultados.
+
+Lxx = 15077735.36 Lxy = -442073.53 Lxz = 0.00
+
+Lyx = -442073.53 Lyy = 7473460.27 Lyz = 0.00
+
+Lzx = 0.00 Lzy = 0.00 Lzz = 15112043.87
+
+
+
+### LeftFrontalKnee
+
+
+
+Mass = 1948.24 g
+
+
+
+Volume = 4141636.01 mm³
+
+
+
+Centro de Mass: ( mm )
+
+X = -10.36
+
+Y = -564.72
+
+Z = -146.00
+
+
+
+Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
+
+Medido desde el centro de Mass.
+
+Ix = ( 0.00, 1.00, 0.00) Px = 3843635.20
+
+Iy = ( 0.00, 0.00, 1.00) Py = 21411108.92
+
+Iz = ( 1.00, 0.00, 0.00) Pz = 21861710.56
+
+
+
+Momentos de inercia: ( g * mm² )
+
+Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
+de resultados.
+
+Lxx = 21861710.01 Lxy = 3157.06 Lxz = 0.00
+
+Lyx = 3157.06 Lyy = 3843635.76 Lyz = 0.00
+
+Lzx = 0.00 Lzy = 0.00 Lzz = 21411108.92
+
+
+
+### LeftFrontalAnkle
+
+Mass = 1503.59 g
+
+Volume = 364099.32 mm³
+
+Centro de Mass: ( mm )
+
+X = -7.34
+
+Y = -721.90
+
+Z = -140.75
+
+
+
+Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
+
+Medido desde el centro de Mass.
+
+Ix = ( 1.00, 0.00, 0.06) Px = 1391550.41
+
+Iy = ( 0.06, 0.00, -1.00) Py = 1590780.84
+
+Iz = ( 0.00, 1.00, 0.00) Pz = 2416060.36
+
+
+
+Momentos de inercia: ( g * mm² )
+
+Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
+de resultados.
+
+Lxx = 1392286.60 Lxy = 0.01 Lxz = 12088.37
+
+Lyx = 0.01 Lyy = 2416060.36 Lyz = -0.01
+
+Lzx = 12088.37 Lzy = -0.01 Lzz = 1590044.65
+
+
+### LeftFrontalAnkle
+
+Mass = 2633.40 g
+
+Volume = 828418.18 mm³
+
+Centro de Mass: ( mm )
+
+X = 7.78
+
+Y = -805.40
+
+Z = -126.99
+
+
+
+Ejes principales de inercia y momentos principales de inercia: ( g * mm² )
+
+Medido desde el centro de Mass.
+
+Ix = ( 0.96, -0.27, 0.07) Px = 6271825.71
+
+Iy = ( 0.27, 0.96, -0.02) Py = 10528297.53
+
+Iz = (-0.06, 0.04, 1.00) Pz = 11930851.50
+
+
+
+Momentos de inercia: ( g * mm² )
+
+Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
+de resultados.
+
+Lxx = 6598101.45 Lxy = -1085605.09 Lxz = 362901.05
+
+Lyx = -1085605.09 Lyy = 10229357.94 Lyz = -136397.75
+
+Lzx = 362901.05 Lzy = -136397.75 Lzz = 11903515.34
