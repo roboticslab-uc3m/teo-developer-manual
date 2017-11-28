@@ -1,4 +1,4 @@
-##TEO
+## TEO
 
 TEO global dynamic information
 
@@ -27,12 +27,14 @@ Taken at the center of mass.
 Moments of inertia: ( grams *  square millimeters )
 Taken at the center of mass and aligned with the output coordinate system.
 
-Lxx = 15098875242.10	Lxy = -827254.57	Lxz = 213401208.45
+	Lxx = 15098875242.10	Lxy = -827254.57	Lxz = 213401208.45
 
-Lyx = -827254.57	Lyy = 13043664787.39	Lyz = -762897.83
+	Lyx = -827254.57	Lyy = 13043664787.39	Lyz = -762897.83
 
-Lzx = 213401208.45	Lzy = -762897.83	Lzz = 2285762539.95
+	Lzx = 213401208.45	Lzy = -762897.83	Lzz = 2285762539.95
 
+
+---
 
 
 ## HEAD
@@ -43,13 +45,13 @@ Mass = 1000.00 g
 
 Volume = 298647.65 mm³
 
-
-
 Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
 Taken at the center of mass.
 
 	 Ix = ( 0.00,  0.00,  1.00)   	Px = 528125.00
+
 	 Iy = ( 0.00, -1.00,  0.00)   	Py = 939062.50
+
 	 Iz = ( 1.00,  0.00,  0.00)   	Pz = 939062.50
 
 
@@ -58,7 +60,9 @@ Moments of inertia: ( grams *  square millimeters )
 Taken at the center of mass and aligned with the output coordinate system.
 
 	Lxx = 939062.50	Lxy = 0.00	Lxz = 0.00
+
 	Lyx = 0.00	Lyy = 939062.50	Lyz = 0.00
+
 	Lzx = 0.00	Lzy = 0.00	Lzz = 528125.00
 
 
@@ -66,42 +70,25 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 
 
-Mass = 2000.00 g
+Mass = 2000.00 grams
 
+Volume = 3869318.16 cubic millimeters
 
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters ) Taken at the center of mass.
+	Ix = ( 1.00,  0.00,  0.02)   	Px = 7598184.97
+	 
+	Iy = ( 0.00,  1.00,  0.00)   	Py = 8325272.78
 
-Volume = 3869318.16 mm³
+	Iz = (-0.02,  0.00,  1.00)   	Pz = 11404600.84
 
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
 
+	Lxx = 7599321.84	Lxy = 5.83		Lxz = 65773.25
 
-Centro de Mass: ( mm )
+	Lyx = 5.83		Lyy = 8325272.78	Lyz = -7.43
 
-X = -4.28
-
-Y = 731.09
-
-Z = 0.00
-
-
-
-Ejes principales de inercia y momentos principales de inercia: ( g * mm² ) Medido desde el centro de Mass.
-
-Ix = ( 1.00, 0.02, 0.00) Px = 7598184.97
-
-Iy = ( 0.00, 0.00, -1.00) Py = 8325272.78
-
-Iz = (-0.02, 1.00, 0.00) Pz = 11404600.84
-
-
-
-Momentos de inercia: ( g * mm² ) Obtenidos en el centro de Mass y alineados con el sistema de coordenadas
-de resultados.
-
-Lxx = 7599321.84 Lxy = 65773.25 Lxz = -5.83
-
-Lyx = 65773.25 Lyy = 11403463.96 Lyz = 7.43
-
-Lzx = -5.83 Lzy = 7.43 Lzz = 8325272.78
+	Lzx = 65773.25		Lzy = -7.43		Lzz = 11403463.96
 
 
 ## TRUNK
