@@ -1,4 +1,4 @@
-# TEO Network Information
+# Appendix B: TEO Network Information
 
 ## TEONET (router)
 
