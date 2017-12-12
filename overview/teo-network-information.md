@@ -172,4 +172,8 @@ remember\!\!
 - [JR3 card](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-jr3.md)
 - [Setting up Wifi connection: Netgear A6100 WiFi USB Mini Adapter](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-netgear-a6100.md)
 
-
+## Uncategorized
+```bash
+sudo mount -t nfs 163.117.150.231:/home/rh2 sitio\_de\_montaje
+rsync -avzP teo-body/ teo@2.2.2.51:test/teo-body/
+```
