@@ -25,8 +25,10 @@ server" on port 10000.
 The execution of "yarp server" is activated in "~/.profile" through the
 lines:
 
-`yarp conf 2.2.2.50 10000`  
-`gnome-terminal -e "yarp server --write" &`
+```bash
+yarp conf 2.2.2.50 10000
+gnome-terminal -e "yarp server --write" &
+```
 
 ## manipulation (robot front right PC)
 
@@ -53,15 +55,19 @@ activated in "/etc/rc.local" through the line (before exit):
 "yarprun --server /manipulation" is activated in
 "/etc/service/yarprun/run" through the lines:
 
-`#!/bin/bash`  
-`export PATH=/usr/local/bin:/usr/bin:/bin`  
-`export YARP_CONF=/home/teo/.config/yarp`  
-`yarprun --server /manipulation`
+```bash
+#!/bin/bash
+export PATH=/usr/local/bin:/usr/bin:/bin
+export YARP_CONF=/home/teo/.config/yarp
+yarprun --server /manipulation
+```
 
-Additionally, in .profile, at the end, we have:
+Additionally, in `.profile`, at the end, we have:
 
-`export YARP_DATA_DIRS=$HOME/repos/teo-body/build/share/teo-body`  
-`export PATH=$PATH:$HOME/repos/teo-body/build/bin`
+```bash
+export YARP_DATA_DIRS=$HOME/repos/teo-body/build/share/teo-body
+export PATH=$PATH:$HOME/repos/teo-body/build/bin
+```
 
 ## locomotion (robot front left PC)
 
