@@ -109,13 +109,13 @@ name and path should look like this: `/etc/udev/rules.d/z21\_persistent-local.ru
 
 Memory 3.1 GiB, Processor Intel® Core™ i5-4570S CPU @ 2.90GHz x 4, Disk 52 GiB. Ubuntu 15.04 w/ 3.19.0-18-generic. jgvictores.
 
-Intended for vision @ GitHub.
+Intended for [vision](https://github.com/roboticslab-uc3m/vision) and [speech](https://github.com/roboticslab-uc3m/speech).
 
 - eth1  00:01:2e:51:9c:c1  2.2.2.53  
 - user: teo
 - pass: teo
 
-The execution of `yarprun --server /head` is implemented as service using "daemontools" ([Help on daemontools](Help_on_daemontools "wikilink")). "daemontools" is activated in `/etc/rc.local` through the line (before exit):
+The execution of `yarprun --server /head` is implemented as service using `daemontools` ([Help on daemontools](Help_on_daemontools "wikilink")). `daemontools` is activated in `/etc/rc.local` through the line (before exit):
 
 ```bash
 /bin/csh -cf '/usr/bin/svscanboot &'
