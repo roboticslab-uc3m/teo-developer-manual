@@ -1,13 +1,14 @@
+# TEO Network Information
+
 ## TEONET (router)
 
-`wifi-ssid: TEONET`  
-`wifi-password: teochallenge`  
-`note: wifi disabled in lab.`  
+- wifi-ssid: TEONET
+- wifi-password: teochallenge
   
-`External IP: 163.117.150.74`  
-`Internal IP: 2.2.2.1`  
-`user: admin`  
-`pass: admin`
+- External IP: 163.117.150.74
+- Internal IP: 2.2.2.1
+- user: admin
+- pass: admin
 
 ## teo-main
 
