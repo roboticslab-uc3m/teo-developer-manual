@@ -63,35 +63,6 @@ Additionally, in .profile, at the end, we have:
 `export YARP_DATA_DIRS=$HOME/repos/teo-body/build/share/teo-body`  
 `export PATH=$PATH:$HOME/repos/teo-body/build/bin`
 
-### JR3 card
-
-Now add the following lines to /etc/rc.local (lines before the exit) to
-automatically run the jr3 module in the PC switching
-on:
-
-`insmod /home/teo/repos/LoliRepo/jr3/jr3pci-linux-0.5/jr3pci-driver.ko`  
-`mknod /dev/jr3 c 39 0`  
-`chmod 777 /dev/jr3 #admin permission `
-
-If green LEDs are off after switching on the PC and "jr3pci\_driver"
-does not appear after doing lsmod, try in the jr3 directory
-(manipulation PC: home/teo/repos/LoliRepo/jr3/jr3pci-linux-0.5/) and see
-README\_loli. Maybe "make clean" before, sometimes work:
-
-`sudo make`  
-`sudo insmod jr3pci-driver.ko`  
-`sudo make node`
-
-If it doesn't work, type "$ lspci" to see PCI devices connected to the
-computer. It should be there "PCI bridge: Pericom Semiconductor
-PI7C9X110 PCI Express to PCI bridge" which is the PCI card Adapter. If
-nothing works, shutdown and revise connections\!\! (Revise: PCI adapter
-connections, power and PCI slots).
-
-In order tu **run the acquisition program**, go to $manipulationPC:
-/home/teo/repos/LoliRepo/LoliRepo/TFM/jr3Yarp/jr3pci4channelYarp/build
-and execute ./jr3pci4channelYarp for all sensors data acquisition.
-
 ## locomotion (robot front left PC)
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2,
@@ -196,41 +167,9 @@ For example, if you want connect by ssh with teo-manipulation PC, you
 can put “ssh manipulation” instead of “ssh 2.2.2.51”. It's easier to
 remember\!\!
 
-## Setting up Wifi connection: Netgear A6100 WiFi USB Mini Adapter
+## Other hardware configuration
 
-First, we have to install required drivers that have not been merged
-with the linux kernel and do not come with most linux distros.
+- [JR3 card](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-jr3.md)
+- [Setting up Wifi connection: Netgear A6100 WiFi USB Mini Adapter](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-netgear-a6100.md)
 
-We can install the required build packages, corresponding to our kernel
-version:
 
-`uname -r`  
-`sudo apt-get install linux-headers-$(uname -r) build-essential`
-
-Now, we will download the source code:
-
-`cd $HOME`  
-`mkdir -p src`  
-`cd src`  
-`git clone `<https://github.com/diederikdehaas/rtl8812AU.git>
-
-Compile the kernel module:
-
-`cd rtl8812AU-driver-4.3.14`  
-`make`
-
-Now Then install using make install. Then add 8812au to the end of the
-file /etc/modules with tee -a to tell the OS to load the driver when it
-boots
-
-`sudo make install`  
-`sudo modprobe 8812au`  
-`echo 8812au | sudo tee -a /etc/modules`
-
-The wireless should now be working
-
-## Uncategorized
-
-sudo mount -t nfs 163.117.150.231:/home/rh2 sitio\_de\_montaje
-
-rsync -avzP teo-body/ teo@2.2.2.51:test/teo-body/
