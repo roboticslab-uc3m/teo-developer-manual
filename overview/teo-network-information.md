@@ -12,9 +12,9 @@
 
 ## teo-main
 
-Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics NVIDIA GeForce 9500 GT/PCIe/SSE2 (G96 rev a1), Disk 487.9 GiB. Origin old miguelgfierro. Ubuntu 14.10 64-bit. jgvictores.
+Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics NVIDIA GeForce 9500 GT/PCIe/SSE2 (G96 rev a1), Disk 487.9 GiB. Origin old miguelgfierro. Ubuntu 14.10 64-bit. @jgvictores, @rsantos88.
 
-Intended for kinematics-dynamics @ GitHub, automatically runs `yarp server` on port 10000.
+Intended for [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics), etc, automatically runs `yarp server` on port 10000.
 
 - eth0  00:24:8c:26:ff:85  2.2.2.50
 - user: teo
@@ -31,7 +31,7 @@ gnome-terminal -e "yarp server --write" &
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB. Debian GNU/Linux 6.0.10 (squeeze). jgvictores.
 
-Intended for yarp-devices @ GitHub, automatically runs `yarprun --server /manipulation`.
+Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), automatically runs `yarprun --server /manipulation`.
 
 - teo right side
 - wlan1  5c:d9:98:9a:94:5c  2.2.2.51
@@ -40,7 +40,7 @@ Intended for yarp-devices @ GitHub, automatically runs `yarprun --server /manipu
 - pass: teo  
 - su: manipulation
 
-The execution of "yarprun --server /manipulation" is implemented as service using "daemontools" ([Help on daemontools](Help_on_daemontools "wikilink")). "daemontools" is activated in "/etc/rc.local" through the line (before exit):
+The execution of `yarprun --server /manipulation` is implemented as service using `daemontools` ([Help on daemontools](Help_on_daemontools "wikilink")). `daemontools` is activated in `/etc/rc.local` through the line (before exit):
 
 ```bash
 /bin/csh -cf '/usr/bin/svscanboot &'
@@ -66,7 +66,7 @@ export PATH=$PATH:$HOME/repos/teo-body/build/bin
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB. Debian GNU/Linux 6.0.10 (squeeze). jgvictores.
 
-Intended for yarp-devices @ GitHub, automatically runs `yarprun --server /locomotion`.
+Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), automatically runs `yarprun --server /locomotion`.
 
 - teo left side
 - wlan1  5c:d9:98:9a:94:5d  2.2.2.52
