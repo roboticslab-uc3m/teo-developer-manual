@@ -1,4 +1,5 @@
 # Appendix A: TEO Diagrams
+- [Joint Indexes](#joint-indexes)
 
 ## Joint Indexes
 
