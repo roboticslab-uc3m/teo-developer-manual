@@ -15,9 +15,8 @@
 Content moved to https://github.com/roboticslab-uc3m/teo-software-manual/blob/master/appendix/a-teo-diagrams.md
 
 ## Link Lengths
-| Link Lengths |
 | ------- | ------- |
-| <img alt="DH" src="../assets/Lengths.png" width="250" />  | <img alt="DH" src="../assets/TEO by links.JPG" width="400" />  |
+| <img alt="DH" src="../assets/Lengths.png" width="250" />  | <img alt="DH" src="../assets/TEO_by_links.JPG" width="400" />  |
 
 ## COGs
 | COGs |
