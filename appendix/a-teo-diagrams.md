@@ -1,32 +1,25 @@
-# Joint Indexes
+# Appendix A: TEO Diagrams
 
-| Joint Indexes (CAN bus)     | Joint Indexes (YARP ports) |
-| --------------------------- | -------------------------- |
-| \[\[<File:Joints_(can).png> | 300px\]\]                  |
+## Joint Indexes
 
-# Joint Directions of Rotation
+| Joint Indexes (CAN bus) |Joint Indexes (YARP ports) |
+| ------------- | ------------- |
+| <img alt="DH" src="../assets/Joints_(can).png" width="300" /> | <img alt="DH" src="../assets/Joints_(yarp).png" width="300" /> |
 
-| Joint Directions of Rotation |
-| ---------------------------- |
-| \[\[<File:Directions.png>    |
+## Joint Directions of Rotation
+### Joint Directions of Rotation 
+<img alt="DH" src="../assets/Directions.png" width="300" />
 
-# DH Parameter Table and Coordinate System Drawing
+## DH Parameter Table and Coordinate System Drawing
+Content moved to https://github.com/roboticslab-uc3m/teo-software-manual/blob/master/appendix/a-teo-diagrams.md
 
-Content moved to
-<https://github.com/roboticslab-uc3m/teo-software-manual/blob/master/appendix/a-teo-diagrams.md>
-
-# Link Lengths
-
-<table>
-<thead>
-<tr class="header">
-<th><p>Link Lengths</p></th>
-</tr>
-</thead>
+## Link Lengths
+| Link Lengths |
+| ------------- | ------------- |
+| <img alt="DH" src="../assets/Lengths.png" width="300" /> | <img alt="DH" src="../assets/TEO_by_links.JPG|" width="300" /> |
+|
+<table align="center">
 <tbody>
-<tr class="odd">
-<td><p>[[<a href="File:Lengths.png" class="uri">File:Lengths.png</a></p></td>
-</tr>
 <tr class="even">
 <td><table cellspacing="0" border="0">
 <tr>
@@ -247,26 +240,31 @@ Content moved to
 </table></td>
 </tr>
 </tbody>
-</table>
+</table> 
+|
 
-# COGs
+## COGs
+| COGs |
+| ---------- |
+| <img alt="DH" src="../assets/Masses.png" width="300" />  |
 
-| COGs                  |
-| --------------------- |
-| \[\[<File:Masses.png> |
-
-# F-T sensors
-
-| F-T sensors              |
-| ------------------------ |
-| \[\[<File:Ftsensors.png> |
+## F-T sensors
+|  F-T sensors  |
+| ---------- |
+| <img alt="DH" src="../assets/Ftsensors.png" width="300" />  |
 
 ## JR3 wrists drawings
+| F-T sensors  |
+| ---------- |
+| [File:Jr3 50M31 corregido.pdf](http://robots.uc3m.es/index.php/File:Jr3_50M31_corregido.pdf) |
 
-| F-T sensors                        |
-| ---------------------------------- |
-| \[\[<File:Jr3> 50M31 corregido.pdf |
+## TEO DH Parameter Table
 
-# Sources for Develop
+- [DH Parameter Table](../assets/dh-table.md)
 
-Migrating to: <https://github.com/roboticslab-uc3m/teo-software-manual>
+## TEO DH Coordinate Systems Drawing
+
+<img alt="DH" src="../assets/dh-drawing.png" width="400" />
+
+## Sources for Develop
+Migrating to: https://github.com/roboticslab-uc3m/teo-software-manual
