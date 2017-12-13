@@ -21,7 +21,9 @@
 
 ## DH Parameter Table
 
-- DH Parameter Table: [Markdown (.md)](../assets/dh-table.md) / [Original (.ods)](../assets/src/dh-table.ods)
+- DH Parameter Table:
+  - View: [Markdown (.md)](../assets/dh-table.md)
+  - Original: [LibreOffice Calc (.ods)](../assets/src/dh-table.ods)
 
 ## DH Coordinate Systems Drawing
 
