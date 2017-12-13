@@ -50,7 +50,7 @@ Content moved to https://github.com/roboticslab-uc3m/teo-software-manual/blob/ma
 ## JR3 wrists drawings
 | F-T sensors  |
 | ---------- |
-| [File:Jr3 50M31 corregido.pdf](http://robots.uc3m.es/index.php/File:Jr3_50M31_corregido.pdf) |
+| [File:Jr3 50M31 corregido.pdf](../assets/src/Jr3_50M31_corregido.pdf) |
 
 ## TEO DH Parameter Table
 
