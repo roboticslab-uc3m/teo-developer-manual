@@ -12,3 +12,4 @@
 * [Appendices](appendix/README.md)
   * [Appendix A: TEO Diagrams](appendix/a-teo-diagrams.md)
   * [Appendix B: TEO Network information](appendix/b-teo-network-information.md)
+  * [Appendix C: Demo Procedure](appendix/c-demo-procedure.md)
