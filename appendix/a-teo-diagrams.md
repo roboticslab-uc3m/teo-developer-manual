@@ -1,5 +1,7 @@
 # Appendix A: TEO Diagrams
 - [Joint Indexes](#joint-indexes)
+- [Joint Directions of Rotation](#joint-directions-of-rotation)
+- [Link Lengths](#link-lengths)
 
 ## Joint Indexes
 
@@ -13,7 +15,6 @@
 | <img alt="DH" src="../assets/Directions.png" width="300" /> |
 
 ## DH Parameter Table and Coordinate System Drawing
-Content moved to https://github.com/roboticslab-uc3m/teo-software-manual/blob/master/appendix/a-teo-diagrams.md
 
 ## Link Lengths
 <img alt="DH" src="../assets/Lengths.png" width="250" />  <img alt="DH" src="../assets/TEO_by_links.JPG" width="400" /> 
