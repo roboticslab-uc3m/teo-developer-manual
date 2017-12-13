@@ -17,6 +17,26 @@ Content moved to https://github.com/roboticslab-uc3m/teo-software-manual/blob/ma
 ## Link Lengths
 <img alt="DH" src="../assets/Lengths.png" width="250" />  <img alt="DH" src="../assets/TEO_by_links.JPG" width="400" /> 
 
+| lengths | distance [mm] | |
+| ------------ | ------------ | ------------ |
+| l0 | 193.2| |	
+| l1 | 305| |	
+| l2 | 162.5 | | 	
+| l3 | 59.742 | | 	
+| l4 | 37.508 | | 	
+| l5 | 346.92 | |	
+| l6 | 329.01 | |	
+| l7 | 202 | |	
+| l8 | 187.496 | Con F/T, a 2 cm debajo chapa final mano.|
+| l9 | 92 | 	
+| l10 | 330 | | 	
+| l11 | 300 | | 	
+| l12 | 123.005 | | 	
+| l13 | 146 | | 	
+| l14 | 18| | 	
+| l15 | 26 | | 	
+| l16 | 17.5 | | 	
+
 ## COGs
 | COGs |
 | ---------- |
