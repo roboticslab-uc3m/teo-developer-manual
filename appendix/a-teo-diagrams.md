@@ -4,11 +4,12 @@
 
 | Joint Indexes (CAN bus) |Joint Indexes (YARP ports) |
 | ------------- | ------------- |
-| <img alt="DH" src="../assets/Joints_(can).png" width="300" /> | <img alt="DH" src="../assets/Joints_(yarp).png" width="300" /> |
+| <img alt="DH" src="../assets/Joints_(can).png" width="300" /> | <img alt="DH" src="../assets/Joints_(yarp).png" width="500" /> |
 
 ## Joint Directions of Rotation
-### Joint Directions of Rotation 
-<img alt="DH" src="../assets/Directions.png" width="300" />
+| Joint Directions of Rotation |
+| ------------- |
+| <img alt="DH" src="../assets/Directions.png" width="300" /> |
 
 ## DH Parameter Table and Coordinate System Drawing
 Content moved to https://github.com/roboticslab-uc3m/teo-software-manual/blob/master/appendix/a-teo-diagrams.md
@@ -16,8 +17,8 @@ Content moved to https://github.com/roboticslab-uc3m/teo-software-manual/blob/ma
 ## Link Lengths
 | Link Lengths |
 | ------------- | ------------- |
-| <img alt="DH" src="../assets/Lengths.png" width="300" /> | <img alt="DH" src="../assets/TEO_by_links.JPG|" width="300" /> |
-|
+| <img alt="DH" src="../assets/Lengths.png" width="250" /> | <img alt="DH" src="../assets/TEO_by_links.JPG" width="400" /> |
+
 <table align="center">
 <tbody>
 <tr class="even">
@@ -241,7 +242,6 @@ Content moved to https://github.com/roboticslab-uc3m/teo-software-manual/blob/ma
 </tr>
 </tbody>
 </table> 
-|
 
 ## COGs
 | COGs |
