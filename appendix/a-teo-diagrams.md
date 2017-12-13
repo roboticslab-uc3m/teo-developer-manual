@@ -1,6 +1,8 @@
 # Appendix A: TEO Diagrams
 - [Joint Indexes](#joint-indexes)
 - [Joint Directions of Rotation](#joint-directions-of-rotation)
+- [DH Parameter Table](#dh-parameter-table)
+- [DH Coordinate Systems Drawing](#dh-coordinate-systems-drawing)
 - [Link Lengths](#link-lengths)
 
 ## Joint Indexes
@@ -14,7 +16,13 @@
 | ------------- |
 | <img alt="DH" src="../assets/Directions.png" width="300" /> |
 
-## DH Parameter Table and Coordinate System Drawing
+## DH Parameter Table
+
+- [DH Parameter Table](../assets/dh-table.md)
+
+## DH Coordinate Systems Drawing
+
+<img alt="DH" src="../assets/dh-drawing.png" width="400" />
 
 ## Link Lengths
 <img alt="DH" src="../assets/Lengths.png" width="250" />  <img alt="DH" src="../assets/TEO_by_links.JPG" width="400" /> 
@@ -54,11 +62,4 @@
 | ---------- |
 | [File:Jr3 50M31 corregido.pdf](../assets/src/Jr3_50M31_corregido.pdf) |
 
-## TEO DH Parameter Table
-
-- [DH Parameter Table](../assets/dh-table.md)
-
-## TEO DH Coordinate Systems Drawing
-
-<img alt="DH" src="../assets/dh-drawing.png" width="400" />
 
