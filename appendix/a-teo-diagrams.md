@@ -60,5 +60,3 @@ Content moved to https://github.com/roboticslab-uc3m/teo-software-manual/blob/ma
 
 <img alt="DH" src="../assets/dh-drawing.png" width="400" />
 
-## Sources for Develop
-Migrating to: https://github.com/roboticslab-uc3m/teo-software-manual
