@@ -21,7 +21,7 @@
 
 ## DH Parameter Table
 
-- [DH Parameter Table](../assets/dh-table.md)
+- DH Parameter Table: [Markdown (.md)](../assets/dh-table.md) / [Original (.ods)](../assets/src/dh-table.ods)
 
 ## DH Coordinate Systems Drawing
 
