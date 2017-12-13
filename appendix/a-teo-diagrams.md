@@ -4,6 +4,9 @@
 - [DH Parameter Table](#dh-parameter-table)
 - [DH Coordinate Systems Drawing](#dh-coordinate-systems-drawing)
 - [Link Lengths](#link-lengths)
+- [COGs](#cogs)
+- [F-T sensors](#f-t-sensors)
+- [JR3 wrists drawings](#jr3-wrists-drawings)
 
 ## Joint Indexes
 
@@ -61,5 +64,3 @@
 | F-T sensors  |
 | ---------- |
 | [File:Jr3 50M31 corregido.pdf](../assets/src/Jr3_50M31_corregido.pdf) |
-
-
