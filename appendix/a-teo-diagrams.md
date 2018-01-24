@@ -3,6 +3,7 @@
 - [Joint Directions of Rotation](#joint-directions-of-rotation)
 - [DH Parameter Table](#dh-parameter-table)
 - [DH Coordinate Systems Drawing](#dh-coordinate-systems-drawing)
+- [Joint Mechanical Limits](#joint-mechanical-limits)
 - [Link Lengths](#link-lengths)
 - [COGs](#cogs)
 - [F-T sensors](#f-t-sensors)
@@ -52,7 +53,7 @@
 | l15 | 26 | | 	
 | l16 | 17.5 | | 	
 
-## Joint mechanical limits
+## Joint Mechanical Limits
 
 | Limb            | Link                                               | Upper limit | Lower limit |
 |:----------------|:---------------------------------------------------|:--------|:-----|
