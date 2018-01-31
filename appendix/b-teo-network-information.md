@@ -55,6 +55,8 @@ export YARP_CONF=/home/teo/.config/yarp
 yarprun --server /manipulation
 ```
 
+Also uses JR3: [install-jr3.md](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-jr3.md)
+
 ## locomotion (robot front left PC)
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB. Debian GNU/Linux 6.0.10 (squeeze). jgvictores.
@@ -141,8 +143,6 @@ with their IPs:
 For example, if you want connect by ssh with teo-manipulation PC, you can put `ssh manipulation` instead of `ssh 2.2.2.51`. It's easier to remember!!
 
 ## Other hardware configuration
-
-- [JR3 card](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-jr3.md)
 - [Setting up Wifi connection: Netgear A6100 WiFi USB Mini Adapter](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-netgear-a6100.md)
 
 ## Uncategorized
