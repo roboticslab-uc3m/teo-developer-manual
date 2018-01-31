@@ -40,7 +40,7 @@ Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), a
 - pass: teo  
 - su: manipulation
 
-The execution of `yarprun --server /manipulation` is implemented as service using `daemontools` ([Help on daemontools](Help_on_daemontools "wikilink")). `daemontools` is activated in `/etc/rc.local` through the line (before exit):
+The execution of `yarprun --server /manipulation` is implemented as service using `daemontools` ([Help on daemontools](http://robots.uc3m.es/index.php/Help_on_daemontools)). `daemontools` is activated in `/etc/rc.local` through the line (before exit):
 
 ```bash
 /bin/csh -cf '/usr/bin/svscanboot &'
@@ -71,7 +71,7 @@ Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), a
 - pass: teo
 - su: locomotion
 
-The execution of "yarprun --server /locomotion" is implemented as service using "daemontools" ([Help on daemontools](Help_on_daemontools "wikilink")). "daemontools" is activated in "/etc/rc.local" through the line (before exit):
+The execution of "yarprun --server /locomotion" is implemented as service using "daemontools" ([Help on daemontools](http://robots.uc3m.es/index.php/Help_on_daemontools)). "daemontools" is activated in "/etc/rc.local" through the line (before exit):
 
 ```bash
 /bin/csh -cf '/usr/bin/svscanboot &'
@@ -99,7 +99,7 @@ Intended for [vision](https://github.com/roboticslab-uc3m/vision) and [speech](h
 - user: teo
 - pass: teo
 
-The execution of `yarprun --server /head` is implemented as service using `daemontools` ([Help on daemontools](Help_on_daemontools "wikilink")). `daemontools` is activated in `/etc/rc.local` through the line (before exit):
+The execution of `yarprun --server /head` is implemented as service using `daemontools` ([Help on daemontools](http://robots.uc3m.es/index.php/Help_on_daemontools)). `daemontools` is activated in `/etc/rc.local` through the line (before exit):
 
 ```bash
 /bin/csh -cf '/usr/bin/svscanboot &'
