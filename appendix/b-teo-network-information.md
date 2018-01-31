@@ -55,7 +55,8 @@ export YARP_CONF=/home/teo/.config/yarp
 yarprun --server /manipulation
 ```
 
-Also uses JR3: [install-jr3.md](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-jr3.md)
+### manipulation additional setup
+- JR3: [install-jr3.md](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-jr3.md)
 
 ## locomotion (robot front left PC)
 
@@ -85,8 +86,10 @@ The execution of "yarprun --server /locomotion" is implemented as service using 
 `yarprun --server /locomotion`
 ```
 
-In order to allow yarp to read data from the sensors connected via USB
-port, you need to add the following rule for udev system:
+### locomotion additional setup
+- XSENS: [install-xsens.md](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-xsens.md)
+
+In order to allow yarp to read data from the sensors connected via USB port, you need to add the following rule for udev system:
 
 ` KERNEL == "ttyUSB0", MODE = "0777"`
 
