@@ -89,13 +89,6 @@ The execution of "yarprun --server /locomotion" is implemented as service using 
 ### locomotion additional setup
 - XSENS: [install-xsens.md](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-xsens.md)
 
-In order to allow yarp to read data from the sensors connected via USB port, you need to add the following rule for udev system:
-
-` KERNEL == "ttyUSB0", MODE = "0777"`
-
-The advise from [debian udev documentation](https://wiki.debian.org/udev) is to define rules in a file named `z21\_persistent-local.rules`. If there is no such file, it is recommended to create one. Taking this in consideration, the file
-name and path should look like this: `/etc/udev/rules.d/z21\_persistent-local.rules`
-
 ## teo-head (robot back left PC)
 
 Memory 3.1 GiB, Processor Intel® Core™ i5-4570S CPU @ 2.90GHz x 4, Disk 52 GiB. Ubuntu 15.04 w/ 3.19.0-18-generic. jgvictores.
