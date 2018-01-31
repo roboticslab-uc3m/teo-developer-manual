@@ -55,13 +55,6 @@ export YARP_CONF=/home/teo/.config/yarp
 yarprun --server /manipulation
 ```
 
-Additionally, in `.profile`, at the end, we have:
-
-```bash
-export YARP_DATA_DIRS=$HOME/repos/teo-body/build/share/teo-body
-export PATH=$PATH:$HOME/repos/teo-body/build/bin
-```
-
 ## locomotion (robot front left PC)
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB. Debian GNU/Linux 6.0.10 (squeeze). jgvictores.
@@ -88,13 +81,6 @@ The execution of "yarprun --server /locomotion" is implemented as service using 
 `export PATH=/usr/local/bin:/usr/bin:/bin`  
 `export YARP_CONF=/home/teo/.config/yarp`  
 `yarprun --server /locomotion`
-```
-
-Additionally, in `.profile`, at the end, we have:
-
-```bash
-export YARP_DATA_DIRS=$HOME/repos/teo-body/build/share/teo-body:/usr/local/share/iCub/
-export PATH=$PATH:$HOME/repos/teo-body/build/bin
 ```
 
 In order to allow yarp to read data from the sensors connected via USB
