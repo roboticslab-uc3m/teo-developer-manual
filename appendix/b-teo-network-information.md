@@ -51,7 +51,7 @@ The execution of `yarprun --server /manipulation` is implemented as service usin
 ```bash
 #!/bin/bash
 export PATH=/usr/local/bin:/usr/bin:/bin
-export YARP_CONF=/home/teo/.config/yarp
+export YARP_CONFIG_HOME=/home/teo/.config/yarp
 yarprun --server /manipulation
 ```
 
@@ -82,7 +82,7 @@ The execution of "yarprun --server /locomotion" is implemented as service using 
 ```bash
 #!/bin/bash  
 `export PATH=/usr/local/bin:/usr/bin:/bin`  
-`export YARP_CONF=/home/teo/.config/yarp`  
+`export YARP_CONFIG_HOME=/home/teo/.config/yarp`  
 `yarprun --server /locomotion`
 ```
 
@@ -110,7 +110,7 @@ The execution of `yarprun --server /head` is implemented as service using `daemo
 ```bash
 #!/bin/bash
 export PATH=/usr/local/bin:/usr/bin:/bin
-export YARP_CONF=/home/teo/.config/yarp
+export YARP_CONFIG_HOME=/home/teo/.config/yarp
 yarprun --server /head
 ```
 
