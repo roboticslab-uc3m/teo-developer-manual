@@ -113,17 +113,41 @@ export PATH=/usr/local/bin:/usr/bin:/bin
 export YARP_CONF=/home/teo/.config/yarp
 yarprun --server /head
 ```
-## teo-benji
 
-Memory 1.9 GiB (DDR II 800), Processor AMD Athlon(tm) 64 Processor 3200+ x 1, Graphics ATI Gallium 0.4 on ATI RV515, Disk 155.3 GiB. Origin old teo-main. Ubuntu 14.10 64-bit. loli -\> aitor/javier.
+## teo-oliver
+Memory 7,7 GiB, Processor Intel® Core™ i5-4460 CPU @ 3.20GHz × 4, Graphics Intel® Haswell Desktop , Disk 507,6 GB.
+O.S: ubuntu 14.04 LTS
+Actual user: Raúl de Santos Rico
+
+## teo-nobita
+Memory 3,8 GiB, Processor Intel® Core™ 2 Duo CPU E8400 @ 3.00GHz × 2, Graphics NV98, Disk 153,8 GB.
+O.S: ubuntu 16.04 LTS
+Actual user: ?
+
+## teo-benji
+Memory 1.9 GiB (DDR II 800), Processor Intel® Core™ i3 CPU 540 @ 3.07GHz × 4, Graphics Intel Ironlake Desktop, Disk 488,2 GiB.
+O.S: Ubuntu 16.04 LTS 64-bit
+Actual user: ?
+Other details: Origin old teo-main. loli -\> aitor/javier.
+
+## teo-suneo
+Memory 3,3 GiB, Processor Intel® Core™ 2 CPU 6320 @ 1.86GHz × 2, Graphics Gallium 0.4 on NV86, Disk 153,8 GB.
+O.S: ubuntu 16.04 LTS 64-bit
+Actual user: Lucas
+
+## teo-bobobo
+Memory 6,9 GiB, Processor Intel® Core™ 2 Duo CPU E8400 @ 3.00GHz × 2, Graphics GeForce 9500 GT, Disks 256 GiB and 100 GiB .
+O.S: ubuntu 14.04 LTS
+Actual user: Raúl Fernandez Fernandez
+
+## humanoidsUC3M
+Memory 62,9 GiB, Processor Intel® Core™ i7-4820K CPU @ 3.70GHz × 8, Graphics GeForce GT 630/PCIe/SSE2, Disk 204,5 GiB.
+O.S: ubuntu 14.04 LTS 64-bit
+Actual user: Alvaro Martinez Robledo
 
 ## teo-goku
-
 Memory 1.8 GiB, Processor Intel® Core™ i3 CPU 540 @ 3.07GHz × 4, Graphics Intel® Ironlake Desktop, Disk 243.9 GiB. Does not recognize PCI devices. Ubuntu 14.10 64-bit. jlorente -\> daniel.
 
-## teo-heidi
-
-pedro -\> rFdez.
 
 ## Mapping hostnames to IP addreses in your computer
 
