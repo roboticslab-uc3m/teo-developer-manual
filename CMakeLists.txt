@@ -3,7 +3,7 @@
 cmake_minimum_required(VERSION 2.6)
 
 # Start a project.
-project(TEO_SOFTWARE_MANUAL)
+project(TEO_DEVELOPER_MANUAL)
 
 find_package(YARP REQUIRED)
 list(APPEND CMAKE_MODULE_PATH ${YARP_MODULE_PATH})
@@ -13,14 +13,14 @@ yarp_configure_external_installation(teo-developer-manual)
 file(GLOB md ${CMAKE_CURRENT_SOURCE_DIR}/*.md)
 set(assets ${CMAKE_CURRENT_SOURCE_DIR}/assets)
 
-yarp_install(FILES ${md} DESTINATION ${TEO-SOFTWARE-MANUAL_CONTEXTS_INSTALL_DIR})
-yarp_install(DIRECTORY ${assets} DESTINATION ${TEO-SOFTWARE-MANUAL_CONTEXTS_INSTALL_DIR})
+yarp_install(FILES ${md} DESTINATION ${TEO-DEVELOPER-MANUAL_CONTEXTS_INSTALL_DIR})
+yarp_install(DIRECTORY ${assets} DESTINATION ${TEO-DEVELOPER-MANUAL_CONTEXTS_INSTALL_DIR})
 
 # uninstall target
 configure_file(
-    "${CMAKE_CURRENT_SOURCE_DIR}/cmake/template/TEO_SOFTWARE_MANUALConfigUninstall.cmake.in"
-    "${CMAKE_CURRENT_BINARY_DIR}/TEO_SOFTWARE_MANUALConfigUninstall.cmake" IMMEDIATE @ONLY)
+    "${CMAKE_CURRENT_SOURCE_DIR}/cmake/template/TEO_DEVELOPER_MANUALConfigUninstall.cmake.in"
+    "${CMAKE_CURRENT_BINARY_DIR}/TEO_DEVELOPER_MANUALConfigUninstall.cmake" IMMEDIATE @ONLY)
 
 add_custom_target(uninstall
-    COMMAND ${CMAKE_COMMAND} -P ${CMAKE_CURRENT_BINARY_DIR}/TEO_SOFTWARE_MANUALConfigUninstall.cmake)
+    COMMAND ${CMAKE_COMMAND} -P ${CMAKE_CURRENT_BINARY_DIR}/TEO_DEVELOPER_MANUALConfigUninstall.cmake)
 
