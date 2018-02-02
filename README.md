@@ -1,4 +1,5 @@
-# TEO Developer Manual
+# teo-developer-manual
+Developer Manual for [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid).
 
 - [GitBook](https://www.gitbook.com/book/roboticslab-uc3m/teo-developer-manual)
 - [GitHub](https://github.com/roboticslab-uc3m/teo-developer-manual)
