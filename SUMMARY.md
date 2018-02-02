@@ -8,8 +8,13 @@
   * [Demonstration](overview/demonstration.md)
   * [Research](overview/research.md)
 * [Development](development.md)
+* [Bill of materials (BOM)](bill-of-materials.md)
+* [Switches](switches.md)
+* [Connectors](connectors.md)
+* [Motores](motores.md)
 * [Additional Resources](additional-resources.md)
 * [Appendices](appendix/README.md)
   * [Appendix A: TEO Diagrams](appendix/a-teo-diagrams.md)
   * [Appendix B: TEO Network information](appendix/b-teo-network-information.md)
   * [Appendix C: Demo Procedure](appendix/c-demo-procedure.md)
+
