@@ -2,8 +2,7 @@
 
 The main TEO software repository intended for installing on any PC is called [teo-main](https://github.com/roboticslab-uc3m/teo-main). It pulls contents from the following repositories:
 
-* [teo-software-manual](https://github.com/roboticslab-uc3m/teo-software-manual): This TEO software manual.
-* [teo-hardware-manual](https://github.com/roboticslab-uc3m/teo-hardware-manual): The TEO hardware manual.
+* [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual): This TEO developer manual.
 * [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files): TEO configuration files.
 * [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models): TEO OpenRAVE models.
 * [developer-manual](https://github.com/roboticslab-uc3m/developer-manual): Developer Manual for [roboticslab-uc3m](https://github.com/roboticslab-uc3m).
