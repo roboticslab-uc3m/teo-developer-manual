@@ -1,0 +1,56 @@
+,,Tobillo Sagital,Tobillo Frontal,Rodilla,Cadera Frontal,Cadera Sagital,Cadera Axial
+Torques RMS Articulación (Nm),,18.71,25.15,26.72,10.22,53.39,3.20
+Torques Max Articulación (Nm),,49.70,59.43,61.86,25.99,84.41,7.24
+,,,,,,,
+Relación de Red. Poleas,,1.47,1.69,1.47,1.2,3.27,2.5
+Torques Constant (mNm/A),,33.5,53.3,53.3,53.3,101,101
+,,,,,,,
+Torques RMS Motor (Nm),,0.0796,0.0930,0.1136,0.0533,0.1020,0.0080
+Torques Max Motor (Nm),,0.2113,0.2198,0.2630,0.1354,0.1613,0.0181
+,,,,,,,
+Velocidad Eje Max,,24.9040,8.1382,32.9043,30.1766,4.2060,0.0000
+Velocidad Motor Max,,5857.4200,2200.5700,7739.1000,5793.9000,2200.5700,0.0000
+,,,,,,,
+Currents RMS Motor (A),,2.3748,1.7451,2.1317,0.9991,1.0104,0.0793
+Currents Max Motor (A),,6.3078,4.1235,4.9344,2.5402,1.5974,0.1792
+,,,,,,,
+Ref Motor,,251601,402686,402686,402686,339287,339287
+driver,,iPOS3604,iPOS3604,iPOS3604,iPOS3604,iPOS3602,iPOS3604
+,,,,,,,
+Corriente Nominal (A),Inom,2.360,1.930,1.930,1.930,0.861,0.861
+Temperatura Max del bobinado (ºC),Tmax,125,125,125,125,125,125
+Temperatura final del bobinado (ºC),"Tw,∞",100,100,100,100,100,100
+Corriente Max de trabajo (A),Ipeak,20.00,20.00,20.00,20.00,4.86,4.86
+Resistencia termica bobinado (K/W),Rth1,4.50,4.22,4.22,4.22,4.50,4.50
+Resistencia termica carcasa (K/W),Rth2,4.25,3.25,3.25,3.25,4.25,4.25
+Constante de tiempo termica (s),τw,26.35,48.25,48.25,48.25,26.35,26.35
+Coeficiente de resistencia Cu (K-1),αCU,0.0039,0.0039,0.0039,0.0039,0.0039,0.0039
+Resistencia del motor (Ω),Rmot,0.978,1.74,1.74,1.74,7.41,7.41
+,,,,,,,
+,,,,,,,
+,,,,,,,
+PROTECCION DE CORRIENTES DE PICO,,,,,,,
+Factor de sobrecarga,K,12.1549,15.5775,15.5775,15.5775,8.0959,8.0959
+Tiempo de Corte de sobrecarga (s),ton,0.1790,0.1993,0.1993,0.1993,0.4051,0.4051
+Corriente Max de trabajo (A),Ipeak,20.00,20.00,20.00,20.00,4.86,4.86
+PROTECCION DE CORRIENTES DE i2t,,,,,,,
+Perdidas por efecto Joule (W),PJ,8.5714,10.0402,10.0402,10.0402,8.5714,8.5714
+"Resistencia del bobinado a Tw,∞(Ω)",RTW,1.2641,2.2490,2.2490,2.2490,9.5774,9.5774
+Corriente I2t (A),II2t,2.6040,2.1129,2.1129,2.1129,0.9460,0.9460
+Tiempo de Corte de I2t (s),t,36.5277,66.8941,66.8941,66.8941,36.5277,36.5277
+,,,,,,,
+Superficie de I2t (A2/s),SI2t,247.6890,298.6405,298.6405,298.6405,32.6909,32.6909
+Tiempo de Corte de I2t fijado (s),t - nuevo,15.0000,15.0000,15.0000,15.0000,15.0000,15.0000
+Corriente I2t (A),II2t- nuevo,4.0636,4.4620,4.4620,4.4620,1.4763,1.4763
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Motor,Tensión (V),Peso (Gr),Par max (Nm),Par RMS (Nm),I max (A),I RMS (A),Vel. Nom (rpm)
+,,,,,,,
+Flat Brushless EC 45 50W (339287),36,110,0.488,0.0943,4.86,0.861,3360
+Flat Brushless EC 45 50W (251601),24,110,0.822,0.0843,24.5,2.36,6700
+Flat Brushless EC 45 70W (402686),36,141,1,0.108,20.7,1.93,6330
+Flat Brushless EC 45 30W (339282),36,110,0.337,0.0666,5.38,0.849,4760
+Driver,,,,,,,
+iPOS3604MX-CAN,36,",,,",",,,",",,,","10 (2,5s)",4,",,,"
+iPOS4808MX-CAN,50,",,,",",,,",",,,","20 (2,5s)",8,",,,"
