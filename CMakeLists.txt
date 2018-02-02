@@ -8,7 +8,7 @@ project(TEO_SOFTWARE_MANUAL)
 find_package(YARP REQUIRED)
 list(APPEND CMAKE_MODULE_PATH ${YARP_MODULE_PATH})
 include(YarpInstallationHelpers)
-yarp_configure_external_installation(teo-software-manual)
+yarp_configure_external_installation(teo-developer-manual)
 
 file(GLOB md ${CMAKE_CURRENT_SOURCE_DIR}/*.md)
 set(assets ${CMAKE_CURRENT_SOURCE_DIR}/assets)
