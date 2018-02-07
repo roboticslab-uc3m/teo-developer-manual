@@ -145,6 +145,11 @@ Memory 62,9 GiB, Processor Intel® Core™ i7-4820K CPU @ 3.70GHz × 8, Graphics
 O.S: ubuntu 14.04 LTS 64-bit
 Actual user: Alvaro Martinez Robledo
 
+## teo-heidi
+Memory 2,0 GiB, Processor AMD Athlon(tm) 64 X2 Dual Core Processor 4200+ 2.21 GHz, Graphics Nvidia GeForce 7300 LE, Disks 114,5 GiB and 149,05 GiB.
+O.S: Windows 10 Home
+Actual user: Pedro Portalatin
+
 ## teo-goku
 Memory 1.8 GiB, Processor Intel® Core™ i3 CPU 540 @ 3.07GHz × 4, Graphics Intel® Ironlake Desktop, Disk 243.9 GiB. Does not recognize PCI devices. Ubuntu 14.10 64-bit. jlorente -\> daniel.
 
