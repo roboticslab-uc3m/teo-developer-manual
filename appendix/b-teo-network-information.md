@@ -81,9 +81,9 @@ The execution of "yarprun --server /locomotion" is implemented as service using 
 
 ```bash
 #!/bin/bash  
-`export PATH=/usr/local/bin:/usr/bin:/bin`  
-`export YARP_CONFIG_HOME=/home/teo/.config/yarp`  
-`yarprun --server /locomotion`
+export PATH=/usr/local/bin:/usr/bin:/bin
+export YARP_CONFIG_HOME=/home/teo/.config/yarp  
+yarprun --server /locomotion
 ```
 
 ### locomotion additional setup
