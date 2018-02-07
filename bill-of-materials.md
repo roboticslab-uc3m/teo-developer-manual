@@ -9,4 +9,4 @@ Encoder|CUI Inc|AMT 203-V|Absolute Encoders uses PIC18F2580
 Multi-Axis Force-Torque Sensors|JR3|50M31A3-125-DH|50M31A3-125-DH -> wrist<br/>((( unknown ))) -> ankle
 Inertial Sensor|XSENS|MTi-28A53G35|Product ID: MTi-28A53G35<br/> Device ID: 00305355<br/>
 RGBD Sensor|ASUS|XtionPRO Live|RGB and Depth Sensor
-Passive Compliant Hand|Lacquey|Fetch Hand|Three finger underactuated
+Lacquey Fetch Hand|Lacquey|Fetch Hand|Three finger underactuated
