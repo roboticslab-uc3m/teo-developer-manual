@@ -172,6 +172,6 @@ For example, if you want connect by ssh with teo-manipulation PC, you can put `s
 
 ## Uncategorized
 ```bash
-sudo mount -t nfs 163.117.150.231:/home/rh2 sitio\_de\_montaje
-rsync -avzP teo-body/ teo@2.2.2.51:test/teo-body/
+sudo mount -t nfs 163.117.150.231:/home/teo sitio\_de\_montaje
+rsync -avzP local/dir/ teo@2.2.2.51:remote/dir/
 ```
