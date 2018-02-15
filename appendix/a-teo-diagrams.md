@@ -1,9 +1,9 @@
 # Appendix A: TEO Diagrams
 - [Joint Indexes](#joint-indexes)
 - [Joint Directions of Rotation](#joint-directions-of-rotation)
+- [Joint Limits](#joint-limits)
 - [DH Parameter Table](#dh-parameter-table)
 - [DH Coordinate Systems Drawing](#dh-coordinate-systems-drawing)
-- [Joint Mechanical Limits](#joint-mechanical-limits)
 - [Link Names](#link-names)
 - [Link Lengths](#link-lengths)
 - [COGs](#cogs)
@@ -20,6 +20,12 @@
 | Joint Directions of Rotation |
 | ------------- |
 | <img alt="DH" src="../assets/Directions.png" width="300" /> |
+
+## Joint Limits
+
+- Joint limits:
+  - View: [Comma separated vector (.csv)](../assets/motores-motores.csv)
+  - Original: [LibreOffice Calc (.ods)](../assets/src/motores.ods)
 
 ## DH Parameter Table
 
@@ -57,40 +63,6 @@
 | l14 | 18| | 	
 | l15 | 26 | | 	
 | l16 | 17.5 | | 	
-
-## Joint Mechanical Limits
-
-| Limb            | Link                                               | Upper limit | Lower limit |
-|:----------------|:---------------------------------------------------|:--------|:-----|
-| Left leg        | 1                                                  | 0      | 0    | 
-|                 | 2                                                  | 0  | 0    | 
-|                 | 3                                                  | 0      | 0    | 
-|                 | 4                                                  | 0     | 0 | 
-|                 | 5                                                  | 0  | 0    | 
-|                 | 6                                                  | 0    | 0    | 
-| Right leg       | 1                                                  | 0      | 0    | 
-|                 | 2                                                  | 0   | 0    | 
-|                 | 3                                                  | 0      | 0    | 
-|                 | 4                                                  | 0      | 0  | 
-|                 | 5                                                  | 0     | 0    | 
-|                 | 6                                                  | 0      | 0    | 
-| Right arm       | 1                                                  | 90 | -90 *   | 
-|                 | 2                                                  | -70 | 30    | 
-|                 | 3                                                  | 80 | -55 | 
-|                 | 4                                                  | 80 | -15  | 
-|                 | 5                                                  | 75 | -50  | 
-|                 | 6                                                  | 100 | -55   | 
-| Left arm        | 1                                                  | -90 | 90 * | 
-|                 | 2                                                  | 70 | -30 | 
-|                 | 3                                                  | -80 | 55   | 
-|                 | 4                                                  | -80 |15 | 
-|                 | 5                                                  | -75 | 50  | 
-|                 | 6                                                  | -100 | 55 | 
-| Trunk           | 1                                                  | 0     | 0   | 
-|                 | 2                                                  | 0     | 0    | 
-| Head            | 1                                                  | 0     | 0    | 
-|                 | 2                                                  | 0     | 0    | 
-
 
 ## COGs
 | COGs |
