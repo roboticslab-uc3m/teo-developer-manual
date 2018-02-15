@@ -1,4 +1,4 @@
-## TEO
+# Appendix C: TEO Dynamic Information
 
 TEO global dynamic information
 
