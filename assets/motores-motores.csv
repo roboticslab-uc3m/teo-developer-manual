@@ -1,4 +1,4 @@
-Articulación,Simox-names,Limb,YARP,CAN IDs,JOINT,MOTOR,R. total,Hard. Limits,Soft. Limits,Human-inspired joint limits,Sent. Giro
+Articulación,Simox-names,Limb,YARP,CAN IDs,JOINT,MOTOR,R. total,Hard. Limits,Soft. Limits,Human-inspired Limits,Sent. Giro
 Tobillo Sagital Drch.,RightSaggitalAnkle,Right leg (/dev/can0),6,1,TSD-1,251601,235.2,-30.650268º a +24.253074º,-25.6º a +19.2º,-25.6º a +19.2º,-X (abre)
 Tobillo Frontal Drch.,RightFrontalAnkle,Right leg (/dev/can0),5,2,TFD-2,402686,270.4,-30.386657º a +23.901580º ,-25.4º a +18.9º,-25.4º a +18.9º,Y (atrás)
 Rodilla Frontal Drch.,RightFrontalKnee,Right leg (/dev/can0),4,3,RFD-3,402686,235.2,-63.427062º a +76.186294º,-58.4º a +71.1º,-58.4º a +30.0º,Y (atrás)
