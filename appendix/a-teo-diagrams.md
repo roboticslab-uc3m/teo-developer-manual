@@ -4,6 +4,7 @@
 - [DH Parameter Table](#dh-parameter-table)
 - [DH Coordinate Systems Drawing](#dh-coordinate-systems-drawing)
 - [Joint Mechanical Limits](#joint-mechanical-limits)
+- [Link Names](#link-names)
 - [Link Lengths](#link-lengths)
 - [COGs](#cogs)
 - [F-T sensors](#f-t-sensors)
@@ -29,6 +30,10 @@
 ## DH Coordinate Systems Drawing
 
 <img alt="DH" src="../assets/dh-drawing.png" width="400" />
+
+## Link Names
+
+- View original: [PDF](../assets/teo-simox-names.pdf)
 
 ## Link Lengths
 <img alt="DH" src="../assets/Lengths.png" width="250" />  <img alt="DH" src="../assets/TEO_by_links.JPG" width="400" /> 
