@@ -15,6 +15,7 @@
 * [Additional Resources](additional-resources.md)
 * [Appendices](appendix/README.md)
   * [Appendix A: TEO Diagrams](appendix/a-teo-diagrams.md)
-  * [Appendix B: TEO Network information](appendix/b-teo-network-information.md)
-  * [Appendix C: Demo Procedure](appendix/c-demo-procedure.md)
+  * [Appendix B: TEO Dynamic information](appendix/b-teo-dynamic-information.md)
+  * [Appendix C: TEO Network information](appendix/c-teo-network-information.md)
+  * [Appendix D: Demo Procedure](appendix/d-demo-procedure.md)
 
