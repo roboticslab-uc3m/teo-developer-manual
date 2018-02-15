@@ -1,4 +1,4 @@
-# Appendix C: Demo Procedure
+# Appendix D: Demo Procedure
 
 ## Preparación
 
