@@ -57,6 +57,9 @@ yarprun --server /manipulation
 
 ### manipulation additional setup
 - JR3: [install-jr3.md](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-jr3.md)
+- CuiAbsolute:
+   - [VirtualBox Image with Windows 7 and MPLAB IDE v8.92](https://drive.google.com/a/uc3m.es/folderview?id=0BxR76I90oKSmdnRhQlpsS3pXWm8&usp=sharing)
+   - [CuiAbsolute Documentation](../cui-absolute-values.md)
 
 ## locomotion (robot front left PC)
 
@@ -88,6 +91,9 @@ yarprun --server /locomotion
 
 ### locomotion additional setup
 - XSENS: [install-xsens.md](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-xsens.md)
+- CuiAbsolute:
+   - [VirtualBox Image with Windows 7 and MPLAB IDE v8.92](https://drive.google.com/a/uc3m.es/folderview?id=0BxR76I90oKSmdnRhQlpsS3pXWm8&usp=sharing)
+   - [CuiAbsolute Documentation](../cui-absolute-values.md)
 
 ## teo-head (robot back left PC)
 
