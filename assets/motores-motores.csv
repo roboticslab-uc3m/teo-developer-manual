@@ -19,7 +19,7 @@ Hombro Axial Der.,RightAxialShoulder,Right arm (/dev/can0),2,17,HAD-17,339282,12
 Codo Frontal Der.,RightFrontalElbow,Right arm (/dev/can0),3,18,CFD-18,339282,160,-37.943756º a +88.488579º,-32.9º a +83.5º,-5.0º a +83.5º,-Y (adelante)
 Muñeca Axial Der.,RightAxialWrist,Right arm (/dev/can0),4,19,MAD-19,339282,120,-54.376099º a +79.701233º,-49.4º a +74.7º,-49.4º a +74.7º,-Z (abre)
 Muñeca Frontal Der.,RightFrontalWrist,Right arm (/dev/can0),5,20,MFD-20,339282,120,-61.933228º a +112.47802º,-56.9º a +107.5º,-56.9º a +70.0º,-Y (adelante)
-Hombro Frontal Izq.,LeftFrontalShoulder,Left arm (/dev/can1),0,21,HFI-21,339282,160,-98.488586º a +92.618629º,-93.5º a +87.6º,-98.1º a +45.0º,Y (atrás)
+Hombro Frontal Izq.,LeftFrontalShoulder,Left arm (/dev/can1),0,21,HFI-21,339282,160,-98.488586º a +92.618629º,-93.5º a +87.6º,-93.5º a +45.0º,Y (atrás)
 Hombro Sagital Izq.,LeftSaggitalShoulder,Left arm (/dev/can1),1,22,HSI-22,339282,160,-34.253082º a +79.525482º,-29.2º a +74.5º,-29.6º a +75.5º,X (abre)
 Hombro Axial Izq.,LeftAxialShoulder,Left arm (/dev/can1),2,23,HAI-23,339282,120,-87.504395º a +59.753952º,-82.5º a +54.7º,-55.0º a +40.0º,-Z (cierra)
 Codo Frontal Izq.,LeftFrontalElbow,Left arm (/dev/can1),3,24,CFI-24,339282,160,-106.13357º a +19.156414º,-101.1º a +14.1º,-83.5º a +5.0º,Y (atrás)
