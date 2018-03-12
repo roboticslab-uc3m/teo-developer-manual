@@ -14,11 +14,5 @@ It pulls contents from the following general repositories:
 
 As well as the following TEO-specific repositories:
 * [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual): This TEO developer manual.
-* [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files): TEO configuration files.
+* [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files): TEO configuration files, ranging from kinematic description files to scripts such as `teoSim`.
 * [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models): TEO OpenRAVE models.
-
-Notes on [teo-main](https://github.com/roboticslab-uc3m/teo-main) and the repositories from which it pulls contents:
-
-* The `teoSim` monolithic simulator of [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins) will soon be replaced by the modular architecture based on plugins from the same repo, which also include collision avoidance.
-
-Keep up on the status of these issues on: [https://github.com/roboticslab-uc3m/QA/issues/2](https://github.com/roboticslab-uc3m/QA/issues/2) and [https://github.com/orgs/roboticslab-uc3m/projects/2](https://github.com/orgs/roboticslab-uc3m/projects/2)
