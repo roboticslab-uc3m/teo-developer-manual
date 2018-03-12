@@ -1,8 +1,8 @@
 # Overview
 
-* [Software Architecture](overview-architecture.md)
-* [PC Software](overview-pc.md)
-* [Firmware](overview-firmware.md)
-* [Demonstration](overview-demonstration.md)
-* [Research](overview-research.md)
+* [Software Architecture](architecture.md)
+* [PC Software](pc.md)
+* [Firmware](firmware.md)
+* [Demonstration](demonstration.md)
+* [Research](research.md)
 
