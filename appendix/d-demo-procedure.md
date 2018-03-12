@@ -27,7 +27,7 @@
 
 TENEMOS QUE DOCUMENTAR LO DEL MICROFONO BLUETOOTH
 
-## Demo Teo-self-presentation
+## Demo teo-self-presentation
 
 ### Inicializar
 
