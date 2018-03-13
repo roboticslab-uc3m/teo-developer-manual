@@ -26,10 +26,4 @@ export(PACKAGE TEO_DEVELOPER_MANUAL)
 file(WRITE ${CMAKE_BINARY_DIR}/TEO_DEVELOPER_MANUALConfig.cmake "# Dummy CMake configuration export file.")
 install(FILES ${CMAKE_BINARY_DIR}/TEO_DEVELOPER_MANUALConfig.cmake DESTINATION ${_cmake_destination})
 
-# uninstall target
-configure_file(
-    "${CMAKE_CURRENT_SOURCE_DIR}/cmake/template/TEO_DEVELOPER_MANUALConfigUninstall.cmake.in"
-    "${CMAKE_CURRENT_BINARY_DIR}/TEO_DEVELOPER_MANUALConfigUninstall.cmake" IMMEDIATE @ONLY)
-
-add_custom_target(uninstall
-    COMMAND ${CMAKE_COMMAND} -P ${CMAKE_CURRENT_BINARY_DIR}/TEO_DEVELOPER_MANUALConfigUninstall.cmake)
+include(AddUninstallTarget)
