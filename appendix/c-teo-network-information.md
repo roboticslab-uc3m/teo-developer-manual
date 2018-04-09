@@ -10,6 +10,7 @@
 - IP Subnet Mask: 255.255.255.0
 - Gateway IP Address: 163.117.150.2
 - Primary DNS: 163.117.131.35
+- Configuration web: www.routerlogin.net
 - user: admin
 - pass: admin
 
