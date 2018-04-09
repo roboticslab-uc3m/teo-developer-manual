@@ -7,6 +7,9 @@
   
 - External IP: 163.117.150.74
 - Internal IP: 2.2.2.1
+- IP Subnet Mask: 255.255.255.0
+- Gateway IP Address: 163.117.150.2
+- Primary DNS: 163.117.131.35
 - user: admin
 - pass: admin
 
