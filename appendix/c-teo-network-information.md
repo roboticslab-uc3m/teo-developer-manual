@@ -14,6 +14,12 @@
 - user: admin
 - pass: admin
 
+## Teo internal router (as a swith)
+- Internal IP: 2.2.2.10
+- IP Subnet Mask: 255.255.255.0
+- user: ubnt
+- pass: ubnt
+
 ## teo-main
 
 Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics NVIDIA GeForce 9500 GT/PCIe/SSE2 (G96 rev a1), Disk 487.9 GiB. Origin old miguelgfierro. Ubuntu 14.10 64-bit. @jgvictores, @rsantos88.
