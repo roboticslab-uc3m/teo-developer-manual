@@ -31,18 +31,11 @@
 
 Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics NVIDIA GeForce 9500 GT/PCIe/SSE2 (G96 rev a1), Disk 487.9 GiB. Origin old miguelgfierro. Ubuntu 14.10 64-bit. @jgvictores, @rsantos88.
 
-Intended for [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics), etc, automatically runs `yarp server` on port 10000.
-
 - eth0  00:24:8c:26:ff:85  2.2.2.50
 - user: teo
 - pass: teo
 
-The execution of `yarp server` is activated in `~/.profile` through the lines:
-
-```bash
-yarp conf 2.2.2.50 10000
-gnome-terminal -e "yarp server --write" &
-```
+No longer runs `yarp server`.
 
 ## manipulation (robot front right PC)
 
