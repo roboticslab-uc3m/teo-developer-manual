@@ -14,8 +14,9 @@
 - user: admin
 - pass: admin
 
-## TL-WR2543ND: used as a switch to interconnect computers with Teo
-- Internal IP: 2.2.2.2
+## TL-WR2543ND: used as a WAN router network to interconnect computers with TEONET
+- External IP: Dynamic IP
+- Internal IP: 192.168.0.1
 - IP Subnet Mask: 255.255.255.0
 - user: admin
 - pass: admin
