@@ -14,9 +14,9 @@
 - user: admin
 - pass: admin
 
-## TL-WR2543ND: WAN router network to interconnect computers with TEONET
+## TL-WR2543ND: router configured as switch
 - External IP: Dynamic IP
-- Internal IP: 192.168.0.1
+- Internal IP: 2.2.2.2
 - IP Subnet Mask: 255.255.255.0
 - user: admin
 - pass: admin
