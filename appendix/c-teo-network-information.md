@@ -14,7 +14,13 @@
 - user: admin
 - pass: admin
 
-## Teo internal router (as a swith)
+## TL-WR2543ND: used as a switch to interconnect computers with Teo
+- Internal IP: 2.2.2.2
+- IP Subnet Mask: 255.255.255.0
+- user: admin
+- pass: admin
+
+## EdgeRouter X: Teo internal router as a switch
 - Internal IP: 2.2.2.10
 - IP Subnet Mask: 255.255.255.0
 - user: ubnt
