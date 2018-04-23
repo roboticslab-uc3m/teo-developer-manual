@@ -50,11 +50,24 @@ Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), a
 - pass: teo  
 - su: manipulation
 
-The execution of `yarprun --server /manipulation` is implemented as service using `daemontools` ([Help on daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)). `daemontools` is activated in `/etc/rc.local` through the line (before exit):
+`daemontools` is activated in `/etc/rc.local` through the line (before exit):
 
 ```bash
 /bin/csh -cf '/usr/bin/svscanboot &'
 ```
+
+The execution of `yarpserver` is implemented as service using `daemontools` ([Help on daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)).
+
+`yarpserver` is activated in `/etc/service/yarpserver/run` with `chmod +x` through the lines:
+
+```bash
+#!/bin/bash
+export PATH=/usr/local/bin:/usr/bin:/bin
+export YARP_CONFIG_HOME=/home/teo/.config/yarp
+yarpserver
+```
+
+The execution of `yarprun --server /manipulation` is implemented as service using `daemontools` ([Help on daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)).
 
 `yarprun --server /manipulation` is activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
 
