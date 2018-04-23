@@ -1,6 +1,6 @@
 # Appendix C: TEO Network Information
 
-## TEONET (router)
+## TEONET (main router)
 
 - wifi-ssid: TEONET
 - wifi-password: teochallenge
@@ -14,7 +14,7 @@
 - user: admin
 - pass: admin
 
-## TL-WR2543ND: used as a WAN router network to interconnect computers with TEONET
+## TL-WR2543ND: WAN router network to interconnect computers with TEONET
 - External IP: Dynamic IP
 - Internal IP: 192.168.0.1
 - IP Subnet Mask: 255.255.255.0
