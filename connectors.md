@@ -6,4 +6,4 @@
 
 | **CAN Bus Connector** | 
 | --- |
-| <a href="assets/CANbus.JPG"><img alt="CANbus" src="assets/CANbus.JPG" width="200" /></a> | 
+| <a href="assets/CAN.png"><img alt="CANconnector" src="assets/CAN.png" width="200" /></a> | 
