@@ -25,13 +25,13 @@
 
 - Joint limits:
   - View: [Comma separated vector (.csv)](../assets/motores-motores.csv)
-  - Original: [LibreOffice Calc (.ods)](../assets/src/motores.ods)
+  - Original: [LibreOffice Calc (.ods)](../assets/editable/motores.ods)
 
 ## DH Parameter Table
 
 - DH Parameter Table:
   - View: [Markdown (.md)](../assets/dh-table.md)
-  - Original: [LibreOffice Calc (.ods)](../assets/src/dh-table.ods)
+  - Original: [LibreOffice Calc (.ods)](../assets/editable/dh-table.ods)
 
 ## DH Coordinate Systems Drawing
 
@@ -77,4 +77,4 @@
 ## JR3 wrists drawings
 | F-T sensors  |
 | ---------- |
-| [File:Jr3 50M31 corregido.pdf](../assets/src/Jr3_50M31_corregido.pdf) |
+| [File:Jr3 50M31 corregido.pdf](../assets/editable/Jr3_50M31_corregido.pdf) |
