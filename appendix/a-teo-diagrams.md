@@ -39,7 +39,7 @@
 
 ## Link Names
 
-- View original: [PDF](../assets/teo-simox-names.pdf)
+- View original: [PDF](../assets/teo-link-names.pdf)
 
 ## Link Lengths
 <img alt="DH" src="../assets/Lengths.png" width="250" />  <img alt="DH" src="../assets/TEO_by_links.JPG" width="400" /> 
