@@ -22,7 +22,11 @@ file(GLOB md ${CMAKE_SOURCE_DIR}/*.md)
 # Install files, create a copy in the local build tree.
 yarp_install(FILES ${md}
              DESTINATION ${TEO-DEVELOPER-MANUAL_CONTEXTS_INSTALL_DIR})
-yarp_install(DIRECTORY assets
+
+# Install directories, create a copy in the local build tree.
+yarp_install(DIRECTORY appendix
+                       assets
+                       overview
              DESTINATION ${TEO-DEVELOPER-MANUAL_CONTEXTS_INSTALL_DIR})
 
 # Store this package in the user registry.
