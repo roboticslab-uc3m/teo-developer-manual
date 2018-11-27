@@ -28,7 +28,7 @@
 - pass: ubnt
 
 ## teo-main
-Note: Must update, see #41
+Note: Must update, see [#41](https://github.com/roboticslab-uc3m/teo-developer-manual/issues/41).
 
 Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics NVIDIA GeForce 9500 GT/PCIe/SSE2 (G96 rev a1), Disk 487.9 GiB.
 - OS: Ubuntu 14.10 64-bit.
