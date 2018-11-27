@@ -28,9 +28,11 @@
 - pass: ubnt
 
 ## teo-main
+Note: Must update, see #41
+
 Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics NVIDIA GeForce 9500 GT/PCIe/SSE2 (G96 rev a1), Disk 487.9 GiB.
 - OS: Ubuntu 14.10 64-bit.
-- Maintainers: @jgvictores @rsantos88
+- Maintainers: ?
 - Other details: Origin old miguelgfierro.
 
 No longer runs `yarp server`.
@@ -43,7 +45,7 @@ No longer runs `yarp server`.
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
 - OS: Debian GNU/Linux 6.0.10 (squeeze).
-- Maintainer: @jgvictores
+- Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), automatically runs `yarprun --server /manipulation`.
 
@@ -91,7 +93,7 @@ yarprun --server /manipulation
 ## locomotion (robot front left PC)
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
 - OS: Debian GNU/Linux 6.0.10 (squeeze)
-- Maintainer: @jgvictores
+- Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), automatically runs `yarprun --server /locomotion`.
 
@@ -126,7 +128,7 @@ yarprun --server /locomotion
 ## teo-head (robot back left PC)
 Memory 3.1 GiB, Processor Intel® Core™ i5-4570S CPU @ 2.90GHz x 4, Disk 52 GiB.
 - OS: Ubuntu 15.04 w/ 3.19.0-18-generic.
-- Maintainer: @jgvictores
+- Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 Intended for [vision](https://github.com/roboticslab-uc3m/vision) and [speech](https://github.com/roboticslab-uc3m/speech).
 
