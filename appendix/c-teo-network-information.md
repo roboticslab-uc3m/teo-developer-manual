@@ -28,18 +28,24 @@
 - pass: ubnt
 
 ## teo-main
+Note: Must update, see #41
 
-Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics NVIDIA GeForce 9500 GT/PCIe/SSE2 (G96 rev a1), Disk 487.9 GiB. Origin old miguelgfierro. Ubuntu 14.10 64-bit. @jgvictores, @rsantos88.
+Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics NVIDIA GeForce 9500 GT/PCIe/SSE2 (G96 rev a1), Disk 487.9 GiB.
+- OS: Ubuntu 14.10 64-bit.
+- Maintainers: ?
+- Other details: Origin old miguelgfierro.
+
+No longer runs `yarp server`.
 
 - eth0  00:24:8c:26:ff:85  2.2.2.50
 - user: teo
 - pass: teo
 
-No longer runs `yarp server`.
-
 ## manipulation (robot front right PC)
 
-Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB. Debian GNU/Linux 6.0.10 (squeeze). jgvictores.
+Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
+- OS: Ubuntu 14.04 Trusty (per [teo-main#32](https://github.com/roboticslab-uc3m/teo-main/issues/32#issuecomment-364136297) has dual boot: Debian GNU/Linux 6.0.10 Squeeze)
+- Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), automatically runs `yarprun --server /manipulation`.
 
@@ -85,8 +91,9 @@ yarprun --server /manipulation
    - [CuiAbsolute Documentation](../cui-absolute-values.md)
 
 ## locomotion (robot front left PC)
-
-Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB. Debian GNU/Linux 6.0.10 (squeeze). jgvictores.
+Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
+- OS: Ubuntu 14.04 Trusty (per [teo-main#32](https://github.com/roboticslab-uc3m/teo-main/issues/32#issuecomment-364136297) has dual boot: Debian GNU/Linux 6.0.10 Squeeze)
+- Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), automatically runs `yarprun --server /locomotion`.
 
@@ -119,8 +126,9 @@ yarprun --server /locomotion
    - [CuiAbsolute Documentation](../cui-absolute-values.md)
 
 ## teo-head (robot back left PC)
-
-Memory 3.1 GiB, Processor Intel® Core™ i5-4570S CPU @ 2.90GHz x 4, Disk 52 GiB. Ubuntu 15.04 w/ 3.19.0-18-generic. jgvictores.
+Memory 3.1 GiB, Processor Intel® Core™ i5-4570S CPU @ 2.90GHz x 4, Disk 52 GiB.
+- OS: Ubuntu 15.04 w/ 3.19.0-18-generic.
+- Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 Intended for [vision](https://github.com/roboticslab-uc3m/vision) and [speech](https://github.com/roboticslab-uc3m/speech).
 
@@ -145,42 +153,44 @@ yarprun --server /head
 
 ## teo-oliver
 Memory 7,7 GiB, Processor Intel® Core™ i5-4460 CPU @ 3.20GHz × 4, Graphics Intel® Haswell Desktop , Disk 507,6 GB.
-O.S: ubuntu 14.04 LTS
-Actual user: Raúl de Santos Rico
+- OS: ubuntu 14.04 LTS
+- Maintainer: @rsantos88
 
 ## teo-nobita
 Memory 3,8 GiB, Processor Intel® Core™ 2 Duo CPU E8400 @ 3.00GHz × 2, Graphics NV98, Disk 153,8 GB.
-O.S: ubuntu 16.04 LTS
-Actual user: ?
+- OS: ubuntu 16.04 LTS
+- Maintainer: ?
 
 ## teo-benji
 Memory 1.9 GiB (DDR II 800), Processor Intel® Core™ i3 CPU 540 @ 3.07GHz × 4, Graphics Intel Ironlake Desktop, Disk 488,2 GiB.
-O.S: Ubuntu 16.04 LTS 64-bit
-Actual user: ?
-Other details: Origin old teo-main. loli -\> aitor/javier.
+- OS: Ubuntu 16.04 LTS 64-bit
+- Maintainer: ?
+- Other details: Origin old teo-main. loli -\> aitor/javier.
 
 ## teo-suneo
 Memory 3,3 GiB, Processor Intel® Core™ 2 CPU 6320 @ 1.86GHz × 2, Graphics Gallium 0.4 on NV86, Disk 153,8 GB.
-O.S: ubuntu 16.04 LTS 64-bit
-Actual user: Lucas
+- OS: ubuntu 16.04 LTS 64-bit
+- Maintainer: Lucas ?
 
 ## teo-bobobo
 Memory 6,9 GiB, Processor Intel® Core™ 2 Duo CPU E8400 @ 3.00GHz × 2, Graphics GeForce 9500 GT, Disks 256 GiB and 100 GiB .
-O.S: ubuntu 14.04 LTS
-Actual user: Raúl Fernandez Fernandez
+- OS: ubuntu 14.04 LTS
+- Maintainer: @RaulFdzbis
 
 ## humanoidsUC3M
 Memory 62,9 GiB, Processor Intel® Core™ i7-4820K CPU @ 3.70GHz × 8, Graphics GeForce GT 630/PCIe/SSE2, Disk 204,5 GiB.
-O.S: ubuntu 14.04 LTS 64-bit
-Actual user: Alvaro Martinez Robledo
+- OS: ubuntu 14.04 LTS 64-bit
+- Maintainer: @AlvaroMartinezR
 
 ## teo-heidi
 Memory 2,0 GiB, Processor AMD Athlon(tm) 64 X2 Dual Core Processor 4200+ 2.21 GHz, Graphics Nvidia GeForce 7300 LE, Disks 114,5 GiB and 149,05 GiB.
-O.S: Windows 10 Home
-Actual user: Pedro Portalatin
+- OS: Windows 10 Home
+- Maintainer: Pedro Portalatin ?
 
 ## teo-goku
-Memory 1.8 GiB, Processor Intel® Core™ i3 CPU 540 @ 3.07GHz × 4, Graphics Intel® Ironlake Desktop, Disk 243.9 GiB. Does not recognize PCI devices. Ubuntu 14.10 64-bit. jlorente -\> daniel.
+Memory 1.8 GiB, Processor Intel® Core™ i3 CPU 540 @ 3.07GHz × 4, Graphics Intel® Ironlake Desktop, Disk 243.9 GiB. Does not recognize PCI devices.
+- OS: Ubuntu 14.10 64-bit.
+- Maintainer: jlorente -\> daniel. ?
 
 
 ## Mapping hostnames to IP addreses in your computer
