@@ -44,7 +44,7 @@ No longer runs `yarp server`.
 ## manipulation (robot front right PC)
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
-- OS: Debian GNU/Linux 6.0.10 (squeeze).
+- OS: Ubuntu 14.04 Trusty (per [teo-main#32](https://github.com/roboticslab-uc3m/teo-main/issues/32#issuecomment-364136297) has dual boot: Debian GNU/Linux 6.0.10 Squeeze)
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), automatically runs `yarprun --server /manipulation`.
@@ -92,7 +92,7 @@ yarprun --server /manipulation
 
 ## locomotion (robot front left PC)
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
-- OS: Debian GNU/Linux 6.0.10 (squeeze)
+- OS: Ubuntu 14.04 Trusty (per [teo-main#32](https://github.com/roboticslab-uc3m/teo-main/issues/32#issuecomment-364136297) has dual boot: Debian GNU/Linux 6.0.10 Squeeze)
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), automatically runs `yarprun --server /locomotion`.
