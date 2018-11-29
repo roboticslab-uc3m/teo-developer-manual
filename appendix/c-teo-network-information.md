@@ -27,20 +27,6 @@
 - user: ubnt
 - pass: ubnt
 
-## teo-main
-Note: Must update, see [#41](https://github.com/roboticslab-uc3m/teo-developer-manual/issues/41).
-
-Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics NVIDIA GeForce 9500 GT/PCIe/SSE2 (G96 rev a1), Disk 487.9 GiB.
-- OS: Ubuntu 14.10 64-bit.
-- Maintainers: ?
-- Other details: Origin old miguelgfierro.
-
-No longer runs `yarp server`.
-
-- eth0  00:24:8c:26:ff:85  2.2.2.50
-- user: teo
-- pass: teo
-
 ## manipulation (robot front right PC)
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
@@ -150,6 +136,20 @@ export PATH=/usr/local/bin:/usr/bin:/bin
 export YARP_CONFIG_HOME=/home/teo/.config/yarp
 yarprun --server /head
 ```
+
+## teo-main
+Note: Must update, see [#41](https://github.com/roboticslab-uc3m/teo-developer-manual/issues/41).
+
+Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics NVIDIA GeForce 9500 GT/PCIe/SSE2 (G96 rev a1), Disk 487.9 GiB.
+- OS: Ubuntu 14.10 64-bit.
+- Maintainers: ?
+- Other details: Origin old miguelgfierro.
+
+No longer runs `yarp server`.
+
+- eth0  00:24:8c:26:ff:85  2.2.2.50
+- user: teo
+- pass: teo
 
 ## teo-oliver
 Memory 7,7 GiB, Processor Intel® Core™ i5-4460 CPU @ 3.20GHz × 4, Graphics Intel® Haswell Desktop , Disk 507,6 GB.
