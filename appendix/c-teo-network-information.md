@@ -1,5 +1,26 @@
 # Appendix C: TEO Network Information
 
+* [TEONET (main router)](#teonet-main-router)
+* [TL-WR2543ND: router configured as switch](#tl-wr2543nd-router-configured-as-switch)
+* [EdgeRouter X: Teo internal router as a switch](#edgerouter-x-teo-internal-router-as-a-switch)
+* [manipulation (robot front right PC)](#manipulation-robot-front-right-pc)
+  * [manipulation additional setup](#manipulation-additional-setup)
+* [locomotion (robot front left PC)](#locomotion-robot-front-left-pc)
+  * [locomotion additional setup](#locomotion-additional-setup)
+* [teo-head (robot back left PC)](#teo-head-robot-back-left-pc)
+* [teo-main](#teo-main)
+* [teo-oliver](#teo-oliver)
+* [teo-nobita](#teo-nobita)
+* [teo-benji](#teo-benji)
+* [teo-suneo](#teo-suneo)
+* [teo-bobobo](#teo-bobobo)
+* [humanoidsUC3M](#humanoidsuc3m)
+* [teo-heidi](#teo-heidi)
+* [teo-goku](#teo-goku)
+* [Mapping hostnames to IP addreses in your computer](#mapping-hostnames-to-ip-addreses-in-your-computer)
+* [Other hardware configuration](#other-hardware-configuration)
+* [Uncategorized](#uncategorized)
+
 ## TEONET (main router)
 
 - wifi-ssid: TEONET
