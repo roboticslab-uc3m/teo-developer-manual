@@ -60,10 +60,10 @@ Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) an
 - wlan1  5c:d9:98:9a:94:5c  2.2.2.51
 - eth0  00:18:7d:0b:2d:9d  2.2.2.61 
 - user: teo
-- pass: teo  
+- pass: teo
 - su: manipulation
 
-Runs `yarprun --server /manipulation` as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
+Runs `yarprun --server /manipulation` as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
 
 ```bash
 #!/bin/bash
@@ -92,7 +92,7 @@ Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) an
 - pass: teo
 - su: locomotion
 
-The execution of `yarprun --server /locomotion` is implemented as service using `daemontools` ([Help on daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)), activated in `/etc/rc.local` through the line lines:
+The execution of `yarprun --server /locomotion` is implemented as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/rc.local` through the line lines:
 
 ```bash
 #!/bin/bash  
