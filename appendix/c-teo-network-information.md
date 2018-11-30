@@ -54,7 +54,7 @@ Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106
 - OS: Ubuntu 16.04 Xenial (per [teo-main#32](https://github.com/roboticslab-uc3m/teo-main/issues/32#issuecomment-364136297) has dual boot: Debian GNU/Linux 6.0.10 Squeeze)
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
-Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), automatically runs `yarprun --server /manipulation`.
+Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) and [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics).
 
 - teo right side
 - wlan1  5c:d9:98:9a:94:5c  2.2.2.51
@@ -63,26 +63,7 @@ Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), a
 - pass: teo  
 - su: manipulation
 
-`daemontools` is activated in `/etc/rc.local` through the line (before exit):
-
-```bash
-/bin/csh -cf '/usr/bin/svscanboot &'
-```
-
-The execution of `yarpserver` is implemented as service using `daemontools` ([Help on daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)).
-
-`yarpserver` is activated in `/etc/service/yarpserver/run` with `chmod +x` through the lines:
-
-```bash
-#!/bin/bash
-export PATH=/usr/local/bin:/usr/bin:/bin
-export YARP_CONFIG_HOME=/home/teo/.config/yarp
-yarpserver
-```
-
-The execution of `yarprun --server /manipulation` is implemented as service using `daemontools` ([Help on daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)).
-
-`yarprun --server /manipulation` is activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
+Runs `yarprun --server /manipulation` as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
 
 ```bash
 #!/bin/bash
@@ -102,7 +83,7 @@ Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106
 - OS: Ubuntu 16.04 Xenial (per [teo-main#32](https://github.com/roboticslab-uc3m/teo-main/issues/32#issuecomment-364136297) has dual boot: Debian GNU/Linux 6.0.10 Squeeze)
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
-Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), automatically runs `yarprun --server /locomotion`.
+Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) and [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics).
 
 - teo left side
 - wlan1  5c:d9:98:9a:94:5d  2.2.2.52
@@ -111,13 +92,7 @@ Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices), a
 - pass: teo
 - su: locomotion
 
-The execution of `yarprun --server /locomotion` is implemented as service using `daemontools` ([Help on daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)). `daemontools` is activated in `/etc/rc.local` through the line (before exit):
-
-```bash
-/bin/csh -cf '/usr/bin/svscanboot &'
-```
-
-`yarprun --server /locomotion` is activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
+The execution of `yarprun --server /locomotion` is implemented as service using `daemontools` ([Help on daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)), activated in `/etc/rc.local` through the line lines:
 
 ```bash
 #!/bin/bash  
@@ -166,11 +141,18 @@ Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics
 - Maintainers: ?
 - Other details: Origin old miguelgfierro.
 
-No longer runs `yarp server`.
-
 - eth0  00:24:8c:26:ff:85  2.2.2.50
 - user: teo
 - pass: teo
+
+No longer runs `yarp server`, but used to run it as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)), activated in `/etc/service/yarpserver/run` with `chmod +x` through the lines:
+
+```bash
+#!/bin/bash
+export PATH=/usr/local/bin:/usr/bin:/bin
+export YARP_CONFIG_HOME=/home/teo/.config/yarp
+yarpserver
+```
 
 ## teo-oliver
 Memory 7,7 GiB, Processor Intel® Core™ i5-4460 CPU @ 3.20GHz × 4, Graphics Intel® Haswell Desktop , Disk 507,6 GB.
