@@ -12,5 +12,5 @@ Please comment publicly [HERE](https://github.com/roboticslab-uc3m/teo-developer
 
 ### Additional notes
 
-* You can also download this documentation in various formats: [pdf](https://legacy.gitbook.com/download/pdf/book/roboticslab-uc3m/teo-developer-manual), [mobi](https://legacy.gitbook.com/download/mobi/book/roboticslab-uc3m/teo-developer-manual), [epub](https://legacy.gitbook.com/download/epub/book/roboticslab-uc3m/teo-developer-manual)
+* You can also download this documentation in various formats: [pdf](http://robots.uc3m.es/gitbook-teo-developer-manual/teo-developer-manual.pdf), [mobi](http://robots.uc3m.es/gitbook-teo-developer-manual/teo-developer-manual.mobi), [epub](http://robots.uc3m.es/gitbook-teo-developer-manual/teo-developer-manual.epub)
 * The content of this documentation is generated from files hosted on [GitHub](https://github.com/roboticslab-uc3m/teo-developer-manual)
