@@ -2,7 +2,7 @@
 
 # TEO Developer Manual
 
-Developer Manual for [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) @ [Roboticslab UC3M](https://github.com/roboticslab-uc3m)
+Developer Manual for [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) @ [roboticslab-uc3m](https://github.com/roboticslab-uc3m)
 
 Click on the option you want, or use the arrows to move sequentially
 
