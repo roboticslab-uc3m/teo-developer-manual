@@ -1,16 +1,32 @@
-# teo-developer-manual
-Developer Manual for [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid).
+[![roboticslab-uc3m logo](assets/roboticslab-banner-350px.png)](https://github.com/roboticslab-uc3m)
 
-This repository is simultaneously hosted at the following links:
-- [GitBook](https://www.gitbook.com/book/roboticslab-uc3m/teo-developer-manual) ([READ](https://roboticslab-uc3m.gitbooks.io/teo-developer-manual/content/))
-- [GitHub](https://github.com/roboticslab-uc3m/teo-developer-manual) ([SUMMARY (index)](https://github.com/roboticslab-uc3m/teo-developer-manual/blob/master/SUMMARY.md))
+# TEO Developer Manual
 
-## Contributing
+Developer Manual for [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) @ [roboticslab-uc3m](https://github.com/roboticslab-uc3m)
 
-#### Posting Issues
+Currently hosted at http://robots.uc3m.es/gitbook-teo-developer-manual
 
-1. Read [CONTRIBUTING.md](https://github.com/roboticslab-uc3m/teo-developer-manual/blob/master/CONTRIBUTING.md)
-2. [Post an issue / Feature request / Specific documentation request](https://github.com/roboticslab-uc3m/teo-developer-manual/issues)
+### If you have any doubts or comments
+1. Please check if you can find the answer through the corresponding file and/or folder in-source documentation, as well as in the [Issues](https://github.com/roboticslab-uc3m/teo-developer-manual/issues) section (both Open and Closed issues).
+2. If your doubt or comment is not a duplicate, please post a detailed [New issue](https://github.com/roboticslab-uc3m/teo-developer-manual/issues/new).
 
-#### General workflow
-1. This is a pure documentation repository, so we only use the `master` branch.
+## How-To's
+* [How to serve on localhost](#how-to-serve-on-localhost)
+* [How to upload changes to GitHub](#how-to-upload-changes-to-github)
+
+### How to serve on localhost
+It is useful to serve on `localhost` to modify the website and see changes locally.
+
+1. From the root of the project, run the following command (which is universal for all [Gitbook (legacy)](https://github.com/GitbookIO/gitbook)-based projects):
+```bash
+gitbook build && gitbook serve
+```
+
+2. You can now browse the site at the default location: http://127.0.0.1:4000
+
+### How to upload changes to GitHub
+This project is managed as any project on [GitHub](https://www.github.com). You may use [Git](https://git-scm.com) or even the GitHub web interface, both on which you can find many tutorials online. The following points are specific to the [Gitbook (legacy)](https://github.com/asrob-uc3m/actas/issues/148#issuecomment-449748350) mechanism used:
+
+1. Please **do not upload** the `_book/` folder. It is auto-generated locally, and the same should happen on the Gitbook (legacy) servers.
+
+2. It is safe to `git push` to any upstream branch, just remember that what is on `master` is what will be actually rendered as the website.
