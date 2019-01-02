@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introduction](README-gitbook.md)
 * [Overview](overview/README.md)
   * [Software Architecture](overview/architecture.md)
   * [PC Software](overview/pc.md)
