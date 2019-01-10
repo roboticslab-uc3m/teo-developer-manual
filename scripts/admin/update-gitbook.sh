@@ -10,8 +10,8 @@ cd $HOME/teo-developer-manual
 git pull
 echo "Gitbook teo-developer-manual..."
 rm -r _book/
-/usr/local/bin/gitbook build
-/usr/local/bin/gitbook pdf . _book/teo-developer-manual.pdf
-/usr/local/bin/gitbook mobi . _book/teo-developer-manual.mobi
-/usr/local/bin/gitbook epub . _book/teo-developer-manual.epub
+/usr/local/bin/node /usr/local/bin/gitbook build
+/usr/local/bin/node /usr/local/bin/gitbook pdf . _book/teo-developer-manual.pdf
+/usr/local/bin/node /usr/local/bin/gitbook mobi . _book/teo-developer-manual.mobi
+/usr/local/bin/node /usr/local/bin/gitbook epub . _book/teo-developer-manual.epub
 cd ..
