@@ -6,9 +6,8 @@ Developer Manual for [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-huma
 
 Currently hosted at http://robots.uc3m.es/gitbook-teo-developer-manual
 
-### If you have any doubts or comments
-1. Please check if you can find the answer through the corresponding file and/or folder in-source documentation, as well as in the [Issues](https://github.com/roboticslab-uc3m/teo-developer-manual/issues) section (both Open and Closed issues).
-2. If your doubt or comment is not a duplicate, please post a detailed [New issue](https://github.com/roboticslab-uc3m/teo-developer-manual/issues/new).
+## If you have any doubts or comments
+Please read the Developer Manual's [Asking Questions](http://robots.uc3m.es/gitbook-developer-manual/asking-questions.html) section, and once you've succeded with its [self-evaluation](http://robots.uc3m.es/gitbook-developer-manual/asking-questions.html#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/teo-developer-manual/issues/new) if required
 
 ## How-To's
 * [How to serve on localhost](#how-to-serve-on-localhost)
