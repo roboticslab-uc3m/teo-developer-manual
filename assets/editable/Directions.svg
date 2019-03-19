@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.4 (33fec40, 2019-01-16)"
-   sodipodi:docname="Directions.svg">
+   sodipodi:docname="Directions.svg"
+   inkscape:export-filename="/home/teo/repos/teo-developer-manual/assets/Directions.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs4">
     <marker
@@ -782,7 +785,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.66653511"
-     inkscape:cx="266.53918"
+     inkscape:cx="310.31035"
      inkscape:cy="525.37397"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
