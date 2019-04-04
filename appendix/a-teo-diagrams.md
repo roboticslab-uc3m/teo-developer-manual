@@ -22,10 +22,7 @@
 | <img alt="DH" src="../assets/Directions.png" width="300" /> |
 
 ## Joint Limits
-
-- Joint limits:
-  - View: [Comma separated vector (.csv)](../assets/motores-motores.csv)
-  - Original: [LibreOffice Calc (.ods)](../assets/editable/motores.ods)
+Can be found at [Motores: motores](/motores.md#motores-motores)
 
 ## DH Parameter Table
 
