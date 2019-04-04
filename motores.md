@@ -1,6 +1,11 @@
 # Motores
 Editable source origin with formulas: [LibreOffice Calc (.ods)](assets/src/motores.ods)
 
+* [Motores: motores](#motores-motores)
+* [Motores: protecciones-brazos](#motores-protecciones-brazos)
+* [Motores: protecciones-piernas](#motores-protecciones-piernas)
+* [Motores: transmision](#motores-transmision)
+
 ## Motores: motores
 - Github: [motores-motores.csv](assets/motores-motores.csv)
 - Gitbook: {% includeCsv src="assets/motores-motores.csv", useHeader="true" %}{% endincludeCsv %}
