@@ -26,9 +26,8 @@ Can be found at [Motores: motores](/motores.md#motores-motores)
 
 ## DH Parameter Table
 
-- DH Parameter Table:
-  - View: [Markdown (.md)](../assets/dh-table.md)
-  - Original: [LibreOffice Calc (.ods)](../assets/editable/dh-table.ods)
+- Github: [dh-table.csv](/assets/dh-table.csv)
+- Gitbook: {% includeCsv src="../assets/dh-table.csv", useHeader="true" %}{% endincludeCsv %}
 
 ## DH Coordinate Systems Drawing
 
