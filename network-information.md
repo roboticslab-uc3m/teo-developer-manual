@@ -1,4 +1,4 @@
-# Appendix C: TEO Network Information
+# Network Information
 
 * [TEONET (main router)](#teonet-main-router)
 * [TL-WR2543ND: router configured as switch](#tl-wr2543nd-router-configured-as-switch)
