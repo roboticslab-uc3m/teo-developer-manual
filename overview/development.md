@@ -1,4 +1,4 @@
-# Development of TEO Humanoid Robot software
+# Overview: Development
 
 There are mainly to repositories concerned with development of TEO software, which are in fact defined at [roboticslab-uc3m](https://github.com/roboticslab-uc3m) organization level.
 
