@@ -9,7 +9,7 @@
 - [Motores: transmision](#motores-transmision)
 
 ## Joint Limits
-Can be found at [Motores: motores](/motores.md#motores-motores)
+Can be found at [Motores: motores](#motores-motores)
 
 ## DH Parameter Table
 
