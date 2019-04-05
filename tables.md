@@ -3,7 +3,10 @@
 - [DH Parameter Table](#dh-parameter-table)
 - [Link Lengths](#link-lengths)
 - [Bill of materials (BOM)](#bill-of-materials-bom)
-
+- [Motores: motores](#motores-motores)
+- [Motores: protecciones-brazos](#motores-protecciones-brazos)
+- [Motores: protecciones-piernas](#motores-protecciones-piernas)
+- [Motores: transmision](#motores-transmision)
 
 ## Joint Limits
 Can be found at [Motores: motores](/motores.md#motores-motores)
@@ -47,3 +50,19 @@ Inertial Sensor|XSENS|MTi-28A53G35|xsensmtx|Product ID: MTi-28A53G35<br/> Device
 RGBD Sensor|ASUS|XtionPRO Live|OpenNI2Server|RGB and Depth Sensor
 RGB Camera|Point Grey|Flea3 FL3-U3-88S2C-C|AravisGigE|USB3
 Fetch Hand|Lacquey|Fetch Hand|LacqueyFetch|Three finger underactuated
+
+## Motores: motores
+- Github: [motores-motores.csv](csv/motores-motores.csv)
+- Gitbook: {% includeCsv src="csv/motores-motores.csv", useHeader="true" %}{% endincludeCsv %}
+
+## Motores: protecciones-brazos
+- Github: [motores-protecciones-brazos.csv](csv/motores-protecciones-brazos.csv)
+- Gitbook: {% includeCsv src="csv/motores-protecciones-brazos.csv", useHeader="true" %}{% endincludeCsv %}
+
+## Motores: protecciones-piernas
+- Github: [motores-protecciones-piernas.csv](csv/motores-protecciones-piernas.csv)
+- Gitbook: {% includeCsv src="csv/motores-protecciones-piernas.csv", useHeader="true" %}{% endincludeCsv %}
+
+## Motores: transmision
+- Github: [motores-transmision.csv](csv/motores-transmision.csv)
+- Gitbook: {% includeCsv src="csv/motores-transmision.csv", useHeader="true" %}{% endincludeCsv %}

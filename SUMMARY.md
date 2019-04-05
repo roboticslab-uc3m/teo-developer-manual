@@ -12,7 +12,6 @@
 * [Tables](tables.md)
 * [Switches](switches.md)
 * [Connectors](connectors.md)
-* [Motores](motores.md)
 * [Dynamic information](dynamic-information.md)
 * [Network information](network-information.md)
 * [Demo Procedure](demo-procedure.md)
