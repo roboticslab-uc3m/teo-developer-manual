@@ -7,7 +7,7 @@
   * [Firmware](overview/firmware.md)
   * [Demonstration](overview/demonstration.md)
   * [Research](overview/research.md)
-  * [Development](development.md)
+  * [Development](overview/development.md)
 * [Diagrams](diagrams.md)
 * [Tables](tables.md)
 * [Switches](switches.md)
