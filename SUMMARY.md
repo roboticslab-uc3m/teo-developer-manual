@@ -10,7 +10,6 @@
   * [Development](development.md)
 * [Diagrams](diagrams.md)
 * [Tables](tables.md)
-* [Bill of materials (BOM)](bill-of-materials.md)
 * [Switches](switches.md)
 * [Connectors](connectors.md)
 * [Motores](motores.md)
