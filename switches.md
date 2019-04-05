@@ -2,5 +2,5 @@
 
 | **Main Switches** |
 | --- |
-| <a href="assets/main-switches.jpg"><img alt="main-switches" src="assets/main-switches.jpg" width="200" /></a> |
+| <a href="fig/main-switches.jpg"><img alt="main-switches" src="fig/main-switches.jpg" width="200" /></a> |
 

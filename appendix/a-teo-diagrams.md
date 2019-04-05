@@ -14,31 +14,31 @@
 
 | Joint Indexes (CAN bus) |Joint Indexes (YARP ports) |
 | ------------- | ------------- |
-| <img alt="DH" src="../assets/Joints_(can).png" width="300" /> | <img alt="DH" src="../assets/Joints_(yarp).png" width="500" /> |
+| <img alt="DH" src="../fig/Joints_(can).png" width="300" /> | <img alt="DH" src="../fig/Joints_(yarp).png" width="500" /> |
 
 ## Joint Directions of Rotation
 | Joint Directions of Rotation |
 | ------------- |
-| <img alt="DH" src="../assets/Directions.png" width="300" /> |
+| <img alt="DH" src="../fig/Directions.png" width="300" /> |
 
 ## Joint Limits
 Can be found at [Motores: motores](/motores.md#motores-motores)
 
 ## DH Parameter Table
 
-- Github: [dh-table.csv](/assets/dh-table.csv)
-- Gitbook: {% includeCsv src="../assets/dh-table.csv", useHeader="true" %}{% endincludeCsv %}
+- Github: [dh-table.csv](/csv/dh-table.csv)
+- Gitbook: {% includeCsv src="../csv/dh-table.csv", useHeader="true" %}{% endincludeCsv %}
 
 ## DH Coordinate Systems Drawing
 
-<img alt="DH" src="../assets/dh-drawing.png" width="400" />
+<img alt="DH" src="../fig/dh-drawing.png" width="400" />
 
 ## Link Names
 
-- View original: [PDF](../assets/teo-link-names.pdf)
+- View original: [PDF](../fig/teo-link-names.pdf)
 
 ## Link Lengths
-<img alt="DH" src="../assets/Lengths.png" width="250" />  <img alt="DH" src="../assets/TEO_by_links.JPG" width="400" /> 
+<img alt="DH" src="../fig/Lengths.png" width="250" />  <img alt="DH" src="../fig/TEO_by_links.JPG" width="400" /> 
 
 | lengths | distance [mm] | |
 | ------------ | ------------ | ------------ |
@@ -63,14 +63,14 @@ Can be found at [Motores: motores](/motores.md#motores-motores)
 ## COGs
 | COGs |
 | ---------- |
-| <img alt="DH" src="../assets/Masses.png" width="300" />  |
+| <img alt="DH" src="../fig/Masses.png" width="300" />  |
 
 ## F-T sensors
 |  F-T sensors  |
 | ---------- |
-| <img alt="DH" src="../assets/Ftsensors.png" width="300" />  |
+| <img alt="DH" src="../fig/Ftsensors.png" width="300" />  |
 
 ## JR3 wrists drawings
 | F-T sensors  |
 | ---------- |
-| [File:Jr3 50M31 corregido.pdf](../assets/editable/Jr3_50M31_corregido.pdf) |
+| [File:Jr3 50M31 corregido.pdf](../fig/editable/Jr3_50M31_corregido.pdf) |

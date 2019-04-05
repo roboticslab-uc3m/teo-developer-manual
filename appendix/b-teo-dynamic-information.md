@@ -2,7 +2,7 @@
 
 TEO global dynamic information. 
 
-This file contains the center of mass of the whole robot in the initial home position. For individual CoM information go here: https://github.com/roboticslab-uc3m/teo-developer-manual/blob/master/assets/teo-center-of-masses.csv.
+This file contains the center of mass of the whole robot in the initial home position. For individual CoM information go here: https://github.com/roboticslab-uc3m/teo-developer-manual/blob/master/fig/teo-center-of-masses.csv.
 
 All the information presented here was calculated using SolidWorks and tuned to the real robot.
 
