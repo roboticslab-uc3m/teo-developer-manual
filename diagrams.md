@@ -11,7 +11,7 @@
 
 | Joint Indexes (CAN bus) |Joint Indexes (YARP ports) |
 | ------------- | ------------- |
-| <img alt="DH" src="/fig/Joints_(can).png" width="300" /> | <img alt="DH" src="../fig/Joints_(yarp).png" width="500" /> |
+| <img alt="DH" src="/fig/Joints_(can).png" width="300" /> | <img alt="DH" src="/fig/Joints_(yarp).png" width="500" /> |
 
 ## Joint Directions of Rotation
 | Joint Directions of Rotation |
@@ -27,7 +27,7 @@
 - View original: [PDF](/fig/teo-link-names.pdf)
 
 ## Link Lengths
-<img alt="DH" src="/fig/Lengths.png" width="250" />  <img alt="DH" src="../fig/TEO_by_links.JPG" width="400" /> 
+<img alt="DH" src="/fig/Lengths.png" width="250" />  <img alt="DH" src="/fig/TEO_by_links.JPG" width="400" /> 
 
 ## COGs
 | COGs |
