@@ -4,8 +4,7 @@
 - [DH Coordinate Systems Drawing](#dh-coordinate-systems-drawing)
 - [Link Names](#link-names)
 - [COGs](#cogs)
-- [F-T sensors](#f-t-sensors)
-- [JR3 wrists drawings](#jr3-wrists-drawings)
+- [F/T sensors](#ft-sensors)
 
 ## Joint Indexes
 
@@ -24,7 +23,8 @@
 
 ## Link Names
 
-- View original: [PDF](/fig/teo-link-names.pdf)
+- Github: [teo-link-names.pdf](/fig/teo-link-names.pdf)
+- Gitbook: {% pdf src="/fig/teo-link-names.pdf", width="100%", height="1100" %}{% endpdf %}
 
 ## Link Lengths
 <img alt="DH" src="/fig/Lengths.png" width="250" />  <img alt="DH" src="/fig/TEO_by_links.JPG" width="400" /> 
@@ -34,12 +34,12 @@
 | ---------- |
 | <img alt="DH" src="/fig/Masses.png" width="300" />  |
 
-## F-T sensors
-|  F-T sensors  |
+## F/T sensors
+### F/T sensors (Ports and channels)
+| F/T sensors (Ports and channels) |
 | ---------- |
 | <img alt="DH" src="/fig/Ftsensors.png" width="300" />  |
 
-## JR3 wrists drawings
-| F-T sensors  |
-| ---------- |
-| [File:Jr3 50M31 corregido.pdf](/fig/editable/Jr3_50M31_corregido.pdf) |
+### F/T sensors (Mechanical)
+- Github: [Jr3 50M31 corregido.pdf](/fig/editable/Jr3_50M31_corregido.pdf)
+- Gitbook: {% pdf src="/fig/editable/Jr3_50M31_corregido.pdf", width="100%", height="590" %}{% endpdf %}
