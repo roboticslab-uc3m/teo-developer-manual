@@ -2,5 +2,5 @@
   "structure": {
     "readme": "README-gitbook.md"
   },
-  "plugins": ["include-csv"]
+  "plugins": ["include-csv","embed-pdf"]
 }
