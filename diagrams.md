@@ -43,8 +43,8 @@
 | <img alt="DH" src="/fig/Ftsensors.png" width="300" />  |
 
 ### F/T sensors (Mechanical)
-- Github: [Jr3 50M31 corregido.pdf](/fig/editable/Jr3_50M31_corregido.pdf)
-- Gitbook: {% pdf src="/fig/editable/Jr3_50M31_corregido.pdf", width="100%", height="590" %}{% endpdf %}
+- Github: [Jr3 50M31 corregido.pdf](/fig/Jr3_50M31_corregido.pdf)
+- Gitbook: {% pdf src="/fig/Jr3_50M31_corregido.pdf", width="100%", height="590" %}{% endpdf %}
 
 ## Lacquey Fetch
 This sketches were made with SolidWorks in order to provide the position of the next joints, in this case the fingers from the origin of the hand, not to provide detailed mechanical annotations for the hand.
