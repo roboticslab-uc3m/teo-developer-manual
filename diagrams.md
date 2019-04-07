@@ -1,7 +1,7 @@
 # Diagrams
 - [Joint Indexes](#joint-indexes)
 - [Joint Directions of Rotation](#joint-directions-of-rotation)
-- [DH Coordinate Systems Drawing](#dh-coordinate-systems-drawing)
+- [DH Coordinate Systems](#dh-coordinate-systems)
 - [Link Names](#link-names)
 - [COGs](#cogs)
 - [F/T sensors](#ft-sensors)
@@ -18,7 +18,7 @@
 | ------------- |
 | <img alt="DH" src="/fig/Directions.png" width="300" /> |
 
-## DH Coordinate Systems Drawing
+## DH Coordinate Systems
 
 <img alt="DH" src="/fig/dh-drawing.png" width="400" />
 
@@ -37,7 +37,7 @@
 
 ## F/T sensors
 
-### F/T sensors (Ports and channels)
+### F/T sensors (Ports, channels and coordinate systems)
 | F/T sensors (Ports and channels) |
 | ---------- |
 | <img alt="DH" src="/fig/Ftsensors.png" width="300" />  |
