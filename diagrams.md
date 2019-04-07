@@ -5,6 +5,7 @@
 - [Link Names](#link-names)
 - [COGs](#cogs)
 - [F/T sensors](#ft-sensors)
+- [Lacquey Fetch](#lacquey-fetch)
 
 ## Joint Indexes
 
@@ -35,6 +36,7 @@
 | <img alt="DH" src="/fig/Masses.png" width="300" />  |
 
 ## F/T sensors
+
 ### F/T sensors (Ports and channels)
 | F/T sensors (Ports and channels) |
 | ---------- |
@@ -43,3 +45,15 @@
 ### F/T sensors (Mechanical)
 - Github: [Jr3 50M31 corregido.pdf](/fig/editable/Jr3_50M31_corregido.pdf)
 - Gitbook: {% pdf src="/fig/editable/Jr3_50M31_corregido.pdf", width="100%", height="590" %}{% endpdf %}
+
+## Lacquey Fetch
+This sketches were made with SolidWorks in order to provide the position of the next joints, in this case the fingers from the origin of the hand, not to provide detailed mechanical annotations for the hand.
+
+### Lacquey Fetch (Hand)
+- Github: [fetch-hand.pdf](/fig/fetch-hand.pdf)
+- Gitbook: {% pdf src="/fig/fetch-hand.pdf", width="100%", height="590" %}{% endpdf %}
+
+### Lacquey Fetch (Proximal Falange)
+- Github: [fetch-proximal-falange.pdf](/fig/fetch-proximal-falange.pdf)
+- Gitbook: {% pdf src="/fig/fetch-proximal-falange.pdf", width="100%", height="590" %}{% endpdf %}
+
