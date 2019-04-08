@@ -3,6 +3,7 @@
 - [DH Parameters](#dh-parameters)
 - [Link Lengths](#link-lengths)
 - [Bill of materials (BOM)](#bill-of-materials-bom)
+- [Motores](#motores)
 - [Motores: motores](#motores-motores)
 - [Motores: protecciones-brazos](#motores-protecciones-brazos)
 - [Motores: protecciones-piernas](#motores-protecciones-piernas)
@@ -44,6 +45,9 @@ Can be found at [Motores: motores](#motores-motores)
 # Bill of materials (BOM)
 - Github: [bom.csv](csv/bom.csv)
 - Gitbook: {% includeCsv src="csv/bom.csv", useHeader="true" %}{% endincludeCsv %}
+
+## Motores
+- Original with formulas: [editable/motores.ods](csv/editable/motores.ods)
 
 ## Motores: motores
 - Github: [motores-motores.csv](csv/motores-motores.csv)
