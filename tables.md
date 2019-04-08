@@ -1,6 +1,6 @@
 # Tables
 - [Joint Limits](#joint-limits)
-- [DH Parameter Table](#dh-parameter-table)
+- [DH Parameters](#dh-parameters)
 - [Link Lengths](#link-lengths)
 - [Bill of materials (BOM)](#bill-of-materials-bom)
 - [Motores: motores](#motores-motores)
@@ -11,10 +11,31 @@
 ## Joint Limits
 Can be found at [Motores: motores](#motores-motores)
 
-## DH Parameter Table
+## DH Parameters
 
-- Github: [dh-table.csv](csv/dh-table.csv)
-- Gitbook: {% includeCsv src="csv/dh-table.csv", useHeader="true" %}{% endincludeCsv %}
+### Head
+- Github: [dh-head.csv](csv/dh-head.csv)
+- Gitbook: {% includeCsv src="csv/dh-head.csv", useHeader="true" %}{% endincludeCsv %}
+
+### Right Arm
+- Github: [dh-rightArm.csv](csv/dh-rightArm.csv)
+- Gitbook: {% includeCsv src="csv/dh-rightArm.csv", useHeader="true" %}{% endincludeCsv %}
+
+### Left Arm
+- Github: [dh-leftArm.csv](csv/dh-leftArm.csv)
+- Gitbook: {% includeCsv src="csv/dh-leftArm.csv", useHeader="true" %}{% endincludeCsv %}
+
+### Trunk
+- Github: [dh-trunk.csv](csv/dh-trunk.csv)
+- Gitbook: {% includeCsv src="csv/dh-trunk.csv", useHeader="true" %}{% endincludeCsv %}
+
+### Right Leg
+- Github: [dh-rightLeg.csv](csv/dh-rightLeg.csv)
+- Gitbook: {% includeCsv src="csv/dh-rightLeg.csv", useHeader="true" %}{% endincludeCsv %}
+
+### Left Leg
+- Github: [dh-leftLeg.csv](csv/dh-leftLeg.csv)
+- Gitbook: {% includeCsv src="csv/dh-leftLeg.csv", useHeader="true" %}{% endincludeCsv %}
 
 ## Link Lengths
 - Github: [lengths.csv](csv/lengths.csv)
