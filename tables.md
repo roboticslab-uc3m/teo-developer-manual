@@ -4,10 +4,10 @@
 - [Link Lengths](#link-lengths)
 - [Bill of materials (BOM)](#bill-of-materials-bom)
 - [Motores](#motores)
-- [Motores: motores](#motores-motores)
-- [Motores: protecciones-brazos](#motores-protecciones-brazos)
-- [Motores: protecciones-piernas](#motores-protecciones-piernas)
-- [Motores: transmision](#motores-transmision)
+   - [Motores: motores](#motores-motores)
+   - [Motores: protecciones-brazos](#motores-protecciones-brazos)
+   - [Motores: protecciones-piernas](#motores-protecciones-piernas)
+   - [Motores: transmision](#motores-transmision)
 
 ## Joint Limits
 Can be found at [Motores: motores](#motores-motores)
