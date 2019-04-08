@@ -1,0 +1,8 @@
+H_head_rgb,TrasZ(-l14) * TrasY(l3) * RotY(90) * RotZ(180)
+H_head_depth,TrasZ(-l14-l15) * TrasY(l3) * RotY(90) * RotZ(180)
+H_head_flea,TrasY(l3+l4) * RotY(90) * RotZ(180)
+H_hip_neck,RotX(90) * TrasZ(l1+l2)
+H_hip_leftArm,TrasY(-l1) * TrasZ(l5) * RotZ(90)
+H_hip_rightArm,TrasY(-l1) * TrasZ(-l5) * RotZ(-90) * RotX(180)
+H_root_leftLeg,TrasY(l13) * TrasZ(-l9) * RotZ(90) * RotX(180)
+H_root_rightLeg,TrasY(-l13) * TrasZ(-l9) * RotZ(-90)
