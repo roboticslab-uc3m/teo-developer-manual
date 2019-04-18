@@ -24,7 +24,7 @@ yarp_install(FILES ${md}
              DESTINATION ${TEO-DEVELOPER-MANUAL_CONTEXTS_INSTALL_DIR})
 
 # Install directories, create a copy in the local build tree.
-yarp_install(DIRECTORY appendix
+yarp_install(DIRECTORY csv
                        fig
                        overview
              DESTINATION ${TEO-DEVELOPER-MANUAL_CONTEXTS_INSTALL_DIR})
