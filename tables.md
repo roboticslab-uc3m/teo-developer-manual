@@ -14,31 +14,53 @@ Can be found at [Motores: motores](#motores-motores)
 
 ## DH Parameters
 
-### Transformations
+### Useful transformations
+Some not required, redundant or may be derived from from existing `dh-root-*.csv` contents (below).
 - Github: [dh-transformations.csv](csv/dh-transformations.csv)
 - Gitbook: {% includeCsv src="csv/dh-transformations.csv", useHeader="true" %}{% endincludeCsv %}
 
-### Head
-- Github: [dh-head.csv](csv/dh-head.csv)
-- Gitbook: {% includeCsv src="csv/dh-head.csv", useHeader="true" %}{% endincludeCsv %}
-
-### Right Arm
-- Github: [dh-rightArm.csv](csv/dh-rightArm.csv)
-- Gitbook: {% includeCsv src="csv/dh-rightArm.csv", useHeader="true" %}{% endincludeCsv %}
-
-### Left Arm
-- Github: [dh-leftArm.csv](csv/dh-leftArm.csv)
-- Gitbook: {% includeCsv src="csv/dh-leftArm.csv", useHeader="true" %}{% endincludeCsv %}
-
-### Trunk
+### trunk (root to hip)
+This is the original `trunk`, but the three variants (for `head`, `rightArm`, `leftArm`; respectively, below) may be more useful.
 - Github: [dh-trunk.csv](csv/dh-trunk.csv)
 - Gitbook: {% includeCsv src="csv/dh-trunk.csv", useHeader="true" %}{% endincludeCsv %}
 
-### Right Leg
+### trunk for head (root to neck)
+- Github: [dh-root-head.csv](csv/dh-root-head.csv)
+- Gitbook: {% includeCsv src="csv/dh-root-head.csv", useHeader="true" %}{% endincludeCsv %}
+
+### head
+- Github: [dh-head.csv](csv/dh-head.csv)
+- Gitbook: {% includeCsv src="csv/dh-head.csv", useHeader="true" %}{% endincludeCsv %}
+
+### trunk for rightArm (root to rightArm)
+- Github: [dh-root-rightArm.csv](csv/dh-root-rightArm.csv)
+- Gitbook: {% includeCsv src="csv/dh-root-rightArm.csv", useHeader="true" %}{% endincludeCsv %}
+
+### rightArm
+- Github: [dh-rightArm.csv](csv/dh-rightArm.csv)
+- Gitbook: {% includeCsv src="csv/dh-rightArm.csv", useHeader="true" %}{% endincludeCsv %}
+
+### trunk for leftArm (root to leftArm)
+- Github: [dh-root-leftArm.csv](csv/dh-root-leftArm.csv)
+- Gitbook: {% includeCsv src="csv/dh-root-leftArm.csv", useHeader="true" %}{% endincludeCsv %}
+
+### leftArm
+- Github: [dh-leftArm.csv](csv/dh-leftArm.csv)
+- Gitbook: {% includeCsv src="csv/dh-leftArm.csv", useHeader="true" %}{% endincludeCsv %}
+
+### root to rightLeg
+- Github: [dh-root-rightLeg.csv](csv/dh-root-rightLeg.csv)
+- Gitbook: {% includeCsv src="csv/dh-root-rightLeg.csv", useHeader="true" %}{% endincludeCsv %}
+
+### rightLeg
 - Github: [dh-rightLeg.csv](csv/dh-rightLeg.csv)
 - Gitbook: {% includeCsv src="csv/dh-rightLeg.csv", useHeader="true" %}{% endincludeCsv %}
 
-### Left Leg
+### root to leftLeg
+- Github: [dh-root-leftLeg.csv](csv/dh-root-leftLeg.csv)
+- Gitbook: {% includeCsv src="csv/dh-root-leftLeg.csv", useHeader="true" %}{% endincludeCsv %}
+
+### leftLeg
 - Github: [dh-leftLeg.csv](csv/dh-leftLeg.csv)
 - Gitbook: {% includeCsv src="csv/dh-leftLeg.csv", useHeader="true" %}{% endincludeCsv %}
 
