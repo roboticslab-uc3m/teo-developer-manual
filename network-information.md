@@ -8,15 +8,6 @@
 * [locomotion (robot front left PC)](#locomotion-robot-front-left-pc)
   * [locomotion additional setup](#locomotion-additional-setup)
 * [teo-head (robot back left PC)](#teo-head-robot-back-left-pc)
-* [teo-main](#teo-main)
-* [teo-oliver](#teo-oliver)
-* [teo-nobita](#teo-nobita)
-* [teo-benji](#teo-benji)
-* [teo-suneo](#teo-suneo)
-* [teo-bobobo](#teo-bobobo)
-* [humanoidsUC3M](#humanoidsuc3m)
-* [teo-heidi](#teo-heidi)
-* [teo-goku](#teo-goku)
 * [Mapping hostnames to IP addreses in your computer](#mapping-hostnames-to-ip-addreses-in-your-computer)
 * [Other hardware configuration](#other-hardware-configuration)
 * [Uncategorized](#uncategorized)
@@ -63,7 +54,16 @@ Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) an
 - pass: teo
 - su: manipulation
 
-Runs `yarprun --server /manipulation` as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
+Runs `yarp server` as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)), activated in `/etc/service/yarpserver/run` with `chmod +x` through the lines:
+
+```bash
+#!/bin/bash
+export PATH=/usr/local/bin:/usr/bin:/bin
+export YARP_CONFIG_HOME=/home/teo/.config/yarp
+yarp server --read
+```
+
+Also, runs `yarprun --server /manipulation` as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
 
 ```bash
 #!/bin/bash
@@ -109,7 +109,7 @@ yarprun --server /locomotion
 
 ## teo-head (robot back left PC)
 Memory 3.1 GiB, Processor Intel® Core™ i5-4570S CPU @ 2.90GHz x 4, Disk 52 GiB.
-- OS: Ubuntu 15.04 w/ 3.19.0-18-generic.
+- OS: OS: Ubuntu 16.04 Xenial.
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 Intended for [vision](https://github.com/roboticslab-uc3m/vision) and [speech](https://github.com/roboticslab-uc3m/speech).
@@ -132,69 +132,6 @@ export PATH=/usr/local/bin:/usr/bin:/bin
 export YARP_CONFIG_HOME=/home/teo/.config/yarp
 yarprun --server /head
 ```
-
-## teo-main
-Note: Must update, see [#41](https://github.com/roboticslab-uc3m/teo-developer-manual/issues/41).
-
-Memory 3.9 GiB, Processor Intel® Core™2 Duo CPU E8400 @ 3.00GHz x 2, Graphics NVIDIA GeForce 9500 GT/PCIe/SSE2 (G96 rev a1), Disk 487.9 GiB.
-- OS: Ubuntu 14.10 64-bit.
-- Maintainers: ?
-- Other details: Origin old miguelgfierro.
-
-- eth0  00:24:8c:26:ff:85  2.2.2.50
-- user: teo
-- pass: teo
-
-No longer runs `yarp server`, but used to run it as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)), activated in `/etc/service/yarpserver/run` with `chmod +x` through the lines:
-
-```bash
-#!/bin/bash
-export PATH=/usr/local/bin:/usr/bin:/bin
-export YARP_CONFIG_HOME=/home/teo/.config/yarp
-yarpserver
-```
-
-## teo-oliver
-Memory 7,7 GiB, Processor Intel® Core™ i5-4460 CPU @ 3.20GHz × 4, Graphics Intel® Haswell Desktop , Disk 507,6 GB.
-- OS: ubuntu 14.04 LTS
-- Maintainer: @rsantos88
-
-## teo-nobita
-Memory 3,8 GiB, Processor Intel® Core™ 2 Duo CPU E8400 @ 3.00GHz × 2, Graphics NV98, Disk 153,8 GB.
-- OS: ubuntu 16.04 LTS
-- Maintainer: ?
-
-## teo-benji
-Memory 1.9 GiB (DDR II 800), Processor Intel® Core™ i3 CPU 540 @ 3.07GHz × 4, Graphics Intel Ironlake Desktop, Disk 488,2 GiB.
-- OS: Ubuntu 16.04 LTS 64-bit
-- Maintainer: ?
-- Other details: Origin old teo-main. loli -\> aitor/javier.
-
-## teo-suneo
-Memory 3,3 GiB, Processor Intel® Core™ 2 CPU 6320 @ 1.86GHz × 2, Graphics Gallium 0.4 on NV86, Disk 153,8 GB.
-- OS: ubuntu 16.04 LTS 64-bit
-- Maintainer: Lucas ?
-
-## teo-bobobo
-Memory 6,9 GiB, Processor Intel® Core™ 2 Duo CPU E8400 @ 3.00GHz × 2, Graphics GeForce 9500 GT, Disks 256 GiB and 100 GiB .
-- OS: ubuntu 14.04 LTS
-- Maintainer: @RaulFdzbis
-
-## humanoidsUC3M
-Memory 62,9 GiB, Processor Intel® Core™ i7-4820K CPU @ 3.70GHz × 8, Graphics GeForce GT 630/PCIe/SSE2, Disk 204,5 GiB.
-- OS: ubuntu 14.04 LTS 64-bit
-- Maintainer: @AlvaroMartinezR
-
-## teo-heidi
-Memory 2,0 GiB, Processor AMD Athlon(tm) 64 X2 Dual Core Processor 4200+ 2.21 GHz, Graphics Nvidia GeForce 7300 LE, Disks 114,5 GiB and 149,05 GiB.
-- OS: Windows 10 Home
-- Maintainer: Pedro Portalatin ?
-
-## teo-goku
-Memory 1.8 GiB, Processor Intel® Core™ i3 CPU 540 @ 3.07GHz × 4, Graphics Intel® Ironlake Desktop, Disk 243.9 GiB. Does not recognize PCI devices.
-- OS: Ubuntu 14.10 64-bit.
-- Maintainer: jlorente -\> daniel. ?
-
 
 ## Mapping hostnames to IP addreses in your computer
 
