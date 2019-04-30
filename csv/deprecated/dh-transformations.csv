@@ -1,0 +1,4 @@
+Name,Transformation
+H_hip_neck,RotX(90)
+H_hip_leftArm,TrasZ(l5) * RotZ(-90) * TrasX(l1)
+H_hip_rightArm,TrasZ(-l5) * RotZ(-90) * TrasX(l1)

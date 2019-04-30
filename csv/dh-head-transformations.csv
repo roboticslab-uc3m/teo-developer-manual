@@ -1,0 +1,4 @@
+Name,Transformation
+H_head_rgb,TrasZ(l3) * RotZ(-90) * RotX(-90) * TrasX(-l14)
+H_head_depth,TrasZ(l3) * RotZ(-90) * RotX(-90) * TrasX(-l14-l15)
+H_head_flea,TrasZ(l3+l4) * RotZ(-90) * RotX(-90)
