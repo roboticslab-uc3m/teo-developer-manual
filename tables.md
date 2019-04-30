@@ -38,6 +38,10 @@ Can be found at [Motores: motores](#motores-motores)
 - Github: [dh-rightArm.csv](csv/dh-rightArm.csv)
 - Gitbook: {% includeCsv src="csv/dh-rightArm.csv", useHeader="true" %}{% endincludeCsv %}
 
+#### fetch
+- Github: [dh-fetch.csv](csv/dh-fetch.csv)
+- Gitbook: {% includeCsv src="csv/dh-fetch.csv", useHeader="true" %}{% endincludeCsv %}
+
 ### Group: leftArm
 
 #### trunk for leftArm (root to leftArm)
@@ -47,6 +51,10 @@ Can be found at [Motores: motores](#motores-motores)
 #### leftArm
 - Github: [dh-leftArm.csv](csv/dh-leftArm.csv)
 - Gitbook: {% includeCsv src="csv/dh-leftArm.csv", useHeader="true" %}{% endincludeCsv %}
+
+#### fetch
+- Github: [dh-fetch.csv](csv/dh-fetch.csv)
+- Gitbook: {% includeCsv src="csv/dh-fetch.csv", useHeader="true" %}{% endincludeCsv %}
 
 ### Group: rightLeg
 
@@ -72,12 +80,12 @@ Can be found at [Motores: motores](#motores-motores)
 The below are not required at time of writing, and may become outdated with time.
 
 #### Deprecated trunk (root to hip)
-This is the original `trunk`, but the three variants (for `head`, `rightArm`, `leftArm`; respectively, above) may be more useful.
+This is the original `trunk`, but the three variants (for `head`, `rightArm`, `leftArm`; respectively, above) seem to be more useful.
 - Github: [deprecated/dh-trunk.csv](csv/deprecated/dh-trunk.csv)
 - Gitbook: {% includeCsv src="csv/deprecated/dh-trunk.csv", useHeader="true" %}{% endincludeCsv %}
 
 #### Deprecated additional transformations
-Some not required, redundant or may be derived from from existing `dh-root-*.csv` contents (below).
+Some not required, redundant or may be derived from from existing `dh-root-*.csv` contents (above).
 - Github: [deprecated/dh-transformations.csv](csv/deprecated/dh-transformations.csv)
 - Gitbook: {% includeCsv src="csv/deprecated/dh-transformations.csv", useHeader="true" %}{% endincludeCsv %}
 
