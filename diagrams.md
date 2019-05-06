@@ -2,13 +2,13 @@
 - [Joint Indexes](#joint-indexes)
 - [Joint Directions of Rotation](#joint-directions-of-rotation)
 - [DH Coordinate Systems](#dh-coordinate-systems)
+- [Link Lengths](#link-lengths)
 - [Link Names](#link-names)
 - [COGs](#cogs)
 - [F/T sensors](#ft-sensors)
 - [Lacquey Fetch](#lacquey-fetch)
 
 ## Joint Indexes
-
 | Joint Indexes (CAN bus) |Joint Indexes (YARP ports) |
 | ------------- | ------------- |
 | <img alt="DH" src="fig/Joints_(can).png" width="300" /> | <img alt="DH" src="fig/Joints_(yarp).png" width="500" /> |
@@ -19,16 +19,15 @@
 | <img alt="DH" src="fig/Directions.png" width="300" /> |
 
 ## DH Coordinate Systems
-
 <img alt="DH" src="fig/dh-drawing.png" width="400" />
 
-## Link Names
+## Link Lengths
+<img alt="DH" src="fig/Lengths.png" width="250" />
+<img alt="DH" src="fig/TEO_by_links.JPG" width="400" />
 
+## Link Names
 - Github: [teo-link-names.pdf](fig/teo-link-names.pdf)
 - Gitbook: {% pdf src="fig/teo-link-names.pdf", width="100%", height="1100" %}{% endpdf %}
-
-## Link Lengths
-<img alt="DH" src="fig/Lengths.png" width="250" />  <img alt="DH" src="fig/TEO_by_links.JPG" width="400" /> 
 
 ## COGs
 | COGs |
