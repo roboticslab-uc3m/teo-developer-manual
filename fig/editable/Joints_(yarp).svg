@@ -14,8 +14,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="joints (yarp).svg"
-   inkscape:export-filename="/home/santi/Repositories/smorante/Teo/schemes/joints (yarp).png"
+   sodipodi:docname="Joints_(yarp).svg"
+   inkscape:export-filename="/home/yo/repos/teo-developer-manual/fig/Joints_(yarp).png"
    inkscape:export-xdpi="53.6026"
    inkscape:export-ydpi="53.6026">
   <defs
@@ -35,21 +35,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.46833061"
-     inkscape:cx="634.09751"
-     inkscape:cy="500.27529"
+     inkscape:zoom="0.93666122"
+     inkscape:cx="282.2075"
+     inkscape:cy="434.45979"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1215"
-     inkscape:window-height="776"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     showguides="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -58,7 +59,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -67,6 +68,11 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-112.30998,-83.939911)">
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:7.97298336;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 584.56663,582.23664 0,36.70667"
+       id="path4353"
+       inkscape:connector-curvature="0" />
     <path
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
@@ -997,40 +1003,6 @@
          id="tspan4204"
          x="558.85217"
          y="183.54456">YARP Ports:</tspan></text>
-    <rect
-       ry="7.2635636"
-       y="612.03217"
-       x="-570.28888"
-       height="49.698063"
-       width="9.3535242"
-       id="rect3599"
-       style="fill:#8d5fd3;fill-opacity:1;stroke:#000000;stroke-width:2.89146829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       transform="scale(-1,1)" />
-    <rect
-       transform="scale(-1,1)"
-       style="fill:#8d5fd3;fill-opacity:1;stroke:#000000;stroke-width:2.89146829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3601"
-       width="9.3535242"
-       height="49.698063"
-       x="-607.37158"
-       y="612.03217"
-       ry="7.2635636" />
-    <rect
-       style="fill:#8d5fd3;fill-opacity:1;stroke:#000000;stroke-width:1.94261146;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3593"
-       width="54.558857"
-       height="38.93631"
-       x="556.87402"
-       y="584.94427"
-       ry="6.9605665" />
-    <rect
-       style="fill:#8d5fd3;fill-opacity:1;stroke:#000000;stroke-width:3.04957914;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3597"
-       width="16.910151"
-       height="47.865944"
-       x="575.69843"
-       y="612.94818"
-       ry="6.9957924" />
     <text
        sodipodi:linespacing="125%"
        id="text3173"
@@ -1043,52 +1015,6 @@
          x="559.67444"
          id="tspan3175"
          sodipodi:role="line">6</tspan></text>
-    <rect
-       transform="scale(-1,1)"
-       style="fill:#d45500;fill-opacity:1;stroke:#000000;stroke-width:2.89146829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3187"
-       width="9.3535242"
-       height="49.698063"
-       x="-136.57462"
-       y="615.23505"
-       ry="7.2635636" />
-    <rect
-       ry="7.2635636"
-       y="615.23505"
-       x="-173.65732"
-       height="49.698063"
-       width="9.3535242"
-       id="rect3189"
-       style="fill:#d45500;fill-opacity:1;stroke:#000000;stroke-width:2.89146829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       transform="scale(-1,1)" />
-    <rect
-       ry="6.9605665"
-       y="588.14716"
-       x="123.15975"
-       height="38.93631"
-       width="54.558857"
-       id="rect3191"
-       style="fill:#d45500;fill-opacity:1;stroke:#000000;stroke-width:1.94261146;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       ry="6.9957924"
-       y="616.15106"
-       x="141.98416"
-       height="47.865944"
-       width="16.910151"
-       id="rect3193"
-       style="fill:#d45500;fill-opacity:1;stroke:#000000;stroke-width:3.04957914;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
-       x="125.96017"
-       y="618.40094"
-       id="text3196"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3198"
-         x="125.96017"
-         y="618.40094"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Rekha;-inkscape-font-specification:'Rekha Medium';fill:#ffffff;stroke:#ffffff;stroke-opacity:1">6</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4321"
@@ -1152,5 +1078,105 @@
          id="tspan4196-6-6"
          x="-656.84515"
          y="1070.0178">locomotion</tspan></text>
+    <g
+       id="g4342">
+      <path
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:7.97298336;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 149.41474,582.23654 0,36.70667"
+         id="path4458-5"
+         inkscape:connector-curvature="0" />
+      <rect
+         ry="5.2485604"
+         y="665.05548"
+         x="-137.01773"
+         height="35.911201"
+         width="9.9761972"
+         id="rect3187"
+         style="fill:#d45500;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="scale(-1,1)" />
+      <rect
+         transform="scale(-1,1)"
+         style="fill:#d45500;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect3189"
+         width="9.9319172"
+         height="28.322584"
+         x="-177.91165"
+         y="666.91101"
+         ry="4.1394553" />
+      <rect
+         style="fill:#d45500;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect3191"
+         width="54.558857"
+         height="38.93631"
+         x="125.15975"
+         y="638.14716"
+         ry="6.9605665" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3196"
+         y="668.40094"
+         x="125.96017"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Rekha;-inkscape-font-specification:'Rekha Medium';fill:#ffffff;stroke:#ffffff;stroke-opacity:1"
+           y="668.40094"
+           x="125.96017"
+           id="tspan3198"
+           sodipodi:role="line">6</tspan></text>
+      <rect
+         ry="4.7206912"
+         y="602.97809"
+         x="123.55836"
+         height="26.406799"
+         width="54.587841"
+         id="rect3839-7"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.00053132;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         rx="4.7206912" />
+    </g>
+    <rect
+       ry="5.2485604"
+       y="665.0556"
+       x="603.08734"
+       height="35.911201"
+       width="9.9761972"
+       id="rect4355"
+       style="fill:#8d5fd3;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#8d5fd3;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4357"
+       width="9.9319172"
+       height="28.322584"
+       x="562.19342"
+       y="666.91113"
+       ry="4.1394553" />
+    <rect
+       style="fill:#8d5fd3;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4359"
+       width="54.558857"
+       height="38.93631"
+       x="560.31165"
+       y="638.14728"
+       ry="6.9605665" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4361"
+       y="668.40106"
+       x="561.11206"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Rekha;-inkscape-font-specification:'Rekha Medium';fill:#ffffff;stroke:#ffffff;stroke-opacity:1"
+         y="668.40106"
+         x="561.11206"
+         id="tspan4363"
+         sodipodi:role="line">6</tspan></text>
+    <rect
+       ry="4.7206912"
+       y="602.97821"
+       x="558.71027"
+       height="26.406799"
+       width="54.587841"
+       id="rect4365"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.00053132;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       rx="4.7206912" />
   </g>
 </svg>
