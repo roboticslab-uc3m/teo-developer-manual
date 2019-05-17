@@ -12,11 +12,11 @@
 6. Then, turn on each of the [switches](/fig/pc-switches.jpg) corresponding to the computers. The buttons of the second column are responsible for turning on the computers of the head, manipulation and locomotion in this order. The buttons of the first column are used to reset the computers in the same order as the second column. 
 7. If it was needed or it was interesting for the demo:
    * turn on the television
-   * turn on the chest lights (You can use a mobile application named: Serial Bluetooth Terminal to change the colors sequence)
+   * turn on the chest lights (You can use a mobile application named: [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&gl=ES) to change the colors sequence)
 8. Have the [emergency buttons](/fig/emergency-buttons.jpg) of the motors close to you and open the ones we're going to use.
 9. Double click on the desktop icon "teo-main yarpmanager":
 Click on "Refresh status" (blue button in fourth position).
-In "Resource" (Bottom right), computers that have been previously turned on must be listed as "available" (green). If there are problems, restart again in the order indicated, or follow the procedure indicated in [TEO_Network_troubleshooting]
+In "Resource" (Bottom right), computers that have been previously turned on must be listed as "available" (green). If there are problems, restart again in the order indicated, or follow the procedure indicated in [TEO_Network_troubleshooting](http://robots.uc3m.es/index.php/TEO_Network_troubleshooting)
 10. Click on "Run" (green Play button)
 11. Check the operation of each program through "teoTools_App"
 
