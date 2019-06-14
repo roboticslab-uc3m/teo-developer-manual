@@ -92,7 +92,7 @@ Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) an
 - pass: teo
 - su: locomotion
 
-The execution of `yarprun --server /locomotion` is implemented as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/rc.local` through the line lines:
+The execution of `yarprun --server /locomotion` is implemented as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
 
 ```bash
 #!/bin/bash  
@@ -118,13 +118,7 @@ Intended for [vision](https://github.com/roboticslab-uc3m/vision) and [speech](h
 - user: teo
 - pass: teo
 
-The execution of `yarprun --server /head` is implemented as service using `daemontools` ([Help on daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)). `daemontools` is activated in `/etc/rc.local` through the line (before exit):
-
-```bash
-/bin/csh -cf '/usr/bin/svscanboot &'
-```
-
-`yarprun --server /head` is activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
+The execution of `yarprun --server /head` is implemented as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
 
 ```bash
 #!/bin/bash
