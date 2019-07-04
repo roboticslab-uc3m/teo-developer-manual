@@ -8,7 +8,7 @@ Cadera Axial Drch.,RightAxialHip,Right leg (/dev/can0),1,6,CAD-6,339287,400,-37.
 Cintura Frontal,FrontalWaist,Right leg (/dev/can0),0,14,CF-14,251601,480,-95.412994,15.114234,-90.4,10.1,-90.4,10.1
 Cintura Axial,AxialWaist,Left leg (/dev/can1),0,13,CA-13,251601,160,-51.318099,51.318099,-59.3,46.3,-30,30.0
 Cadera Axial Izq.,LeftAxialHip,Left leg (/dev/can1),1,7,CAI-7,339287,400,-32.934967,37.785587,-27.9,32.8,-27.9,32.8
-Cadera Sagital Izq.,LeftSaggitalHip,Left leg (/dev/can1),2,8,CSI-8,339287,523.2,-17.486818,19.244287,-12.5,14.2,-14.2,12.5
+Cadera Sagital Izq.,LeftSaggitalHip,Left leg (/dev/can1),2,8,CSI-8,339287,523.2,-17.486818,19.244287,-12.5,14.2,-12.5,14.2
 Cadera Frontal Izq.,LeftFrontalHip,Left leg (/dev/can1),3,9,CFI-9,402686,192,-36.625671,47.275921,-31.6,42.3,-31.6,30.0
 Rodilla Frontal Izq.,LeftFrontalKnee,Left leg (/dev/can1),4,10,RFI-10,402686,235.2,-66.326904,87.434097,-61.3,82.4,-61.3,82.4
 Tobillo Frontal Izq.,LeftFrontalAnkle,Left leg (/dev/can1),5,11,TFI-11,402686,270.4,-28.119507,30.386658,-23.1,25.4,-20,25.4
