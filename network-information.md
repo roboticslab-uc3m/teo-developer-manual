@@ -39,10 +39,10 @@
 - user: ubnt
 - pass: ubnt
 
-## manipulation (robot front right PC)
+## manipulation (left robot PC)
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
-- OS: Ubuntu 16.04 Xenial (per [teo-main#32](https://github.com/roboticslab-uc3m/teo-main/issues/32#issuecomment-364136297) has dual boot: Debian GNU/Linux 6.0.10 Squeeze)
+- OS: Ubuntu 16.04 Xenial
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 Intended for [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) and [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics).
@@ -78,7 +78,7 @@ yarprun --server /manipulation
    - [VirtualBox Image with Windows 7 and MPLAB IDE v8.92](https://drive.google.com/open?id=1M8_ixoSgd8n-s4Gv71IwQD_nJKU8QcJH)
    - [CuiAbsolute Documentation](cui-absolute-values.md)
 
-## locomotion (robot front left PC)
+## locomotion (right robot PC)
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
 - OS: Ubuntu 16.04 Xenial (per [teo-main#32](https://github.com/roboticslab-uc3m/teo-main/issues/32#issuecomment-364136297) has dual boot: Debian GNU/Linux 6.0.10 Squeeze)
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
@@ -107,7 +107,7 @@ yarprun --server /locomotion
    - [VirtualBox Image with Windows 7: MPLAB IDE v8.92 and EasySetUp](https://drive.google.com/a/uc3m.es/folderview?id=0BxR76I90oKSmdnRhQlpsS3pXWm8&usp=sharing)
    - [CuiAbsolute Documentation](cui-absolute-values.md)
 
-## teo-head (robot back left PC)
+## teo-head (center robot PC)
 Memory 3.1 GiB, Processor Intel® Core™ i5-4570S CPU @ 2.90GHz x 4, Disk 52 GiB.
 - OS: OS: Ubuntu 16.04 Xenial.
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
