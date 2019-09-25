@@ -8,3 +8,4 @@ Inertial Sensor,XSENS,MTi-28A53G35,xsensmtx,Product ID: MTi-28A53G35 Device ID: 
 RGBD Sensor,ASUS,XtionPRO Live,OpenNI2Server,RGB and Depth Sensor
 RGB Camera,Point Grey,Flea3 FL3-U3-88S2C-C,AravisGigE,USB3
 Fetch Hand,Lacquey,Fetch Hand,LacqueyFetch,Three finger underactuated
+CAN board,PEAK-System,PCAN-M.2,CanBusPeak,Four channels
