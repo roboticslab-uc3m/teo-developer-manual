@@ -23,7 +23,7 @@
 
 ## Link Lengths
 <img alt="DH" src="fig/Lengths.png" width="250" />
-<img alt="DH" src="fig/TEO_by_links.JPG" width="400" />
+<img alt="DH" src="fig/TEO_by_links.jpg" width="400" />
 
 ## Link Names
 - Github: [teo-link-names.pdf](fig/teo-link-names.pdf)
