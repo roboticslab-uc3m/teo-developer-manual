@@ -19,6 +19,8 @@ Hombro Axial Der.,RightAxialShoulder,Manipulation /dev/can0,17,/teo/rightArm,2,H
 Codo Frontal Der.,RightFrontalElbow,Manipulation /dev/can0,18,/teo/rightArm,3,CFD-18,339282,160,-104.56942,103.409485,-99.6,98.4,-99.6,5.0
 Muñeca Axial Der.,RightAxialWrist,Manipulation /dev/can0,19,/teo/rightArm,4,MAD-19,339282,120,-85.413002,104.63972,-80.4,99.6,-80.4,90
 Muñeca Frontal Der.,RightFrontalWrist,Manipulation /dev/can0,20,/teo/rightArm,5,MFD-20,339282,120,-120.123024,49.718811,-115.1,44.7,-70,44.7
+Cuello Frontal,FrontalNeck,Manipulation /dev/can0,28,/teo/head,1,CF-28,,,,,-10,10,,
+Cuello Axial,AxialNeck,Manipulation /dev/can1,27,/teo/head,0,CA-27,,,,,-60,60,,
 Hombro Frontal Izq.,LeftFrontalShoulder,Manipulation /dev/can1,21,/teo/leftArm,0,HFI-21,339282,160,-101.827759,118.189804,-96.8,113.2,-96.8,45.0
 Hombro Sagital Izq.,LeftSaggitalShoulder,Manipulation /dev/can1,22,/teo/leftArm,1,HSI-22,339282,160,-28.892792,81.458702,-23.9,76.5,-23.9,76.5
 Hombro Axial Izq.,LeftAxialShoulder,Manipulation /dev/can1,23,/teo/leftArm,2,HAI-23,339282,120,-56.590508,89.086121,-51.6,84.1,-51.6,40.0
