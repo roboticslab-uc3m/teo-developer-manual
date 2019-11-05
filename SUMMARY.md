@@ -11,7 +11,6 @@
 * [Diagrams](diagrams.md)
 * [Tables](tables.md)
 * [Dynamic information](dynamic-information.md)
-* [CuiAbsolute](cui-absolute-values.md)
 * [Switches and Power](switches-and-power.md)
 * [Connectors](connectors.md)
 * [Network information](network-information.md)
