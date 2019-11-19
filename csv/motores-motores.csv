@@ -1,20 +1,20 @@
 Joint,Label,CAN Bus,CAN ID,YARP Port,YARP ID,MOTOR,R. total,Hard. Limit Min (degrees),Hard. Limit Max (degrees),Soft. Limit Min (degrees) ,Soft. Limit Max (degrees) ,Human-inspired Min Limit (degrees),Human-inspired Max Limit (degrees)
-SaggitalRightAnkle,SRA1,Locomotion /dev/can0,1,/teo/rightLeg,5,251601,235.2,-24.956062,47.521973,-19.9,42.5,-5,5.0
+SagittalRightAnkle,SRA1,Locomotion /dev/can0,1,/teo/rightLeg,5,251601,235.2,-24.956062,47.521973,-19.9,42.5,-5,5.0
 FrontalRightAnkle,FRA2,Locomotion /dev/can0,2,/teo/rightLeg,4,402686,270.4,-28.119507,30.386658,-23.1,25.4,-20,25.4
 FrontalRightKnee,FRK3,Locomotion /dev/can0,3,/teo/rightLeg,3,402686,235.2,-66.326904,87.434097,-61.3,82.4,-61.3,82.4
 FrontalRightHip,FRH4,Locomotion /dev/can0,4,/teo/rightLeg,2,402686,192,-36.625671,47.275921,-31.6,42.3,-31.6,30
-SaggitalRightHip,SRH5,Locomotion /dev/can0,5,/teo/rightLeg,1,251601,523.2,-19.244287,17.486818,-14.2,12.5,-14.2,12.5
+SagittalRightHip,SRH5,Locomotion /dev/can0,5,/teo/rightLeg,1,251601,523.2,-19.244287,17.486818,-14.2,12.5,-14.2,12.5
 AxialRightHip,ARH6,Locomotion /dev/can0,6,/teo/rightLeg,0,339287,400,-37.785587,32.934967,-32.8,27.9,-32.8,27.9
 FrontalTrunk,FT14,Locomotion /dev/can0,14,/teo/trunk,1,251601,480,-95.412994,15.114234,-90.4,10.1,-90.4,10.1
 AxialTrunk,AT13,Locomotion /dev/can1,13,/teo/trunk,0,251601,160,-51.318099,51.318099,-59.3,46.3,-30,30.0
 AxialLeftHip,ALH7,Locomotion /dev/can1,7,/teo/leftLeg,0,339287,400,-32.934967,37.785587,-27.9,32.8,-27.9,32.8
-SaggitalLeftHip,SLH8,Locomotion /dev/can1,8,/teo/leftLeg,1,339287,523.2,-17.486818,19.244287,-12.5,14.2,-12.5,14.2
+SagittalLeftHip,SLH8,Locomotion /dev/can1,8,/teo/leftLeg,1,339287,523.2,-17.486818,19.244287,-12.5,14.2,-12.5,14.2
 FrontalLeftHip,FLH9,Locomotion /dev/can1,9,/teo/leftLeg,2,402686,192,-36.625671,47.275921,-31.6,42.3,-31.6,30.0
 FrontalLeftKnee,FLK10,Locomotion /dev/can1,10,/teo/leftLeg,3,402686,235.2,-66.326904,87.434097,-61.3,82.4,-61.3,82.4
 FrontalLeftAnkle,FLA11,Locomotion /dev/can1,11,/teo/leftLeg,4,402686,270.4,-28.119507,30.386658,-23.1,25.4,-20,25.4
-SaggitalLeftAnkle,SLA12,Locomotion /dev/can1,12,/teo/leftLeg,5,251601,235.2,-47.521973,24.956062,-42.5,19.9,-5,5.0
+SagittalLeftAnkle,SLA12,Locomotion /dev/can1,12,/teo/leftLeg,5,251601,235.2,-47.521973,24.956062,-42.5,19.9,-5,5.0
 FrontalRightShoulder,FRS15,Manipulation /dev/can0,15,/teo/rightArm,0,339282,160,-103.07556,110.966614,-98.1,106,-98.1,45.0
-SaggitalRightShoulder,SRS16,Manipulation /dev/can0,16,/teo/rightArm,1,339282,160,-80.474518,27.416519,-75.5,22.4,-75.5,22.4
+SagittalRightShoulder,SRS16,Manipulation /dev/can0,16,/teo/rightArm,1,339282,160,-80.474518,27.416519,-75.5,22.4,-75.5,22.4
 AxialRightShoulder,ARS17,Manipulation /dev/can0,17,/teo/rightArm,2,339282,120,-85.149384,62.021088,-80.1,57,-40,55.0
 FrontalRightElbow,FRE18,Manipulation /dev/can0,18,/teo/rightArm,3,339282,160,-104.56942,103.409485,-99.6,98.4,-99.6,5.0
 AxialRightWrist,ARW19,Manipulation /dev/can0,19,/teo/rightArm,4,339282,120,-85.413002,104.63972,-80.4,99.6,-80.4,90
@@ -22,7 +22,7 @@ FrontalRightWrist,FRW20,Manipulation /dev/can0,20,/teo/rightArm,5,339282,120,-12
 FrontalNeck,FN28,Manipulation /dev/can0,28,/teo/head,1,,,,,-10,10,,
 AxialNeck,AN27,Manipulation /dev/can1,27,/teo/head,0,,,,,-60,60,,
 FrontalLeftShoulder,FLS21,Manipulation /dev/can1,21,/teo/leftArm,0,339282,160,-101.827759,118.189804,-96.8,113.2,-96.8,45.0
-SaggitalLeftShoulder,SLS22,Manipulation /dev/can1,22,/teo/leftArm,1,339282,160,-28.892792,81.458702,-23.9,76.5,-23.9,76.5
+SagittalLeftShoulder,SLS22,Manipulation /dev/can1,22,/teo/leftArm,1,339282,160,-28.892792,81.458702,-23.9,76.5,-23.9,76.5
 AxialLeftShoulder,ALS23,Manipulation /dev/can1,23,/teo/leftArm,2,339282,120,-56.590508,89.086121,-51.6,84.1,-51.6,40.0
 FrontalLeftElbow,FLE24,Manipulation /dev/can1,24,/teo/leftArm,3,339282,160,-106.13357,101.845345,-101.1,96.8,-101.1,5.0
 AxialLeftWrist,ALW25,Manipulation /dev/can1,25,/teo/leftArm,4,339282,120,-106.32688,81.441132,-101.3,76.4,-90,76.4

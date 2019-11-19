@@ -202,7 +202,7 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 
 
-### RightSaggitalShoulder
+### RightSagittalShoulder
 
 Mass = 1000.00 g
 
@@ -356,7 +356,7 @@ Taken at the center of mass and aligned with the output coordinate system.
 	Lzx = -11670.89		Lzy = 280493.15		Lzz = 4093219.64
 
 
-### LeftSaggitalShoulder
+### LeftSagittalShoulder
 
 Mass (user-overridden) = 1000.00 g
 
@@ -506,7 +506,7 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 	Lzx = 2496.11		Lzy = 0.00		Lzz = 1706348.90
 
-### RightSaggitalHip
+### RightSagittalHip
 
 Mass = 1454.59 g
 
@@ -601,7 +601,7 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 	Lzx = 0.01		Lzy = 0.00		Lzz = 2418656.52
 
-### RightSaggitalAnkle
+### RightSagittalAnkle
 
 Mass = 3133.40 g
 
@@ -651,7 +651,7 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 	Lzx = 2496.11		Lzy = 0.00		Lzz = 1706348.90
 
-### LeftSaggitalHip
+### LeftSagittalHip
 
 Mass = 1454.59 g
 
