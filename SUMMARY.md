@@ -1,6 +1,6 @@
 # Summary
 
-* [Cover](gitbook-cover.md)
+* [TEO Developer Manual](gitbook-cover.md)
 * [Overview](overview/README.md)
   * [Software Architecture](overview/architecture.md)
   * [PC Software](overview/pc.md)
