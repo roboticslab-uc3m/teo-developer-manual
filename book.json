@@ -2,5 +2,5 @@
   "structure": {
     "readme": "gitbook-cover.md"
   },
-  "plugins": ["include-csv","embed-pdf"]
+  "plugins": ["include-csv","embed-pdf","mermaid-gb3","include"]
 }
