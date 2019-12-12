@@ -26,6 +26,10 @@
 <img alt="DH" src="fig/TEO_by_links.jpg" width="400" />
 
 ## Link Names
+```mermaid
+!INCLUDE "./fig/editable/teo.mermaid"
+```
+
 - Github: [teo-link-names.pdf](fig/teo-link-names.pdf)
 - Gitbook: {% pdf src="fig/teo-link-names.pdf", width="100%", height="1100" %}{% endpdf %}
 
