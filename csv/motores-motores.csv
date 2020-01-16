@@ -1,7 +1,7 @@
 Joint,Label,CAN Bus,CAN ID,YARP Port,YARP ID,MOTOR,R. total,Hard. Limit Min (degrees),Hard. Limit Max (degrees),Soft. Limit Min (degrees) ,Soft. Limit Max (degrees) ,Human-inspired Min Limit (degrees),Human-inspired Max Limit (degrees)
 SagittalRightAnkle,SRA1,Locomotion /dev/can0,1,/teo/rightLeg,5,251601,235.2,-24.956062,47.521973,-19.9,42.5,-5,5.0
 FrontalRightAnkle,FRA2,Locomotion /dev/can0,2,/teo/rightLeg,4,402686,270.4,-28.119507,30.386658,-23.1,25.4,-20,25.4
-FrontalRightKnee,FRK3,Locomotion /dev/can0,3,/teo/rightLeg,3,402686,235.2,-66.326904,87.434097,-61.3,82.4,-61.3,82.4
+FrontalRightKnee,FRK3,Locomotion /dev/can0,3,/teo/rightLeg,3,402686,235.2,-66.326904,87.434097,-61.3,82.4,0,82.4
 FrontalRightHip,FRH4,Locomotion /dev/can0,4,/teo/rightLeg,2,402686,192,-36.625671,47.275921,-31.6,42.3,-31.6,30
 SagittalRightHip,SRH5,Locomotion /dev/can0,5,/teo/rightLeg,1,251601,523.2,-19.244287,17.486818,-14.2,12.5,-14.2,12.5
 AxialRightHip,ARH6,Locomotion /dev/can0,6,/teo/rightLeg,0,339287,400,-37.785587,32.934967,-32.8,27.9,-32.8,27.9
@@ -10,7 +10,7 @@ AxialTrunk,AT13,Locomotion /dev/can1,13,/teo/trunk,0,251601,160,-51.318099,51.31
 AxialLeftHip,ALH7,Locomotion /dev/can1,7,/teo/leftLeg,0,339287,400,-32.934967,37.785587,-27.9,32.8,-27.9,32.8
 SagittalLeftHip,SLH8,Locomotion /dev/can1,8,/teo/leftLeg,1,339287,523.2,-17.486818,19.244287,-12.5,14.2,-12.5,14.2
 FrontalLeftHip,FLH9,Locomotion /dev/can1,9,/teo/leftLeg,2,402686,192,-36.625671,47.275921,-31.6,42.3,-31.6,30.0
-FrontalLeftKnee,FLK10,Locomotion /dev/can1,10,/teo/leftLeg,3,402686,235.2,-66.326904,87.434097,-61.3,82.4,-61.3,82.4
+FrontalLeftKnee,FLK10,Locomotion /dev/can1,10,/teo/leftLeg,3,402686,235.2,-66.326904,87.434097,-61.3,82.4,0,82.4
 FrontalLeftAnkle,FLA11,Locomotion /dev/can1,11,/teo/leftLeg,4,402686,270.4,-28.119507,30.386658,-23.1,25.4,-20,25.4
 SagittalLeftAnkle,SLA12,Locomotion /dev/can1,12,/teo/leftLeg,5,251601,235.2,-47.521973,24.956062,-42.5,19.9,-5,5.0
 FrontalRightShoulder,FRS15,Manipulation /dev/can0,15,/teo/rightArm,0,339282,160,-103.07556,110.966614,-98.1,106,-98.1,45.0
