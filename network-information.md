@@ -2,7 +2,7 @@
 
 * [TEONET (main router)](#teonet-main-router)
 * [TL-WR2543ND: router configured as switch](#tl-wr2543nd-router-configured-as-switch)
-* [EdgeRouter X: Teo internal router as a switch](#edgerouter-x-teo-internal-router-as-a-switch)
+* [Ubiquiti EdgeRouter X: Teo internal router as a switch](#ubiquiti-edgerouter-x-teo-internal-router-as-a-switch)
 * [manipulation (robot front right PC)](#manipulation-robot-front-right-pc)
 * [locomotion (robot front left PC)](#locomotion-robot-front-left-pc)
 * [teo-head (robot back left PC)](#teo-head-robot-back-left-pc)
@@ -34,7 +34,7 @@
 - pass: admin
 
 
-## EdgeRouter X: Teo internal router as a switch
+## Ubiquiti EdgeRouter X: Teo internal router as a switch
 - Internal IP: 2.2.2.10
 - IP Subnet Mask: 255.255.255.0
 - user: ubnt
