@@ -74,6 +74,7 @@ yarprun --server /manipulation
 ```
 
 ### install
+- [GCC 7.5](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues/58#issuecomment-683809599)
 - [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices)
 - [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics)
 - [PCAN-M2](http://robots.uc3m.es/gitbook-installation-guides/install-pcan.html)
@@ -82,7 +83,7 @@ yarprun --server /manipulation
    - [VirtualBox Image with Windows 7 and MPLAB IDE v8.92](https://drive.google.com/open?id=1M8_ixoSgd8n-s4Gv71IwQD_nJKU8QcJH)
 - `YARP_ROBOT_NAME=teo`
 - `YARP_PORT_PREFIX=/teo`
-
+- `YARP_COLORED_OUTPUT=1`
 
 ## locomotion (right robot PC)
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
@@ -108,6 +109,7 @@ yarprun --server /locomotion
 ```
 
 ### install
+- [GCC 7.5](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues/58#issuecomment-683809599)
 - [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices)
 - [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics)
 - [XSENS](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-xsens.md)
@@ -115,6 +117,7 @@ yarprun --server /locomotion
    - [VirtualBox Image with Windows 7: MPLAB IDE v8.92 and EasySetUp](https://drive.google.com/a/uc3m.es/folderview?id=0BxR76I90oKSmdnRhQlpsS3pXWm8&usp=sharing)
 - `YARP_ROBOT_NAME=teo`
 - `YARP_PORT_PREFIX=/teo`
+- `YARP_COLORED_OUTPUT=1`
 
 ## teo-head (center robot PC)
 Memory 3.1 GiB, Processor Intel® Core™ i5-4570S CPU @ 2.90GHz x 4, Disk 52 GiB.
@@ -139,9 +142,10 @@ yarprun --server /head
 ```
 
 ### install
+- [GCC 7.5](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues/58#issuecomment-683809599)
 - [vision](https://github.com/roboticslab-uc3m/vision)
 - [speech](https://github.com/roboticslab-uc3m/speech)
-
+- `YARP_COLORED_OUTPUT=1`
 
 ## Mapping hostnames to IP addreses in your computer
 
