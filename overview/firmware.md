@@ -8,4 +8,4 @@ The robot PC device drivers are in [yarp-devices](https://github.com/roboticslab
 
 More information on these instances and their configuration can be found in the [TEO Network Information](../appendix/c-teo-network-information.md) appendix.
 
-Additional low-level microcontroller firmware used in TEO can be found in [yarp-devices/firmware](https://github.com/roboticslab-uc3m/yarp-devices/tree/develop/firmware).
+Additional low-level microcontroller firmware used in TEO can be found in [yarp-devices/firmware](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/firmware).
