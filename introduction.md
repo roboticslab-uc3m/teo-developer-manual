@@ -1,4 +1,4 @@
-# Frequently Asked Questions (FAQ)
+# Introduction
 
 ## Where should I start?
 

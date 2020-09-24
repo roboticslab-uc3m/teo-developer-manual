@@ -1,7 +1,7 @@
 # Summary
 
 * [TEO Developer Manual](gitbook-cover.md)
-* [Frequently Asked Questions (FAQ)](frequently-asked-questions.md)
+* [Introduction](introduction.md)
 * [Overview](overview/README.md)
   * [Software Architecture](overview/architecture.md)
   * [PC Software](overview/pc.md)
