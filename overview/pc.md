@@ -16,3 +16,5 @@ As well as the following TEO-specific repositories:
 * [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual): This TEO developer manual.
 * [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files): TEO configuration files, ranging from kinematic description files to scripts such as `teoSim`.
 * [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models): TEO OpenRAVE models.
+
+An updated list of repositories related to TEO (as well as generic reusable components) can be found at the [roboticslab-uc3m Repository Index](http://robots.uc3m.es/gitbook-developer-manual/appendix/repository-index.html#teo).
