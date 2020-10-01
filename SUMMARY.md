@@ -2,7 +2,7 @@
 
 * [TEO Developer Manual](gitbook-cover.md)
 * [Introduction](introduction.md)
-* [Software Architecture](architecture.md)
+* [Cognitive Architecture](architecture.md)
 * [Software Overview](overview/README.md)
   * [PC Software](overview/pc.md)
   * [Firmware](overview/firmware.md)
