@@ -32,3 +32,26 @@ teoSim
 You should get a window similar to the one depicted below.
 
 ![teoSim](fig/teoSim.png)
+
+
+### Interfacing with teoSim
+
+We can interact with this program through port commands as described below, or through the different language APIs as can be seen in the different [yarp-devices examples](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples), for instance the `exampleRemoteControlboard` to move robot joints.
+
+The loaded components open, among others, the server side network wrapper of YARP motor interfaces. While the recommended practice is to communicate via the APIs, we can interface with the opened ports directly from a new terminal via (replace `leftArm` for the limb of your choice, see [Joint Indexes (YARP ports) diagram](diagrams.html#joint-indexes)):
+
+```bash
+yarp rpc /teoSim/leftArm/rpc:i
+```
+
+From within this, we can send an absolute position joint space movement such as (joint 0, -45 degrees; see [Joint Directions of Rotation diagram](diagrams.html#joint-directions-of-rotation)):
+
+```
+set pos 0 -45
+```
+
+And should get some kind of feedback, such as:
+
+```
+Response: [ok]
+```
