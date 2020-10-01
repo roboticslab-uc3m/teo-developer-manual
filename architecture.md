@@ -7,4 +7,4 @@ Conventionally, we have said that there is technically no fixed software archite
 
 The following is an example of a good functional working architecture, extracted from the [follow-me](https://github.com/roboticslab-uc3m/follow-me) demonstration repository.
 
-![follow-me app](../fig/follow-me-app.png)
+![follow-me app](./fig/follow-me-app.png)
