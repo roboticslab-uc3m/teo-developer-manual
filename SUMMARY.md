@@ -2,8 +2,8 @@
 
 * [TEO Developer Manual](gitbook-cover.md)
 * [Introduction](introduction.md)
+* [Software Architecture](architecture.md)
 * [Overview](overview/README.md)
-  * [Software Architecture](overview/architecture.md)
   * [PC Software](overview/pc.md)
   * [Firmware](overview/firmware.md)
   * [Demonstration](overview/demonstration.md)
