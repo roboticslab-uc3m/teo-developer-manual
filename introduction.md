@@ -15,7 +15,7 @@ Now that you have installed the basic TEO simulator, you're probably wondering w
 
 ###  Initializing the communication server
 
-Our current implementation uses [YARP](http://eris.liralab.it/yarpdoc/what_is_yarp.html) for communication. Basic use of YARP requires the use of a centralized server. This server associates the low-level implementation of the communication ports with the names we give them. Before executing any TEO program or application, please launch a yarp server from a terminal:
+Our current implementation uses [YARP](http://eris.liralab.it/yarpdoc/what_is_yarp.html) for communication. Basic use of YARP requires the use of a centralized server. This server associates the low-level implementation of the communication ports with the names we give them. Before executing any TEO program or application, please launch a YARP server from a terminal:
 
 ```bash
 yarp server
@@ -35,7 +35,7 @@ You should get a window similar to the one depicted below.
 
 ### Launching the simulator through the application manager
 
-It turns out to be much more practical to launch everything throuh the YARP application manager.
+It turns out to be much more practical to launch everything through the YARP application manager.
 Close the `teoSim` window, and instead launch the following from the terminal:
 
 ```bash
@@ -46,24 +46,39 @@ You should get a window similar to the one depicted below. Navigate through `App
 
 ![yarpmanager-teoBase](fig/teo-yarpmanager.png)
 
-### Interfacing with teoSim
+### Interfacing with the robot
 
-We can interact with this program through port commands as described below, or through the different language APIs as can be seen in the different [yarp-devices examples](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples), for instance the `exampleRemoteControlboard` to move robot joints.
+Great news! Interfacing with the robot in simulation will be exactly the same as with the real robot! 2x1! Yay! It in fact shares common interfaces with all YARP-speaking robots! Nx1!!
 
-The loaded components open, among others, the server side network wrapper of YARP motor interfaces. While the recommended practice is to communicate via the APIs, we can interface with the opened ports directly from a new terminal via (replace `leftArm` for the limb of your choice, see [Joint Indexes (YARP ports) diagram](diagrams.html#joint-indexes)):
+Essentially, we can interact with the robot (if these points seem too vague or general, feel free to jump directly to the [motor control](#interfacing-with-the-robot-motor-control) section):
+1. Directly talking to ports. This is considered a **bad practice when APIs are available**, but use cases include: fumbling around on a day just like today, speaking with a port with no API (e.g. no client network wrapper), debugging, or just plain laziness. Our own set of hacks (it's hackish because protocols may be subject to change) can be found at: [yarp-tricks (from developer-manual)](http://robots.uc3m.es/gitbook-developer-manual/appendix/yarp-tricks.html)
+2. Via GUI. In certain cases, we have GUIs!
+3. **Best practice:** Within our programs and scripts, using the APIs provided by YARP. They are available in many programming languages (C++, Python, MATLAB...). Our own set of examples can be found at: [examples (from yarp-devices)](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples)
 
-```bash
-yarp rpc /teoSim/leftArm/rpc:i
-```
+### Interfacing with the robot: Motor Control
 
-From within this, we can send an absolute position joint space movement such as (joint 0, -45 degrees; see [Joint Directions of Rotation diagram](diagrams.html#joint-directions-of-rotation)):
+Throughout this section, refer to the [Joint Indexes (YARP ports)](diagrams.html#joint-indexes)  diagram to see port names and joint indexes, as well as the [Joint Directions of Rotation](diagrams.html#joint-directions-of-rotation) diagram.
 
-```
-set pos 0 -45
-```
+1. Directly talking to ports. From a terminal, connect to the limb you prefer (substitute `leftArm` following the above mentioned diagram):
 
-And should get some kind of feedback, such as:
+  ```bash
+  yarp rpc /teoSim/leftArm/rpc:i
+  ```
 
-```
-Response: [ok]
-```
+  From within this, we can send joint space movements, read encoders, etc. For instance, send an absolute joint position command, to joint 0, setting the target to -45 degrees:
+
+  ```
+  set pos 0 -45
+  ```
+
+  You should in turn receive should get some kind of feedback, such as:
+
+  ```
+  Response: [ok]
+  ```
+
+  In line with the hacks mentioned above, refer to a more exhaustive list at: [yarp-tricks: remote_controlboard (from developer-manual)](http://robots.uc3m.es/gitbook-developer-manual/appendix/yarp-tricks.html#remotecontrolboard)
+
+2. Via GUIs.
+
+3. Within our programs and scripts, using the APIs provided by YARP.
