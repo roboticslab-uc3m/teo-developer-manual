@@ -44,7 +44,7 @@ yarpmanager --from applications
 
 You should get a window similar to the one depicted below. Navigate through `Applications` > `teoSimBase_App` > right-click on `teoSim` > `Run`
 
-![yarpmanager-teoBase](fig/teo-yarpmanager.png)
+![teo-yarpmanager](fig/teo-yarpmanager.png)
 
 ### Interfacing with the robot
 
@@ -79,6 +79,15 @@ Throughout this section, refer to the [Joint Indexes (YARP ports)](diagrams.html
 
   In line with the hacks mentioned above, refer to a more exhaustive list at: [yarp-tricks: remote_controlboard (from developer-manual)](http://robots.uc3m.es/gitbook-developer-manual/appendix/yarp-tricks.html#remotecontrolboard)
 
-2. Via GUIs.
+2. Via GUIs. Two options to launch the YARP motor GUI for `teoSim`:
+    - Via terminal:
+  ```
+    yarpmotorgui --from yarpmotorgui/teoSim.ini
+    ```
+    - Via the application manager (better practice): Navigate through `Applications` > `teoSimTools_App` > right-click on `yarpmotorgui` > `Run`
+
+  Any of the two options, and clicking `OK` (ignore the current warnings regarding hands for now) should get you a window similar to the one depicted below.
+
+  ![yarpmotorgui](fig/teo-yarpmotorgui.png)
 
 3. Within our programs and scripts, using the APIs provided by YARP. Also see [iCub-main: Getting accustomed with motor interfaces](https://robotology.github.io/robotology-documentation/doc/html/icub_motor_control_tutorial.html), but in the `remote` line, switch from `/icubSim/right_arm` to `/teoSim/leftArm` or the limb of your selection.
