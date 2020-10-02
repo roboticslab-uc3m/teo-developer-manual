@@ -81,4 +81,4 @@ Throughout this section, refer to the [Joint Indexes (YARP ports)](diagrams.html
 
 2. Via GUIs.
 
-3. Within our programs and scripts, using the APIs provided by YARP. Also see: <https://robotology.github.io/robotology-documentation/doc/html/icub_motor_control_tutorial.html>
+3. Within our programs and scripts, using the APIs provided by YARP. Also see [iCub-main: Getting accustomed with motor interfaces](https://robotology.github.io/robotology-documentation/doc/html/icub_motor_control_tutorial.html), but in the `remote` line, switch from `/icubSim/right_arm` to `/teoSim/leftArm` or the limb of your selection.
