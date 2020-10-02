@@ -21,7 +21,7 @@ Our current implementation uses [YARP](http://eris.liralab.it/yarpdoc/what_is_ya
 yarp server
 ```
 
-### Launching the simulator
+### Launching the simulator through the terminal
 
 Maintaining the YARP server open, launch the simulator from another terminal:
 
@@ -33,6 +33,18 @@ You should get a window similar to the one depicted below.
 
 ![teoSim](fig/teoSim.png)
 
+### Launching the simulator through the application manager
+
+It turns out to be much more practical to launch everything throuh the YARP application manager.
+Close the `teoSim` window, and instead launch the following from the terminal:
+
+```bash
+yarpmanager --from applications
+```
+
+You should get a window similar to the one depicted below. Navigate through `Applications` > `teoSimBase_App` > right-click on `teoSim` > `Run`
+
+![yarpmanager-teoBase](fig/teo-yarpmanager.png)
 
 ### Interfacing with teoSim
 
