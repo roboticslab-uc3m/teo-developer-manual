@@ -81,7 +81,7 @@ Throughout this section, refer to the [Joint Indexes (YARP ports)](diagrams.html
 
 2. Via GUIs. Two options to launch the YARP motor GUI for `teoSim`:
     - Via terminal:
-  ```
+    ```
     yarpmotorgui --from yarpmotorgui/teoSim.ini
     ```
     - Via the application manager (better practice): Navigate through `Applications` > `teoSimTools_App` > right-click on `yarpmotorgui` > `Run`
