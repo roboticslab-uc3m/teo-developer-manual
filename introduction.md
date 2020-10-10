@@ -83,10 +83,10 @@ Throughout this section, refer to the [Joint Indexes (YARP ports)](diagrams.html
   yarp rpc /teoSim/leftArm/rpc:i
   ```
 
-  From within this, we can send joint space movements, read encoders, etc. For instance, send an absolute joint position command, to joint 0, setting the target to -45 degrees:
+  From within this, we can send joint space movements, read encoders, etc. For instance, send an absolute joint position command, to joint 0, setting the target to -25 degrees:
 
   ```
-  set pos 0 -45
+  set pos 0 -25
   ```
 
   You should in turn receive should get some kind of feedback, such as:
