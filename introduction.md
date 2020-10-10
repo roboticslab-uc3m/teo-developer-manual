@@ -8,6 +8,7 @@ As a bare minimum to try the simulator, install the following (note: there is a 
 - https://github.com/roboticslab-uc3m/openrave-yarp-plugins
 - https://github.com/roboticslab-uc3m/teo-openrave-models
 - https://github.com/roboticslab-uc3m/teo-configuration-files
+- https://github.com/roboticslab-uc3m/tools
 
 ## Now what can I do?
 
