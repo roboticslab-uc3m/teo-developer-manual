@@ -111,3 +111,15 @@ Throughout this section, refer to the [Joint Indexes (YARP ports)](diagrams.html
   ![yarpmotorgui](fig/teo-yarpmotorgui.png)
 
 3. Within our programs and scripts, using the APIs provided by YARP. Also see [iCub-main: Getting accustomed with motor interfaces](https://robotology.github.io/robotology-documentation/doc/html/icub_motor_control_tutorial.html), but in the `remote` line, switch from `/icubSim/right_arm` to `/teoSim/leftArm` or the limb of your selection.
+
+### Interfacing with the robot: RGB-D Sensor
+
+First, activate the `teoSim` RGB-D Sensor: In the YARP application manager instance, navigate through `Applications` > `teoSimBase_App` > right-click on the `openraveYarpPluginLoaderClient` corresponding to `RGBDSensorWrapper` > `Run`
+
+To view the depth image: In the YARP application manager instance, navigate through `Applications` > `teoSimTools_App` > right-click on the `yarpview` corresponding to the `depthImage` > `Run`
+
+### Interfacing with the robot: Force/Torque Sensors
+
+First, activate the `teoSim` Force/Torque Sensors: In the YARP application manager instance, navigate through `Applications` > `teoSimBase_App` > right-click on the `openraveYarpPluginLoaderClient` corresponding to `multipleanalogsensorsserver` > `Run`
+
+To view the force/torque signals: In the YARP application manager instance, navigate through `Applications` > `teoSimTools_App` > right-click on the corresponding `yarpscope` > `Run`
