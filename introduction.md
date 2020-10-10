@@ -55,6 +55,14 @@ In the YARP application manager instance, navigate through `Applications` > `teo
 
 You will see no action, but it will provide ports the robot hands that are more similar to the real ones.
 
+### Spawning objects in the simulated environment
+
+In the YARP application manager instance, navigate through `Applications` > `teoSimWorld_App` > right-click on any `openraveYarpWorldClient` > `Run`
+
+Activating `floor` and `ironing_table`, you should get a window similar to the one depicted below.
+
+![teoSim-floor-iron](fig/teoSim-floor-iron.png)
+
 ### Interfacing with the robot
 
 Great news! Interfacing with the robot in simulation will be exactly the same as with the real robot! 2x1! Yay! It in fact shares common interfaces with all YARP-speaking robots! Nx1!!
