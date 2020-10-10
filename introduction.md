@@ -33,7 +33,7 @@ You should get a window similar to the one depicted below.
 
 ![teoSim](fig/teoSim.png)
 
-### Launching the simulator through the application manager
+### Launching the simulator through the YARP application manager
 
 It turns out to be much more practical to launch everything through the YARP application manager.
 Close the `teoSim` window, and instead launch the following from the terminal:
@@ -45,6 +45,15 @@ yarpmanager --from applications
 You should get a window similar to the one depicted below. Navigate through `Applications` > `teoSimBase_App` > right-click on `teoSim` > `Run`
 
 ![teo-yarpmanager](fig/teo-yarpmanager.png)
+
+### Activating emulation of underactuated hands
+
+In the YARP application manager instance, navigate through `Applications` > `teoSimBase_App`:
+
+- Right-click on first `RealToSimControlboard` > `Run`
+- Right-click on second `RealToSimControlboard` > `Run`
+
+You will see no action, but it will provide ports the robot hands that are more similar to the real ones.
 
 ### Interfacing with the robot
 
