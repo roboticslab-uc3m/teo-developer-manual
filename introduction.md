@@ -64,7 +64,7 @@ Activating `floor` and `ironing_table`, you should get a window similar to the o
 
 ![teoSim-floor-iron](fig/teoSim-floor-iron.png)
 
-Note that you can directly interface with the world port. While this is considered a bad practice, it is documented at: [roboticslab-uc3m/openrave-yarp-plugins/libraries/OpenravePlugins/OpenraveYarpWorld](https://github.com/roboticslab-uc3m/openrave-yarp-plugins/blob/master/libraries/OpenravePlugins/OpenraveYarpWorld/README.md#interfacing-with-openraveyarpworld).
+Note that you can directly interface with the world port. While this is considered a bad practice, it is documented at: [roboticslab-uc3m/openrave-yarp-plugins/libraries/OpenravePlugins/OpenraveYarpWorld](https://github.com/roboticslab-uc3m/openrave-yarp-plugins/blob/master/libraries/OpenravePlugins/OpenraveYarpWorld/README.md#interfacing-with-openraveyarpworld)
 
 ### Interfacing with the robot
 
