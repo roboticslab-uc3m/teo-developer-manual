@@ -1,5 +1,12 @@
 # Introduction
 
+## Welcome
+
+Welcome to TEO!
+
+- http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid
+- https://roboticslab-uc3m.github.io/robot-household-companion-web
+
 ## Where should I start?
 
 Read the Introduction section of the Developer manual: [Developer Manual (Introduction)](http://robots.uc3m.es/gitbook-developer-manual/introduction.html)
