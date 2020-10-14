@@ -9,6 +9,7 @@
   * [Demonstration](overview/demonstration.md)
   * [Research](overview/research.md)
   * [Development](overview/development.md)
+* [Beginner Tutorial](tutorial.md)
 * [Diagrams](diagrams.md)
 * [Tables](tables.md)
 * [Dynamic information](dynamic-information.md)
