@@ -119,7 +119,17 @@ Throughout this section, refer to the [Joint Indexes (YARP ports)](diagrams.html
 
 3. Within our programs and scripts, using the APIs provided by YARP.
   - APIs
+    - [The YARP motor control interfaces](https://www.yarp.it/yarp_motor_control.html)
+    - [yarp::dev::IPositionControl](https://www.yarp.it/classyarp_1_1dev_1_1IPositionControl.html)
+    - [yarp::dev::IVelocityControl](https://www.yarp.it/classyarp_1_1dev_1_1IVelocityControl.html)
+    - [yarp::dev::ITorqueControl](https://www.yarp.it/classyarp_1_1dev_1_1ITorqueControl.html)
+    - [yarp::dev::IEncoders](https://www.yarp.it/classyarp_1_1dev_1_1IEncoders.html)
+    - [roboticslab::YarpOpenraveControlboard](http://robots.uc3m.es/dox-openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveControlboard.html)
+    - [roboticslab::CanBusControlboard](http://robots.uc3m.es/dox-yarp-devices/classroboticslab_1_1CanBusControlboard.html)
   - Examples
+    - https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/cpp/exampleRemoteControlboard
+    - https://github.com/roboticslab-uc3m/yarp-devices/blob/master/examples/matlab/exampleRemoteControlboard.m
+    - https://github.com/roboticslab-uc3m/yarp-devices/blob/master/examples/python/exampleRemoteControlboard.py
     - [iCub-main: Getting accustomed with motor interfaces](https://robotology.github.io/robotology-documentation/doc/html/icub_motor_control_tutorial.html), but in the `remote` line, switch from `/icubSim/right_arm` to `/teoSim/leftArm` or the limb of your selection.
 
 ### Interfacing with the robot: RGB-D Sensor
