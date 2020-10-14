@@ -1,4 +1,4 @@
-# Software Overview
+# Software Repositories
 
 The following sections contain comprehensive lists of repositories and their relation to TEO.
 
