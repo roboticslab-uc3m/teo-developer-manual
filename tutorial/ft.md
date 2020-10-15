@@ -12,6 +12,8 @@ Activate physics and move joints in `teoSim`, and you should get results similar
 
 ![teoSim-depth](../fig/teoSim-ft.png)
 
+## Via APIs
+
 The preferred approach, using the APIs provided by YARP within our programs and scripts.
 
 - APIs
