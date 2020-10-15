@@ -11,3 +11,10 @@ To view the force/torque signals, perform the sequence:
 Activate physics and move joints in `teoSim`, and you should get results similar to the figure below.
 
 ![teoSim-depth](../fig/teoSim-ft.png)
+
+The preferred approach, using the APIs provided by YARP within our programs and scripts.
+
+- APIs
+  - [yarp::dev::ISixAxisForceTorqueSensors](https://www.yarp.it/classyarp_1_1dev_1_1ISixAxisForceTorqueSensors.html)
+  - Implementation in simulator
+    - [roboticslab::YarpOpenraveAnalogSensors](http://robots.uc3m.es/dox-openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveAnalogSensors.html)
