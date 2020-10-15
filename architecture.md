@@ -20,4 +20,4 @@ We highlight the following aspects:
 - Linguistic input is partially processed from the attention mechanism and also fed into the DM.
 - An optional reactive component can be activated, enabling a pathway that directly maps from the sensor data to the motor space.
 
-![2020-10-01-teo-cognitive-architecture](./fig/2020-10-01-teo-cognitive-architecture.png)
+![2020-10-01-teo-cognitive-architecture](./fig/2020-10-01-teo-cognitive-architecture.svg)
