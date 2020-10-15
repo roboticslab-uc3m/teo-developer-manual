@@ -11,3 +11,16 @@ To view the depth image, perform the sequence:
 Spawning the `mug` object as explained previously, you should get results similar to the figure below.
 
 ![teoSim-depth](../fig/teoSim-depth.png)
+
+## Via APIs
+
+The preferred approach, using the APIs provided by YARP within our programs and scripts.
+
+- APIs
+  - [yarp::dev::IRGBDSensor](http://www.yarp.it/classyarp_1_1dev_1_1IRGBDSensor.html)
+  - Implementation in simulator
+    - [roboticslab::YarpOpenraveRGBDSensor](http://robots.uc3m.es/dox-openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveRGBDSensor.html)
+- Examples
+  - C++
+    - [vision/programs/colorRegionDetection](https://github.com/roboticslab-uc3m/vision/tree/master/programs/colorRegionDetection)
+    - [vision/programs/haarDetection](https://github.com/roboticslab-uc3m/vision/tree/master/programs/haarDetection)
