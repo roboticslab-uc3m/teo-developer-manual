@@ -8,7 +8,7 @@ Conventionally, we have said that there is technically no fixed software archite
 
 A traditional setup of the components for an application involving gaze control and manipulator gesture, extracted from the [follow-me](https://github.com/roboticslab-uc3m/follow-me) demonstration repository, is depicted below.
 
-![follow-me app](./fig/follow-me-app.png)
+![follow-me app](./fig/follow-me-app.svg)
 
 More recently, the TEO Cognitive Architecture has gained similarities to the [ICub Cognitive Architecture](http://wiki.icub.org/wiki/ICub_Cognitive_Architecture) and [TRoPOCALs](https://pdfs.semanticscholar.org/12fb/ed65d4c22fe1bf3fd7f2bc353e5e0f493cdc.pdf), as well as many other bio-inspired embodied cognition architectures.
 
