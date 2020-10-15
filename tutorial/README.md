@@ -1,4 +1,4 @@
-# Beginner Tutorial
+# Tutorial
 
 ## Where should I start?
 
@@ -34,7 +34,7 @@ teoSim
 
 You should get a window similar to the one depicted below.
 
-![teoSim](fig/teoSim.png)
+![teoSim](../fig/teoSim.png)
 
 ### Launching the simulator through the YARP application manager
 
@@ -47,7 +47,7 @@ yarpmanager --from applications
 
 You should get a window similar to the one depicted below. Navigate through `Applications` > `teoSimBase_App` > right-click on `teoSim` > `Run`
 
-![teo-yarpmanager](fig/teo-yarpmanager.png)
+![teo-yarpmanager](../fig/teo-yarpmanager.png)
 
 ### Activating emulation of underactuated hands
 
@@ -64,7 +64,7 @@ In the YARP application manager instance, navigate through `Applications` > `teo
 
 Activating `floor` and `ironing_table`, you should get a window similar to the one depicted below.
 
-![teoSim-floor-iron](fig/teoSim-floor-iron.png)
+![teoSim-floor-iron](../fig/teoSim-floor-iron.png)
 
 Note that you can directly interface with the world port. While this is considered a bad practice, it is documented at: [roboticslab-uc3m/openrave-yarp-plugins/libraries/OpenravePlugins/OpenraveYarpWorld](https://github.com/roboticslab-uc3m/openrave-yarp-plugins/blob/master/libraries/OpenravePlugins/OpenraveYarpWorld/README.md#interfacing-with-openraveyarpworld)
 
@@ -77,79 +77,8 @@ Essentially, we can interact with the robot:
 2. Via GUI. In certain cases, we have GUIs!
 3. **Best practice:** Within our programs and scripts, using the APIs provided by YARP. They are available in many programming languages (C++, Python, MATLAB...). Our own set of examples can be found at: [examples (from yarp-devices)](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples)
 
-### Interfacing with the robot: Motor Control
+Next, continue to the dedicated sections:
 
-Throughout this section, refer to the [Joint Indexes (YARP ports)](diagrams.html#joint-indexes)  diagram to see port names and joint indexes, as well as the [Joint Directions of Rotation](diagrams.html#joint-directions-of-rotation) diagram.
-
-1. Directly talking to ports. From a terminal, connect to the limb you prefer (substitute `leftArm` following the above mentioned diagram):
-
-  ```bash
-  yarp rpc /teoSim/leftArm/rpc:i
-  ```
-
-  From within this, we can send joint space movements, read encoders, etc. For instance, send an absolute joint position command, to joint 0, setting the target to -25 degrees:
-
-  ```
-  set pos 0 -25
-  ```
-
-  You should in turn receive should get some kind of feedback, such as:
-
-  ```
-  Response: [ok]
-  ```
-
-  In line with the hacks mentioned above, refer to a more exhaustive list at: [yarp-tricks: remote_controlboard (from developer-manual)](http://robots.uc3m.es/gitbook-developer-manual/appendix/yarp-tricks.html#remotecontrolboard)
-
-2. Via GUIs. Two options to launch the YARP motor GUI for `teoSim`:
-    - Via terminal:
-    ```
-    yarpmotorgui --from yarpmotorgui/teoSim.ini
-    ```
-    - Via the application manager (better practice): Navigate through `Applications` > `teoSimTools_App` > right-click on `yarpmotorgui` > `Run`
-
-  Any of the two options, and clicking `OK` (ignore the current warnings regarding hands for now) should get you a window similar to the one depicted below.
-
-  ![yarpmotorgui](fig/teo-yarpmotorgui.png)
-
-3. Within our programs and scripts, using the APIs provided by YARP.
-  - APIs
-    - [The YARP motor control interfaces](https://www.yarp.it/yarp_motor_control.html)
-    - [yarp::dev::IPositionControl](https://www.yarp.it/classyarp_1_1dev_1_1IPositionControl.html)
-    - [yarp::dev::IVelocityControl](https://www.yarp.it/classyarp_1_1dev_1_1IVelocityControl.html)
-    - [yarp::dev::ITorqueControl](https://www.yarp.it/classyarp_1_1dev_1_1ITorqueControl.html)
-    - [yarp::dev::IEncoders](https://www.yarp.it/classyarp_1_1dev_1_1IEncoders.html)
-    - [roboticslab::YarpOpenraveControlboard](http://robots.uc3m.es/dox-openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveControlboard.html)
-    - [roboticslab::CanBusControlboard](http://robots.uc3m.es/dox-yarp-devices/classroboticslab_1_1CanBusControlboard.html)
-  - Examples
-    - https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/cpp/exampleRemoteControlboard
-    - https://github.com/roboticslab-uc3m/yarp-devices/blob/master/examples/matlab/exampleRemoteControlboard.m
-    - https://github.com/roboticslab-uc3m/yarp-devices/blob/master/examples/python/exampleRemoteControlboard.py
-    - [iCub-main: Getting accustomed with motor interfaces](https://robotology.github.io/robotology-documentation/doc/html/icub_motor_control_tutorial.html), but in the `remote` line, switch from `/icubSim/right_arm` to `/teoSim/leftArm` or the limb of your selection.
-
-### Interfacing with the robot: RGB-D Sensor
-
-First, activate the `teoSim` RGB-D Sensor: In the YARP application manager instance, navigate through `Applications` > `teoSimBase_App` > right-click on the `openraveYarpPluginLoaderClient` corresponding to `RGBDSensorWrapper` > `Run`
-
-1. Via GUIs. Two options to launch the YARP motor GUI for `teoSim`:
-
-  To view the depth image, perform the sequence:
-  1. In the YARP application manager instance, navigate through `Applications` > `teoSimTools_App` > right-click on the `yarpview` corresponding to the `depthImage` > `Run`
-  2. In the YARP application manager instance, navigate through `Applications` > `teoSimTools_App` > right-click on the connection (bottom frame) corresponding to the `depthImage` > `Connect`
-
-  Spawning the `mug` object as explained previously, you should get results similar to the figure below.
-
-![teoSim-depth](fig/teoSim-depth.png)
-
-### Interfacing with the robot: Force/Torque Sensors
-
-Requires at least YARP 3.4. First, activate the `teoSim` Force/Torque Sensors: In the YARP application manager instance, navigate through `Applications` > `teoSimBase_App` > right-click on the `openraveYarpPluginLoaderClient` corresponding to `multipleanalogsensorsserver` > `Run`
-
-To view the force/torque signals, perform the sequence:
-1. In the YARP application manager instance, navigate through `Applications` > `teoSimTools_App` > right-click on the corresponding `yarpscope` > `Run`
-2. In the YARP application manager instance, navigate through `Applications` > `teoSimTools_App` > right-click on the corresponding (bottom frame) connection > `Connect`
-
-
-Activate physics and move joints in `teoSim`, and you should get results similar to the figure below.
-
-![teoSim-depth](fig/teoSim-ft.png)
+- [Motor Control](motor.md)
+- [RGB-D Sensor](rgbd.md)
+- [Force/Torque Sensors](ft.md)
