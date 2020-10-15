@@ -56,6 +56,7 @@ The preferred approach, using the APIs provided by YARP within our programs and 
 - Examples (in the `remote` line, switch to `/teoSim/leftArm` or the limb of your selection)
   - C++
     - [yarp-devices/examples/cpp/exampleRemoteControlboard](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/cpp/exampleRemoteControlboard)
+    - [yarp-devices/examples/cpp/examplePositionDirect](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/cpp/examplePositionDirect)
     - [iCub-main: Getting accustomed with motor interfaces](https://robotology.github.io/robotology-documentation/doc/html/icub_motor_control_tutorial.html)
   - MATLAB
     - [yarp-devices/examples/matlab/exampleRemoteControlboard.m](https://github.com/roboticslab-uc3m/yarp-devices/blob/master/examples/matlab/exampleRemoteControlboard.m)
