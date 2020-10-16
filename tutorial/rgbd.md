@@ -20,6 +20,7 @@ The preferred approach, using the APIs provided by YARP within our programs and 
   - [yarp::dev::IRGBDSensor](http://www.yarp.it/classyarp_1_1dev_1_1IRGBDSensor.html)
   - Implementation in simulator
     - [roboticslab::YarpOpenraveRGBDSensor](http://robots.uc3m.es/dox-openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveRGBDSensor.html)
+    - [openrave-yarp-plugins/libraries/YarpPlugins/YarpOpenraveRGBDSensor](https://github.com/roboticslab-uc3m/openrave-yarp-plugins/tree/master/libraries/YarpPlugins/YarpOpenraveRGBDSensor)
 - Examples
   - C++
     - [vision/programs/colorRegionDetection](https://github.com/roboticslab-uc3m/vision/tree/master/programs/colorRegionDetection)
