@@ -36,6 +36,8 @@ You should get a window similar to the one depicted below.
 
 ![teoSim](../fig/teoSim.png)
 
+Note that the setup with Dextra hands is via the `teoSim dextra` alternative command.
+
 ### Launching the simulator through the YARP application manager
 
 It turns out to be much more practical to launch everything through the YARP application manager.
