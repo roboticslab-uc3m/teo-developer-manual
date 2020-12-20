@@ -62,7 +62,7 @@ You will see no action, but it will provide ports the robot hands that are more 
 
 ### Spawning objects in the simulated environment
 
-In the YARP application manager instance, navigate through `Applications` > `teoSimWorld_App` > right-click on any `openraveYarpWorldClient` > `Run`
+In the YARP application manager instance, navigate through `Applications` > `teoSimWorld_App` > right-click on any `openraveYarpWorldClientFile` > `Run`
 
 Activating `floor` and `ironing_table`, you should get a window similar to the one depicted below.
 
