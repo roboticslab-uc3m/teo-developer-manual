@@ -12,6 +12,7 @@
 * [Tutorial](tutorial/README.md)
   * [Motor Control](tutorial/motor.md)
   * [RGB-D Sensor](tutorial/rgbd.md)
+  * [Mesh From Real Depth](tutorial/mesh.md)
   * [Force/Torque Sensors](tutorial/ft.md)
 * [Diagrams](diagrams.md)
 * [Tables](tables.md)
