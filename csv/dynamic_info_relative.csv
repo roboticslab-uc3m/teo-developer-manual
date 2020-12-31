@@ -1,4 +1,4 @@
-Name,CollisionLink,X(mm),Y(mm),Z(mm),Mass(kg),Lxx(kg * m2),Lyy(kg * m2),Lzz(kg * m2),Lxy(kg * m2),Lxz(kg * m2),Lyz(kg * m2)
+Name,CollisionLink,X(m),Y(m),Z(m),Mass(kg),Lxx(kg * m2),Lyy(kg * m2),Lzz(kg * m2),Lxy(kg * m2),Lxz(kg * m2),Lyz(kg * m2)
 RootWaist,Link 0,-0.010985,-0.000323,0.033148,2.5,0.038530767,0.017354343,0.053231634,-0.000000135,0.000238121,-4.8E-10
 RightSagittalAnkle,Link 1,0.01003,0.000936,-0.0669,3.1334,0.00774203,0.014781323,0.013361748,0.000455866,-0.001851657,-0.000147513
 RightFrontalAnkle,Link 2,0.002577,-0.013536,0.000182,1.50359,0.001395488,0.001589358,0.002418657,0.00000685,1E-11,0
