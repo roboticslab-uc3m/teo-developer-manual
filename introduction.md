@@ -29,7 +29,7 @@ Welcome to TEO!
 - TEOrepo: Private repository containing HW, backups, etc
   - [Source code (TEOrepo)](http://robots.uc3m.es/svn/TEOrepo)
   - Backups: <http://robots.uc3m.es/svn/TEOrepo/backups> (How to restore a booteable image partition: [spanish](http://robots.uc3m.es/index.php/Tutorial:_C%C3%B3mo_restaurar_un_S.O_en_una_partici%C3%B3n_arrancable))
-- [DEPRECATED] [Link to the Old Repository RH2repo (old SVN)](http://robots.uc3m.es/svn/RH2repo) (SVN Tutorial: [spanish](http://asrob.uc3m.es/w/index.php/Tutorial_SVN))
+- [DEPRECATED] [Link to the Old Repository RH2repo (old SVN)](http://robots.uc3m.es/svn/RH2repo) (SVN Tutorial: [spanish](http://wiki.asrob.uc3m.es/gitbook-tutoriales/software/version-control/subversion.html))
 
 ## Social media
 
