@@ -36,7 +36,7 @@ Welcome to TEO!
 - Videos: [jgvictores channel](https://www.youtube.com/playlist?list=PLhVfUTRQ_sD7A_Bt8ew1qv_8cUsDruwHF) [santimorante channel](http://www.dailymotion.com/santimorante)
 - <https://www.youtube.com/playlist?list=PLhVfUTRQ_sD7A_Bt8ew1qv_8cUsDruwHF>
 
-### More
+## More
 
 Still lots of material on [the wiki](http://robots.uc3m.es)!
 
