@@ -32,20 +32,21 @@
 ## manipulation (left robot PC)
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
+
 - OS: Ubuntu 16.04 Xenial
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
-### pass
+### manipulation: pass
 
 - teo / teo
 - su: manipulation
 
-### MAC/IP
+### manipulation: MAC/IP
 
 - wlan1  5c:d9:98:9a:94:5c  2.2.2.51
-- eth0  00:18:7d:0b:2d:9d  2.2.2.61 
+- eth0  00:18:7d:0b:2d:9d  2.2.2.61
 
-### init
+### manipulation: init
 
 Runs `yarp server` as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)), activated in `/etc/service/yarpserver/run` with `chmod +x` through the lines:
 
@@ -65,7 +66,7 @@ export YARP_CONFIG_HOME=/home/teo/.config/yarp
 yarprun --server /manipulation
 ```
 
-### install
+### manipulation: install
 
 - [GCC 7.5](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues/58#issuecomment-683809599)
 - [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices)
@@ -81,20 +82,21 @@ yarprun --server /manipulation
 ## locomotion (right robot PC)
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
+
 - OS: Ubuntu 16.04 Xenial (per [teo-main#32](https://github.com/roboticslab-uc3m/teo-main/issues/32#issuecomment-364136297) has dual boot: Debian GNU/Linux 6.0.10 Squeeze)
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
-### pass
+### locomotion: pass
 
 - teo / teo
 - su: locomotion
 
-### MAC/IP
+### locomotion: MAC/IP
 
 - wlan1  5c:d9:98:9a:94:5d  2.2.2.52
-- eth0  00:18:7d:0b:2d:71  2.2.2.62 
+- eth0  00:18:7d:0b:2d:71  2.2.2.62
 
-### init
+### locomotion: init
 
 The execution of `yarprun --server /locomotion` is implemented as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
 
@@ -105,7 +107,7 @@ export YARP_CONFIG_HOME=/home/teo/.config/yarp
 yarprun --server /locomotion
 ```
 
-### install
+### locomotion: install
 
 - [GCC 7.5](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues/58#issuecomment-683809599)
 - [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices)
@@ -123,16 +125,17 @@ Memory 3.1 GiB, Processor Intel® Core™ i5-4570S CPU @ 2.90GHz x 4, Disk 52 Gi
 - OS: OS: Ubuntu 16.04 Xenial.
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
-### pass
+### teo-head: pass
 
 - user: teo
 - pass: teo
 
-### MAC/IP
+### teo-head: MAC/IP
 
 - eth1  00:01:2e:51:9c:c1  2.2.2.53  
 
-### init
+### teo-head: init
+
 The execution of `yarprun --server /head` is implemented as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
 
 ```bash
@@ -142,7 +145,7 @@ export YARP_CONFIG_HOME=/home/teo/.config/yarp
 yarprun --server /head
 ```
 
-### install
+### teo-head: install
 
 - [GCC 7.5](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues/58#issuecomment-683809599)
 - [vision](https://github.com/roboticslab-uc3m/vision)

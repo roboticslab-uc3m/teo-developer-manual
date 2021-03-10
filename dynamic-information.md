@@ -1,8 +1,8 @@
 # Dynamic Information
 
-TEO global dynamic information. 
+TEO global dynamic information.
 
-This file contains the center of mass of the whole robot in the initial home position. For individual CoM information go here: https://github.com/roboticslab-uc3m/teo-developer-manual/blob/master/csv/teo-center-of-masses.csv.
+This file contains the center of mass of the whole robot in the initial home position. For individual CoM information go here: <csv/teo-center-of-masses.csv>.
 
 All the information presented here was calculated using SolidWorks and tuned to the real robot.
 
@@ -37,9 +37,7 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 	Lzx = 213401208.45	Lzy = -762897.83	Lzz = 2285762539.95
 
-
 ---
-
 
 ## HEAD
 
@@ -67,7 +65,6 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 	Lzx = 0.00		Lzy = 0.00		Lzz = 528125.00
 
-
 ### FrontalNeck
 
 Mass = 2000.00 g
@@ -90,7 +87,6 @@ Taken at the center of mass and aligned with the output coordinate system.
 	Lyx = 5.83		Lyy = 8325272.78	Lyz = -7.43
 
 	Lzx = 65773.25		Lzy = -7.43		Lzz = 11403463.96
-
 
 ## TRUNK
 
@@ -118,13 +114,11 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 	Lzx = 11858220.70	Lzy = 914091.01		Lzz = 263359225.06
 
-
 ### AxialWaist
 
 Mass = 1000.00 g
 
 Volume = 141815.56 mm³
-
 
 Principal axes of inertia and principal moments of inertia: ( g *  mm² )
 Taken at the center of mass.
@@ -135,7 +129,6 @@ Taken at the center of mass.
 
 	Iz = ( 1.00,  0.00, -0.06)   	Pz = 1979333.10
 
-
 Moments of inertia: ( g *  mm² )
 Taken at the center of mass and aligned with the output coordinate system.
 
@@ -144,7 +137,6 @@ Taken at the center of mass and aligned with the output coordinate system.
 	Lyx = 2056.44		Lyy = 899729.49		Lyz = -3073.94
 
 	Lzx = 29730.11		Lzy = -3073.94		Lzz = 1471749.05
-
 
 ### RootWaist
 
@@ -170,12 +162,9 @@ Taken at the center of mass and aligned with the output coordinate system.
 
 	Lzx = 238121.10		Lzy = -0.48		Lzz = 53231634.32
 
-
 ## RIGHT ARM
 
 ### RightFrontalShoulder
-
-
 
 Mass = 2000.00 g
 
@@ -190,7 +179,6 @@ Taken at the center of mass.
 
 	Iz = ( 1.00, -0.04,  0.00)   	Pz = 4230179.01
 
-
 Moments of inertia: ( g *  mm² )
 Taken at the center of mass and aligned with the output coordinate system.
 
@@ -199,8 +187,6 @@ Taken at the center of mass and aligned with the output coordinate system.
 	Lyx = 84382.30		Lyy = 2127281.33	Lyz = -280493.15
 
 	Lzx = -11698.91		Lzy = -280493.15	Lzz = 4093161.32
-
-
 
 ### RightSagittalShoulder
 
@@ -430,7 +416,6 @@ Taken at the center of mass and aligned with the output coordinate system.
 		
 	Lzx = 0.00		Lzy = 0.00		Lzz = 446024.47
 
-
 ### LeftAxialWrist
 
 Mass = 631.49 g
@@ -478,7 +463,6 @@ Taken at the center of mass and aligned with the output coordinate system.
 	Lyx = 127.73		Lyy = 5345281.96	Lyz = -8069.63
 
 	Lzx = 100487.37		Lzy = -8069.63		Lzz = 882488.65
-
 
 ## RIGHT LEG
 

@@ -1,6 +1,7 @@
 # Demo Procedure
 
 ## Preparation
+
 1. Remove obstacles (table, curtains, chairs... or another objects that may interfere)
 2. Place the robot in a position where it can have space and cannot hit any obstacle
 3. Turn on the [power supplies](/fig/power-supply.jpg), adjust them to 42 volts and check that the emergency button of the power suppies is raised up.
@@ -20,10 +21,12 @@
 11. Check the operation of each program through `teoTools_App`
 
 ## Demostration Instructions
+
 * [teo-self-presentation](https://github.com/roboticslab-uc3m/teo-self-presentation)
 * [follow-me](https://github.com/roboticslab-uc3m/follow-me)
 * [teo-waiter](https://github.com/roboticslab-uc3m/waiter)
 * [teo-demos-misc](https://github.com/roboticslab-uc3m/teo-demos-misc)
 
 ## Also see
-- <http://robots.uc3m.es/index.php/Qu%C3%A9_llevar_a_Demos_(TEO)>
+
+* <http://robots.uc3m.es/index.php/Qu%C3%A9_llevar_a_Demos_(TEO)>

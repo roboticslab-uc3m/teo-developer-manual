@@ -35,7 +35,7 @@ Can be found at [Motores: motores](#motores-motores)
 - Github: [dh-rightArm.csv](csv/dh-rightArm.csv)
 - Gitbook: {% includeCsv src="csv/dh-rightArm.csv", useHeader="true" %}{% endincludeCsv %}
 
-#### fetch
+#### fetch (right)
 
 - Github: [dh-fetch.csv](csv/dh-fetch.csv)
 - Gitbook: {% includeCsv src="csv/dh-fetch.csv", useHeader="true" %}{% endincludeCsv %}
@@ -52,7 +52,8 @@ Can be found at [Motores: motores](#motores-motores)
 - Github: [dh-leftArm.csv](csv/dh-leftArm.csv)
 - Gitbook: {% includeCsv src="csv/dh-leftArm.csv", useHeader="true" %}{% endincludeCsv %}
 
-#### fetch
+#### fetch (left)
+
 - Github: [dh-fetch.csv](csv/dh-fetch.csv)
 - Gitbook: {% includeCsv src="csv/dh-fetch.csv", useHeader="true" %}{% endincludeCsv %}
 
@@ -103,31 +104,31 @@ Some not required, redundant or may be derived from from existing `dh-root-*.csv
 - Github: [lengths.csv](csv/lengths.csv)
 - Gitbook: {% includeCsv src="csv/lengths.csv", useHeader="true" %}{% endincludeCsv %}
 
-# Bill of materials (BOM)
+## Bill of materials (BOM)
 
 - Github: [bom.csv](csv/bom.csv)
 - Gitbook: {% includeCsv src="csv/bom.csv", useHeader="true" %}{% endincludeCsv %}
 
-## Motores
+### Motores
 
 - Original with formulas: [editable/motores.ods](csv/editable/motores.ods)
 
-## Motores: motores
+### Motores: motores
 
 - Github: [motores-motores.csv](csv/motores-motores.csv)
 - Gitbook: {% includeCsv src="csv/motores-motores.csv", useHeader="true" %}{% endincludeCsv %}
 
-## Motores: protecciones-brazos
+### Motores: protecciones-brazos
 
 - Github: [motores-protecciones-brazos.csv](csv/motores-protecciones-brazos.csv)
 - Gitbook: {% includeCsv src="csv/motores-protecciones-brazos.csv", useHeader="true" %}{% endincludeCsv %}
 
-## Motores: protecciones-piernas
+### Motores: protecciones-piernas
 
 - Github: [motores-protecciones-piernas.csv](csv/motores-protecciones-piernas.csv)
 - Gitbook: {% includeCsv src="csv/motores-protecciones-piernas.csv", useHeader="true" %}{% endincludeCsv %}
 
-## Motores: transmision
+### Motores: transmision
 
 - Github: [motores-transmision.csv](csv/motores-transmision.csv)
 - Gitbook: {% includeCsv src="csv/motores-transmision.csv", useHeader="true" %}{% endincludeCsv %}
