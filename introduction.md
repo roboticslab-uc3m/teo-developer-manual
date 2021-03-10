@@ -17,10 +17,10 @@ Welcome to TEO!
 
 ## Links of General Interest
 
-- [TEO DIAGRAMAS](http://robots.uc3m.es/gitbook-teo-developer-manual/diagrams.html)
+- [TEO DIAGRAMAS](diagrams.md)
 - [TEO Cluster: Network, IP, MAC and PC specification list](http://robots.uc3m.es/gitbook-teo-developer-manual/network-information.html) / [TEO Network troubleshooting](http://robots.uc3m.es/index.php/TEO_Network_troubleshooting)
 - [Hoja de RESERVAS de partes de robot](https://docs.google.com/a/uc3m.es/spreadsheets/d/1_DjZ9MEbwFc2IecMJ0rrNGOPN1bdDIQezkVwxBhfs80/edit?usp=sharing)
-- [Demo Procedure](http://robots.uc3m.es/gitbook-teo-developer-manual/demo-procedure.html) / [What to Take to Demos](http://robots.uc3m.es/index.php/Qu%C3%A9_llevar_a_Demos_(TEO))
+- [Demo Procedure](demo-procedure.md) / [What to Take to Demos](http://robots.uc3m.es/index.php/Qu%C3%A9_llevar_a_Demos_(TEO))
 
 ## Repositories
 
