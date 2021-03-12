@@ -4,7 +4,7 @@
 
 [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) Developer Manual @ [roboticslab-uc3m](https://github.com/roboticslab-uc3m)
 
-Currently hosted at <http://robots.uc3m.es/gitbook-teo-developer-manual>
+Currently hosted at <https://roboticslab-uc3m.github.io/teo-developer-manual/>
 
 ## If you have any doubts or comments
 
