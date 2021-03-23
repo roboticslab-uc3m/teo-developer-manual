@@ -8,7 +8,6 @@ Click on the option you want, or use the arrows to move sequentially
 
 ## Additional notes
 
-* You can also download this documentation in various formats: [pdf](teo-developer-manual.pdf), [mobi](teo-developer-manual.mobi), [epub](teo-developer-manual.epub)
 * The content of this documentation is generated from files hosted on [GitHub](https://github.com/roboticslab-uc3m/teo-developer-manual)
 
 ## If you have any doubts or comments
