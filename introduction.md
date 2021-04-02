@@ -11,14 +11,12 @@ Welcome to TEO!
 
 ## Everyday Log
 
-- [Excel: Drivers Check](https://docs.google.com/spreadsheets/d/1RBBhsvR1kPimETVTzeJ3UTte0rK8_h7XX5WKw2b_Egc/edit?usp=sharing)
 - [Motor/Driver Procedure](http://robots.uc3m.es/index.php/Procedimiento_Revisi%C3%B3n_Drivers)
-- [Logbook](https://docs.google.com/document/d/15OwIKENh2krmtPQU3N7zuWsnvgV0hHUxeP0UGthygaI/edit?usp=sharing)
 
 ## Links of General Interest
 
 - [TEO DIAGRAMAS](diagrams.md)
-- [TEO Cluster: Network, IP, MAC and PC specification list](http://robots.uc3m.es/gitbook-teo-developer-manual/network-information.html) / [TEO Network troubleshooting](http://robots.uc3m.es/index.php/TEO_Network_troubleshooting)
+- [TEO Cluster: Network, IP, MAC and PC specification list](network-information.md) / [TEO Network troubleshooting](http://robots.uc3m.es/index.php/TEO_Network_troubleshooting)
 - [Hoja de RESERVAS de partes de robot](https://docs.google.com/a/uc3m.es/spreadsheets/d/1_DjZ9MEbwFc2IecMJ0rrNGOPN1bdDIQezkVwxBhfs80/edit?usp=sharing)
 - [Demo Procedure](demo-procedure.md) / [What to Take to Demos](http://robots.uc3m.es/index.php/Qu%C3%A9_llevar_a_Demos_(TEO))
 
