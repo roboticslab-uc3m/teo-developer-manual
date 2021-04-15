@@ -33,7 +33,9 @@
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
 
-- OS: Ubuntu 16.04 Xenial
+- OS (dual boot): 
+  - Partition 80Gb: Ubuntu 20.04 Focal Fossa
+  - Partition 20Gb: Ubuntu 16.04 Xenial
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 ### manipulation: pass
@@ -83,7 +85,9 @@ yarprun --server /manipulation
 
 Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
 
-- OS: Ubuntu 16.04 Xenial (per [teo-main#32](https://github.com/roboticslab-uc3m/teo-main/issues/32#issuecomment-364136297) has dual boot: Debian GNU/Linux 6.0.10 Squeeze)
+- OS (dual boot):
+  - Partition 80Gb: Ubuntu 20.04 Focal Fossa
+  - Partition 20Gb: Ubuntu 16.04 Xenial
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 ### locomotion: pass
@@ -122,7 +126,9 @@ yarprun --server /locomotion
 ## teo-head (center robot PC)
 
 Memory 3.1 GiB, Processor Intel® Core™ i5-4570S CPU @ 2.90GHz x 4, Disk 52 GiB.
-- OS: OS: Ubuntu 16.04 Xenial.
+- OS (dual boot):
+  - Partition 40Gb: Ubuntu 20.04 Focal Fossa
+  - Partition 20Gb: Ubuntu 16.04 Xenial
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 ### teo-head: pass
