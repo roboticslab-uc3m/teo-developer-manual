@@ -1,5 +1,7 @@
 # Driver Check Procedure
 
+## Procedure
+
 1. Turn on 42V power supplies.
 2. Power up and turn on PC manipulation and PC locomotion if they are not already on.
 3. `ssh teo@manipulation` (this is for the manipulation PC)
@@ -19,3 +21,10 @@
 17. `sudo shutdown -h now` ((this is about ssh))
 18. `ssh teo@locomotion` (this is for the locomotion PC)
 19. Repeat from step 4 to 17.
+
+## Possible Results
+
+- [dumpCanBus] Driver does not indicate presence
+- [oneCanBusOneWrapper] Driver indicates presence, but does not move, error unknown
+- [oneCanBusOneWrapper] Driver indicates presence, but does not move, error known/displayed
+- [oneCanBusOneWrapper] Driver indicates presence, and moves (good!)
