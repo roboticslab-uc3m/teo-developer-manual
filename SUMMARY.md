@@ -20,5 +20,6 @@
 * [Switches and Power](switches-and-power.md)
 * [Connectors](connectors.md)
 * [Network information](network-information.md)
+* [Driver Check Procedure](driver-check-procedure.md)
 * [Demo Procedure](demo-procedure.md)
 * [Additional Resources](additional-resources.md)
