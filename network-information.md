@@ -31,7 +31,7 @@
 
 ## manipulation (left robot PC)
 
-Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
+Memory 16 GiB, Processor Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, GPU: HD Graphics 620, Disk 106 GiB.
 
 - OS (dual boot): 
   - Partition 80Gb: Ubuntu 20.04 Focal Fossa
@@ -83,7 +83,7 @@ yarprun --server /manipulation
 
 ## locomotion (right robot PC)
 
-Memory 3.1 GiB, Processor Intel® Core™2 Duo CPU E7500 @ 2.93GHz x 2, Disk 106 GiB.
+Memory 16 GiB, Processor Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, GPU: HD Graphics 620, Disk 106 GiB.
 
 - OS (dual boot):
   - Partition 80Gb: Ubuntu 20.04 Focal Fossa
@@ -125,7 +125,7 @@ yarprun --server /locomotion
 
 ## teo-head (center robot PC)
 
-Memory 3.1 GiB, Processor Intel® Core™ i5-4570S CPU @ 2.90GHz x 4, Disk 52 GiB.
+Memory 16 GiB, Processor Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, GPU: HD Graphics 620, Disk 52 GiB.
 - OS (dual boot):
   - Partition 40Gb: Ubuntu 20.04 Focal Fossa
   - Partition 20Gb: Ubuntu 16.04 Xenial
