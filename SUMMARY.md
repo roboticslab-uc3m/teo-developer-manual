@@ -11,6 +11,7 @@
   * [Development](overview/development.md)
 * [Tutorial](tutorial/README.md)
   * [Motor Control](tutorial/motor.md)
+  * [Trajectory Execution](tutorial/trajectories.md)
   * [RGB-D Sensor](tutorial/rgbd.md)
   * [Mesh From Real Depth](tutorial/mesh.md)
   * [Force/Torque Sensors](tutorial/ft.md)
