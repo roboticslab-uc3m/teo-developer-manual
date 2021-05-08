@@ -11,13 +11,14 @@ yarp rpc /teoSim/leftArm/rpc:i
 ```
 
 From within this, we can send joint space movements, read encoders, etc. For instance, send an absolute joint position command, to joint 0, setting the target to -25 degrees:
-```
+
+```text
 set pos 0 -25
 ```
 
 You should in turn receive should get some kind of feedback, such as:
 
-```
+```text
 Response: [ok]
 ```
 
@@ -28,9 +29,11 @@ In line with the hacks mentioned above, refer to a more exhaustive list at: [yar
 Two options to launch the YARP motor GUI for `teoSim`:
 
 - Via terminal:
-  ```
+
+  ```bash
   yarpmotorgui --from yarpmotorgui/teoSim.ini
   ```
+
 - Via the application manager (better practice): Navigate through `Applications` > `teoSimTools_App` > right-click on `yarpmotorgui` > `Run`
 
 Any of the two options, and clicking `OK` (ignore the current warnings regarding hands for now) should get you a window similar to the one depicted below.
