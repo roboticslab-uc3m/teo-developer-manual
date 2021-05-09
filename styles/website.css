@@ -6,3 +6,7 @@
     content: "\00a0";
     margin-left: -24px;
 }
+
+.markdown-section {
+    overflow: initial;
+}
