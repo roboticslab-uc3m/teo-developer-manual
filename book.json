@@ -2,12 +2,17 @@
   "structure": {
     "readme": "gitbook-cover.md"
   },
-  "plugins": ["include-csv","embed-pdf","mermaid-gb3","include","page-toc","auto-scroll-table"],
+  "plugins": ["include-csv","embed-pdf","mermaid-gb3","include","page-toc","scripts"],
   "pluginsConfig": {
     "page-toc": {
       "selector": ".markdown-section h2, .markdown-section h3, .markdown-section h4",
       "position": "before-first",
       "showByDefault": true
+    },
+    "scripts": {
+      "files": [
+        "./js/scripts.js"
+       ]
     }
   }
 }
