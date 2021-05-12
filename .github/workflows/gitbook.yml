@@ -22,6 +22,7 @@ jobs:
       run: |
         docker run --rm -v $GITHUB_WORKSPACE:/gitbook ghcr.io/roboticslab-uc3m/gitbook:latest gitbook install
         docker run --rm -v $GITHUB_WORKSPACE:/gitbook ghcr.io/roboticslab-uc3m/gitbook:latest gitbook build
+        sudo chmod -R a+rx _book # https://github.com/roboticslab-uc3m/teo-developer-manual/issues/69
     - uses: crazy-max/ghaction-github-pages@v2
       with:
         build_dir: _book
