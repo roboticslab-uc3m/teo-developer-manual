@@ -31,7 +31,7 @@
 
 ## manipulation (left robot PC)
 
-Memory 16 GiB, Processor Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, GPU: HD Graphics 620, Disk 106 GiB.
+Memory 16 GiB, Processor Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz, Disk 111 GiB.
 
 - OS (dual boot): 
   - Partition 80Gb: Ubuntu 20.04 Focal Fossa
