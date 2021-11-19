@@ -6,9 +6,9 @@ Conventionally, we have said that there is technically no fixed software archite
 1. The [teoTools XML](https://github.com/roboticslab-uc3m/teo-configuration-files/blob/master/share/applications/teoTools.xml) is launched to assure correct operation of each teoBase service.
 1. A final application-level XML is launched, from one of the [demonstration](overview/demonstration.md) or [research](overview/research.md) repositories.
 
-A traditional setup of the components for an application involving gaze control and manipulator gesture, extracted from the [follow-me](https://github.com/roboticslab-uc3m/follow-me) demonstration repository, is depicted below.
+A traditional setup of the components for an application involving gaze control and manipulator gesture, extracted from the [teo-follow-me](https://github.com/roboticslab-uc3m/teo-follow-me) demonstration repository, is depicted below.
 
-![follow-me app](./fig/follow-me-app.svg)
+![teo-follow-me app](./fig/teo-follow-me-app.svg)
 
 More recently, the TEO Cognitive Architecture has gained similarities to the [ICub Cognitive Architecture](http://wiki.icub.org/wiki/ICub_Cognitive_Architecture) and [TRoPOCALs](https://pdfs.semanticscholar.org/12fb/ed65d4c22fe1bf3fd7f2bc353e5e0f493cdc.pdf), as well as many other bio-inspired embodied cognition architectures.
 

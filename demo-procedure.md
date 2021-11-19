@@ -23,7 +23,7 @@
 ## Demostration Instructions
 
 * [teo-self-presentation](https://github.com/roboticslab-uc3m/teo-self-presentation)
-* [follow-me](https://github.com/roboticslab-uc3m/follow-me)
+* [teo-follow-me](https://github.com/roboticslab-uc3m/teo-follow-me)
 * [teo-waiter](https://github.com/roboticslab-uc3m/waiter)
 * [teo-demos-misc](https://github.com/roboticslab-uc3m/teo-demos-misc)
 
