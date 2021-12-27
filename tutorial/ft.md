@@ -19,4 +19,4 @@ The preferred approach, using the APIs provided by YARP within our programs and 
 - APIs
   - [yarp::dev::ISixAxisForceTorqueSensors](https://www.yarp.it/classyarp_1_1dev_1_1ISixAxisForceTorqueSensors.html)
   - Implementation in simulator
-    - [roboticslab::YarpOpenraveAnalogSensors](http://robots.uc3m.es/dox-openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveAnalogSensors.html)
+    - [roboticslab::YarpOpenraveAnalogSensors](https://robots.uc3m.es/openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveAnalogSensors.html)

@@ -22,7 +22,7 @@ You should in turn receive should get some kind of feedback, such as:
 Response: [ok]
 ```
 
-In line with the hacks mentioned above, refer to a more exhaustive list at: [yarp-tricks: remote_controlboard (from developer-manual)](http://robots.uc3m.es/gitbook-developer-manual/appendix/yarp-tricks.html#remotecontrolboard)
+In line with the hacks mentioned above, refer to a more exhaustive list at: [yarp-tricks: remote_controlboard (from developer-manual)](https://robots.uc3m.es/developer-manual/appendix/yarp-tricks.html#remotecontrolboard)
 
 ## Via GUIs
 
@@ -51,10 +51,10 @@ The preferred approach, using the APIs provided by YARP within our programs and 
   - [yarp::dev::ITorqueControl](https://www.yarp.it/classyarp_1_1dev_1_1ITorqueControl.html)
   - [yarp::dev::IEncoders](https://www.yarp.it/classyarp_1_1dev_1_1IEncoders.html)
   - Implementation in simulator
-    - [roboticslab::YarpOpenraveControlboard](http://robots.uc3m.es/dox-openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveControlboard.html)
+    - [roboticslab::YarpOpenraveControlboard](https://robots.uc3m.es/openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveControlboard.html)
     - [openrave-yarp-plugins/libraries/YarpPlugins/YarpOpenraveControlboard](https://github.com/roboticslab-uc3m/openrave-yarp-plugins/tree/master/libraries/YarpPlugins/YarpOpenraveControlboard)
   - Implementation in real robot
-    - [roboticslab::CanBusControlboard](http://robots.uc3m.es/dox-yarp-devices/classroboticslab_1_1CanBusControlboard.html)
+    - [roboticslab::CanBusControlboard](https://robots.uc3m.es/yarp-devices/classroboticslab_1_1CanBusControlboard.html)
     - [yarp-devices/libraries/YarpPlugins/CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/libraries/YarpPlugins/CanBusControlboard)
 - Examples (in the `remote` line, switch to `/teoSim/leftArm` or the limb of your selection)
   - C++

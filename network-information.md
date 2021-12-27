@@ -2,38 +2,38 @@
 
 ## TEONET (main router)
 
-- wifi-ssid: TEONET
-- wifi-password: teochallenge
-  
-- External IP: 163.117.150.74
-- Internal IP: 2.2.2.1
+- wifi-ssid: TEONET
+- wifi-password: teochallenge
+
+- External IP: 163.117.150.74
+- Internal IP: 2.2.2.1
 - IP Subnet Mask: 255.255.255.0
 - Gateway IP Address: 163.117.150.2
 - Primary DNS: 163.117.131.35
 - Configuration web: www.routerlogin.net
-- user: admin
-- pass: admin
+- user: admin
+- pass: admin
 
 ## TL-WR2543ND: router configured as switch
 
-- External IP: Dynamic IP
-- Internal IP: 2.2.2.2
+- External IP: Dynamic IP
+- Internal IP: 2.2.2.2
 - IP Subnet Mask: 255.255.255.0
-- user: admin
-- pass: admin
+- user: admin
+- pass: admin
 
 ## Ubiquiti EdgeRouter X: Teo internal router as a switch
 
-- Internal IP: 2.2.2.10
+- Internal IP: 2.2.2.10
 - IP Subnet Mask: 255.255.255.0
-- user: ubnt
-- pass: ubnt
+- user: ubnt
+- pass: ubnt
 
 ## manipulation (left robot PC)
 
 Memory 16 GiB, Processor Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz, Disk 111 GiB.
 
-- OS (dual boot): 
+- OS (dual boot):
   - Partition 80Gb: Ubuntu 20.04 Focal Fossa
   - Partition 20Gb: Ubuntu 16.04 Xenial
 - Maintainer: [@rsantos88](https://github.com/rsantos88)
@@ -41,7 +41,7 @@ Memory 16 GiB, Processor Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz, Disk 111 GiB
 ### manipulation: pass
 
 - teo / teo
-- su: manipulation
+- su: manipulation
 
 ### manipulation: MAC/IP
 
@@ -50,22 +50,22 @@ Memory 16 GiB, Processor Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz, Disk 111 GiB
 
 ### manipulation: init
 
-Runs `yarp server` as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)), activated in `/etc/service/yarpserver/run` with `chmod +x` through the lines:
+Runs `yarp server` as service using [daemontools](https://robots.uc3m.es/installation-guides/install-daemontools.html)), activated in `/etc/service/yarpserver/run` with `chmod +x` through the lines:
 
 ```bash
 #!/bin/bash
-export PATH=/usr/local/bin:/usr/bin:/bin
-export YARP_CONFIG_HOME=/home/teo/.config/yarp
+export PATH=/usr/local/bin:/usr/bin:/bin
+export YARP_CONFIG_HOME=/home/teo/.config/yarp
 yarp server --read
 ```
 
-Also, runs `yarprun --server /manipulation` as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
+Also, runs `yarprun --server /manipulation` as service using [daemontools](https://robots.uc3m.es/installation-guides/install-daemontools.html), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
 
 ```bash
 #!/bin/bash
-export PATH=/usr/local/bin:/usr/bin:/bin
-export YARP_CONFIG_HOME=/home/teo/.config/yarp
-yarprun --server /manipulation
+export ATH=/usr/local/bin:/usr/bin:/bin
+export YARP_CONFIG_HOME=/home/teo/.config/yarp
+yarprun --server /manipulation
 ```
 
 ### manipulation: install
@@ -73,8 +73,8 @@ yarprun --server /manipulation
 - [GCC 7.5](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues/58#issuecomment-683809599)
 - [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices)
 - [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics)
-- [PCAN-M2](http://robots.uc3m.es/gitbook-installation-guides/install-pcan.html)
-- [JR3](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-jr3.md)
+- [PCAN-M2](https://robots.uc3m.es/installation-guides/install-pcan.html)
+- [JR3](https://robots.uc3m.es/installation-guides/install-jr3.html)
 - CuiAbsolute:
    - [VirtualBox Image with Windows 7 and MPLAB IDE v8.92](https://drive.google.com/open?id=1M8_ixoSgd8n-s4Gv71IwQD_nJKU8QcJH)
 - `YARP_ROBOT_NAME=teo`
@@ -92,8 +92,8 @@ Memory 16 GiB, Processor Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, GPU: HD Graph
 
 ### locomotion: pass
 
-- teo / teo
-- su: locomotion
+- teo / teo
+- su: locomotion
 
 ### locomotion: MAC/IP
 
@@ -102,13 +102,13 @@ Memory 16 GiB, Processor Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, GPU: HD Graph
 
 ### locomotion: init
 
-The execution of `yarprun --server /locomotion` is implemented as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
+The execution of `yarprun --server /locomotion` is implemented as service using [daemontools](https://robots.uc3m.es/installation-guides/install-daemontools.html), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
 
 ```bash
 #!/bin/bash  
-export PATH=/usr/local/bin:/usr/bin:/bin
-export YARP_CONFIG_HOME=/home/teo/.config/yarp  
-yarprun --server /locomotion
+export PATH=/usr/local/bin:/usr/bin:/bin
+export YARP_CONFIG_HOME=/home/teo/.config/yarp
+yarprun --server /locomotion
 ```
 
 ### locomotion: install
@@ -116,7 +116,7 @@ yarprun --server /locomotion
 - [GCC 7.5](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues/58#issuecomment-683809599)
 - [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices)
 - [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics)
-- [XSENS](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-xsens.md)
+- [XSENS](https://robots.uc3m.es/installation-guides/install-xsens.html)
 - CuiAbsolute:
    - [VirtualBox Image with Windows 7: MPLAB IDE v8.92 and EasySetUp](https://drive.google.com/a/uc3m.es/folderview?id=0BxR76I90oKSmdnRhQlpsS3pXWm8&usp=sharing)
 - `YARP_ROBOT_NAME=teo`
@@ -133,22 +133,22 @@ Memory 16 GiB, Processor Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, GPU: HD Graph
 
 ### teo-head: pass
 
-- user: teo
-- pass: teo
+- user: teo
+- pass: teo
 
 ### teo-head: MAC/IP
 
-- eth1  00:01:2e:51:9c:c1  2.2.2.53  
+- eth1  00:01:2e:51:9c:c1  2.2.2.53
 
 ### teo-head: init
 
-The execution of `yarprun --server /head` is implemented as service using [daemontools](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
+The execution of `yarprun --server /head` is implemented as service using [daemontools](https://robots.uc3m.es/installation-guides/install-daemontools.html), activated in `/etc/service/yarprun/run` with `chmod +x` through the lines:
 
 ```bash
 #!/bin/bash
-export PATH=/usr/local/bin:/usr/bin:/bin
-export YARP_CONFIG_HOME=/home/teo/.config/yarp
-yarprun --server /head
+export PATH=/usr/local/bin:/usr/bin:/bin
+export YARP_CONFIG_HOME=/home/teo/.config/yarp
+yarprun --server /head
 ```
 
 ### teo-head: install
@@ -164,16 +164,16 @@ You can edit the `/etc/hosts` file of your system for mapping some hostnames to 
 with their IPs:
 
 ```bash
-2.2.2.51 manipulation
-2.2.2.52 locomotion
-2.2.2.53 head
+2.2.2.51 manipulation
+2.2.2.52 locomotion
+2.2.2.53 head
 ```
 
 For example, if you want connect by ssh with teo-manipulation PC, you can put `ssh manipulation` instead of `ssh 2.2.2.51`. It's easier to remember!!
 
 ## Other hardware configuration
 
-- [Setting up Wifi connection: Netgear A6100 WiFi USB Mini Adapter](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-netgear-a6100.md)
+- [Setting up Wifi connection: Netgear A6100 WiFi USB Mini Adapter](https://robots.uc3m.es/installation-guides/install-netgear-a6100.html)
 
 ## Uncategorized
 
