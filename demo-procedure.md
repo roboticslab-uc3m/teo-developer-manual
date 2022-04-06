@@ -16,7 +16,7 @@
 8. Have the [emergency buttons](/fig/emergency-buttons.jpg) of the motors close to you and open the ones you are going to use.
 9. Double click on the desktop icon `teo-main yarpmanager`:
    * Click on `Refresh status` button (blue button in fourth position).
-   * In `Resource` (Bottom right), computers that have been previously turned on must be listed as `available` (green). If there are problems, restart again in the order indicated, or follow the procedure indicated in [TEO_Network_troubleshooting](https://apps.robots.uc3m.es/index.php/TEO_Network_troubleshooting)
+   * In `Resource` (Bottom right), computers that have been previously turned on must be listed as `available` (green). If there are problems, restart again in the order indicated, or follow the procedure indicated in [TEO_Network_troubleshooting](https://apps-robots.uc3m.es/robots/wiki/TEO_Network_troubleshooting)
 10. Click on `Run` (green "play" button)
 11. Check the operation of each program through `teoTools_App`
 
@@ -29,4 +29,4 @@
 
 ## Also see
 
-* <https://apps.robots.uc3m.es/index.php/Qu%C3%A9_llevar_a_Demos_(TEO)>
+* <https://apps-robots.uc3m.es/robots/wiki/Qué_llevar_a_Demos_(TEO)>
