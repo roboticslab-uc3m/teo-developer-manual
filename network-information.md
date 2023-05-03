@@ -36,7 +36,6 @@ Memory 16 GiB, Processor Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz, Disk 111 GiB
 - OS (dual boot):
   - Partition 80Gb: Ubuntu 20.04 Focal Fossa
   - Partition 20Gb: Ubuntu 16.04 Xenial
-- Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 ### manipulation: pass
 
@@ -88,7 +87,6 @@ Memory 16 GiB, Processor Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, GPU: HD Graph
 - OS (dual boot):
   - Partition 80Gb: Ubuntu 20.04 Focal Fossa
   - Partition 20Gb: Ubuntu 16.04 Xenial
-- Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 ### locomotion: pass
 
@@ -129,7 +127,6 @@ Memory 16 GiB, Processor Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, GPU: HD Graph
 - OS (dual boot):
   - Partition 40Gb: Ubuntu 20.04 Focal Fossa
   - Partition 20Gb: Ubuntu 16.04 Xenial
-- Maintainer: [@rsantos88](https://github.com/rsantos88)
 
 ### teo-head: pass
 
