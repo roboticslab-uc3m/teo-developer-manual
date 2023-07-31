@@ -14,3 +14,4 @@ Additional low-level microcontroller firmware used in TEO can be found here:
 * [lacquey-pic-firmware](https://github.com/roboticslab-uc3m/lacquey-pic-firmware) (legacy)
 * [jr3-mbed-firmware](https://github.com/roboticslab-uc3m/jr3-mbed-firmware) (includes a PWM controller for the Lacquey fetch hand)
 * [textiles-arduino-firmware](https://github.com/roboticslab-uc3m/textiles-arduino-firmware)
+* [Dextra](https://github.com/roboticslab-uc3m/Dextra)
