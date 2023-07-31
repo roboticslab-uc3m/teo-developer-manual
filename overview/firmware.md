@@ -8,4 +8,9 @@ The robot PC device drivers are in [yarp-devices](https://github.com/roboticslab
 
 More information on these instances and their configuration can be found in the [TEO Network Information](../appendix/c-teo-network-information.md) appendix.
 
-Additional low-level microcontroller firmware used in TEO can be found in [yarp-devices/firmware](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/firmware).
+Additional low-level microcontroller firmware used in TEO can be found here:
+
+* [cui-pic-firmware](https://github.com/roboticslab-uc3m/cui-pic-firmware)
+* [lacquey-pic-firmware](https://github.com/roboticslab-uc3m/lacquey-pic-firmware) (legacy)
+* [jr3-mbed-firmware](https://github.com/roboticslab-uc3m/jr3-mbed-firmware) (includes a PWM controller for the Lacquey fetch hand)
+* [textiles-arduino-firmware](https://github.com/roboticslab-uc3m/textiles-arduino-firmware)
