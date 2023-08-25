@@ -51,18 +51,18 @@ The preferred approach, using the APIs provided by YARP within our programs and 
   - [yarp::dev::ITorqueControl](https://www.yarp.it/classyarp_1_1dev_1_1ITorqueControl.html)
   - [yarp::dev::IEncoders](https://www.yarp.it/classyarp_1_1dev_1_1IEncoders.html)
   - Implementation in simulator
-    - [roboticslab::YarpOpenraveControlboard](https://robots.uc3m.es/openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveControlboard.html)
-    - [openrave-yarp-plugins/libraries/YarpPlugins/YarpOpenraveControlboard](https://github.com/roboticslab-uc3m/openrave-yarp-plugins/tree/master/libraries/YarpPlugins/YarpOpenraveControlboard)
+    - [roboticslab::YarpOpenraveControlBoard](https://robots.uc3m.es/openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveControlBoard.html)
+    - [openrave-yarp-plugins/libraries/YarpPlugins/YarpOpenraveControlBoard](https://github.com/roboticslab-uc3m/openrave-yarp-plugins/tree/master/libraries/YarpPlugins/YarpOpenraveControlBoard)
   - Implementation in real robot
-    - [roboticslab::CanBusControlboard](https://robots.uc3m.es/yarp-devices/classroboticslab_1_1CanBusControlboard.html)
-    - [yarp-devices/libraries/YarpPlugins/CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/libraries/YarpPlugins/CanBusControlboard)
+    - [roboticslab::CanBusControlBoard](https://robots.uc3m.es/yarp-devices/classroboticslab_1_1CanBusControlBoard.html)
+    - [yarp-devices/libraries/YarpPlugins/CanBusControlBoard](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/libraries/YarpPlugins/CanBusControlBoard)
 - Examples (in the `remote` line, switch to `/teoSim/leftArm` or the limb of your selection)
   - C++
-    - [yarp-devices/examples/cpp/exampleRemoteControlboard](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/cpp/exampleRemoteControlboard)
-    - [yarp-devices/examples/cpp/exampleRemoteControlboardModule](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/cpp/exampleRemoteControlboardModule)
+    - [yarp-devices/examples/cpp/exampleRemoteControlBoard](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/cpp/exampleRemoteControlBoard)
+    - [yarp-devices/examples/cpp/exampleRemoteControlBoardModule](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/cpp/exampleRemoteControlBoardModule)
     - [yarp-devices/examples/cpp/examplePositionDirect](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/cpp/examplePositionDirect)
     - [iCub-main: Getting accustomed with motor interfaces](https://robotology.github.io/robotology-documentation/doc/html/icub_motor_control_tutorial.html)
   - MATLAB
-    - [yarp-devices/examples/matlab/exampleRemoteControlboard.m](https://github.com/roboticslab-uc3m/yarp-devices/blob/master/examples/matlab/exampleRemoteControlboard.m)
+    - [yarp-devices/examples/matlab/exampleRemoteControlBoard.m](https://github.com/roboticslab-uc3m/yarp-devices/blob/master/examples/matlab/exampleRemoteControlBoard.m)
   - Python
-    - [yarp-devices/examples/python/exampleRemoteControlboard.py](https://github.com/roboticslab-uc3m/yarp-devices/blob/master/examples/python/exampleRemoteControlboard.py)
+    - [yarp-devices/examples/python/exampleRemoteControlBoard.py](https://github.com/roboticslab-uc3m/yarp-devices/blob/master/examples/python/exampleRemoteControlBoard.py)

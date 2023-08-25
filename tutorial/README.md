@@ -55,8 +55,8 @@ You should get a window similar to the one depicted below. Navigate through `App
 
 In the YARP application manager instance, navigate through `Applications` > `teoSimBase_App`:
 
-- Right-click on first `RealToSimControlboard` > `Run`
-- Right-click on second `RealToSimControlboard` > `Run`
+- Right-click on first `RealToSimControlBoard` > `Run`
+- Right-click on second `RealToSimControlBoard` > `Run`
 
 You will see no action, but it will provide ports the robot hands that are more similar to the real ones.
 
