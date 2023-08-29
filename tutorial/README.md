@@ -18,7 +18,7 @@ Now that you have installed the basic TEO simulator, you're probably wondering w
 
 ###  Initializing the communication server
 
-Our current implementation uses [YARP](https://yarp.it) for communication. Basic use of YARP requires the use of a centralized server. This server associates the low-level implementation of the communication ports with the names we give them. Before executing any TEO program or application, please launch a YARP server from a terminal:
+Our current implementation uses [YARP](https://robots.uc3m.es/installation-guides/install-yarp.html) for communication. Basic use of YARP requires the use of a centralized server. This server associates the low-level implementation of the communication ports with the names we give them. Before executing any TEO program or application, please launch a YARP server from a terminal:
 
 ```bash
 yarp server
