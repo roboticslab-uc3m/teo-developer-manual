@@ -84,4 +84,5 @@ Next, continue to the dedicated sections:
 - [Motor Control](motor.md)
 - [RGB-D Sensor](rgbd.md)
 - [Mesh From Real Depth](mesh.md)
+- [Scene Reconstruction](kinfu.md)
 - [Force/Torque Sensors](ft.md)

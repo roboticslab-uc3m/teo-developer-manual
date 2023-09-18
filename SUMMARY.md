@@ -14,6 +14,7 @@
   * [Trajectory Execution](tutorial/trajectories.md)
   * [RGB-D Sensor](tutorial/rgbd.md)
   * [Mesh From Real Depth](tutorial/mesh.md)
+  * [Scene Reconstruction](tutorial/kinfu.md)
   * [Force/Torque Sensors](tutorial/ft.md)
 * [Diagrams](diagrams.md)
 * [Tables](tables.md)
