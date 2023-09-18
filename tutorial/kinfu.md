@@ -63,7 +63,7 @@ Note: in the past and on certain hardware configurations, OpenCL could throw an 
 
 Now, it is desirable to fetch the resulting point cloud from the generated 3D render, and reconstruct a mesh from those points. This can be achieved with the *exampleSceneReconstructionClient* app. Don't close the *sceneReconstruction* service yet (it will be queried for data).
 
-However, first you need to assemble a mesh reconstruction pipeline. The general procedure is described [here](https://robots.uc3m.es/vision/yarpcloudutils.html) ([Markdown](https://github.com/roboticslab-uc3m/vision/blob/master/libraries/YarpCloudUtils/README.md)) and all available PCL algorithms are listed. A good start is the following configuration, to be placed in a *pipeline.ini*:
+However, first you need to assemble a mesh reconstruction pipeline. The general procedure is described [here](https://robots.uc3m.es/vision/yarpcloudutils.html) ([Markdown](https://github.com/roboticslab-uc3m/vision/blob/master/libraries/YarpCloudUtils/README.md)) and all available PCL algorithms are listed. A good start is the following configuration, to be placed in a *pipeline.ini* file:
 
 ```ini
 [meshPipeline downsample]
@@ -90,4 +90,6 @@ The point cloud obtained through KinectFusion will be stored in binary format in
 
 ### Hints
 
-Our *sceneReconstruction* service maps YARP configuration parameters (either via .ini or through command line) to KinFu options. Check the *sceneReconstruction.ini* file at the vision repository for current defaults. Adjust for better resolution, memory usage, scanned volume, etc.
+- Our *sceneReconstruction* service maps YARP configuration parameters (either via .ini or through command line) to KinFu options. Check the *sceneReconstruction.ini* file at the vision repository for current defaults. Adjust for better resolution, memory usage, scanned volume, etc.
+
+- It might be interesting to defer the reconstruction process, i.e. ask the *exampleSceneReconstructionClient* app to only save the point cloud to disk, then perform the remaining steps by other means. Since the point cloud format used is standard (PLY), you might resort to your preferred software to obtain the final mesh from the stored cloud. If you still want to stick with PCL and our handy wrappers, there is another pair of sample apps in the vision repo for your convenience: *exampleProcessCloud* (in: point cloud, out: transformed/filtered/smoothened/etc. point cloud) and *exampleMeshFromCloud* (in: point cloud, out: mesh).
