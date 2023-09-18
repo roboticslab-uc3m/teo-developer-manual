@@ -8,15 +8,21 @@ OpenCV 4.x is the minimum version at which the OpenCV project provided a KinectF
 
 During the configuration step, tell CMake how to find the contrib modules (make sure opencv/opencv_contrib was cloned):
 
-`cmake /source/dir -DOPENCV_EXTRA_MODULES_PATH=/path/to/opencv/contrib/modules`
+```
+cmake /source/dir -DOPENCV_EXTRA_MODULES_PATH=/path/to/opencv/contrib/modules
+```
 
 Also, enable those components that have special licensing (such as KinectFusion):
 
-`cmake /source/dir -DOPENCV_ENABLE_NONFREE=TRUE`
+```
+cmake /source/dir -DOPENCV_ENABLE_NONFREE=TRUE
+```
 
 If you can use `ccmake` to inspect the final configuration, check that `BUILD_opencv_rgbd` is set to `ON`.
 
 In order to perform mesh reconstruction, PCL will be used under the hood (check the [installation guide](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-pcl.md)).
+
+In order to build our components, YARP will be needed ([instructions](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-yarp.md)).
 
 Finally, clone and build our [vision-related repository](https://github.com/roboticslab-uc3m/vision). If OpenCV has been correctly installed, the *sceneReconstruction* application should be available. In addition, also set `ENABLE_examples` to `ON` or, alternatively, build the *exampleSceneReconstructionClient* app independently (in examples/cpp/).
 
@@ -24,9 +30,11 @@ Finally, clone and build our [vision-related repository](https://github.com/robo
 
 Once the necessary dependencies and the vision repository are installed, plug in your RGBD sensor of choice and launch the *sceneReconstruction* app. Since we mostly use the RealSense D435i camera, there already exists a configuration file that loads the corresponding acquisition device:
 
-`sceneReconstruction --from sceneReconstruction-realsense2.ini`
+```
+sceneReconstruction --from sceneReconstruction-realsense2.ini
+```
 
-This will open two ports (default naming unless configured otherwise): the RPC interface `/sceneReconstruction/rpc:s` and the rendered mono image `/scenreReconstruction/render:o`. Now it is advised to create a camera visor through *yarpview* and connect it to the render port:
+This will open two ports (default naming unless configured otherwise): the RPC interface `/sceneReconstruction/rpc:s` and the rendered mono image `/sceneReconstruction/render:o`. Now it is advised to create a camera visor through *yarpview* and connect it to the render port:
 
 ```
 yarpview --name /render
@@ -35,7 +43,9 @@ yarp connect /sceneReconstruction/render:o /render
 
 At first, it will show a blank image until the service is started. To achieve that, launch the RPC interface:
 
-`yarp rpc /sceneReconstruction/rpc:s`
+```
+yarp rpc /sceneReconstruction/rpc:s
+```
 
 Available commands can be inspected with `help`. We need just two of them: `resume` (for starting or resuming the scene reconstruction) and `pause` (to actually generate a scene from previous frames). The workflow is as follows:
 
@@ -47,7 +57,7 @@ The rendered output could look as follows:
 
 ![kinfu](../fig/kinfu.png)
 
-Note: in the past, OpenCL could throw an exception on certain hardware configurations related to the maximum work-group size requested by OpenCV. See [this issue](https://github.com/opencv/opencv_contrib/issues/2422) for an easy workaround.
+Note: in the past and on certain hardware configurations, OpenCL could throw an exception related to the maximum work-group size requested by OpenCV. See [this issue](https://github.com/opencv/opencv_contrib/issues/2422) for an easy workaround if the issue is still present.
 
 ### Offline scene reconstruction: from a point cloud to a mesh
 
@@ -72,6 +82,8 @@ There are three steps in this pipeline: downsampling (not mandatory), normal est
 
 Run the following command from the vision project's build tree (the app is *not* installed), passing the correct path to *pipeline.ini*.
 
-`exampleSceneReconstructionClient --cloud cloud.ply --mesh mesh.ply --from pipeline.ini`
+```
+exampleSceneReconstructionClient --cloud cloud.ply --mesh mesh.ply --from pipeline.ini
+```
 
 The point cloud obtained through KinectFusion will be stored in binary format in cloud.ply. The resulting mesh reconstruction will be stored in mesh.ply. Launch the command with `--help` for more options.
