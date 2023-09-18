@@ -63,7 +63,7 @@ Note: in the past and on certain hardware configurations, OpenCL could throw an 
 
 Now, it is desirable to fetch the resulting point cloud from the generated 3D render, and reconstruct a mesh from those points. This can be achieved with the *exampleSceneReconstructionClient* app. Don't close the *sceneReconstruction* service yet (it will be queried for data).
 
-However, first you need to assemble a mesh reconstruction pipeline. The general procedure is described [here](https://robots.uc3m.es/vision/yarpcloudutils.html) ([Markdown](https://github.com/roboticslab-uc3m/vision/blob/master/libraries/YarpCloudUtils/README.md)). A good start is the following configuration, to be placed in a *pipeline.ini*:
+However, first you need to assemble a mesh reconstruction pipeline. The general procedure is described [here](https://robots.uc3m.es/vision/yarpcloudutils.html) ([Markdown](https://github.com/roboticslab-uc3m/vision/blob/master/libraries/YarpCloudUtils/README.md)) and all available PCL algorithms are listed. A good start is the following configuration, to be placed in a *pipeline.ini*:
 
 ```ini
 [meshPipeline downsample]
@@ -87,3 +87,7 @@ exampleSceneReconstructionClient --cloud cloud.ply --mesh mesh.ply --from pipeli
 ```
 
 The point cloud obtained through KinectFusion will be stored in binary format in cloud.ply. The resulting mesh reconstruction will be stored in mesh.ply. Launch the command with `--help` for more options.
+
+### Hints
+
+Our *sceneReconstruction* service maps YARP configuration parameters (either via .ini or through command line) to KinFu options. Check the *sceneReconstruction.ini* file at the vision repository for current defaults. Adjust for better resolution, memory usage, scanned volume, etc.
