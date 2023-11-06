@@ -10,9 +10,7 @@
 1. Press other relevant buttons and make sure they light up: manipulation PC and the robot parts you want to use.
 1. Turn on the manipulation PC.
 1. Wait until the manipulation PC has finished booting. You can monitor this through `ping manipulation` issued from another PC connected to the robot's local network.
-1. Issue `ssh teo@manipulation` from said external PC (alternatively: `ssh teo@2.2.2.51`).
 1. Open the [emergency buttons](/fig/emergency-buttons.jpg) for the robot parts you need. Keep these buttons close and ready to be used.
-1. Issue `launchCanBus --from manipulation.ini` or the INI file most suitable for your demo, check for possible errors or warnings.
 
 ## Demonstration Instructions
 
@@ -25,4 +23,5 @@ Refer to the specific instructions of the demo you want to launch:
 
 ## See also
 
+- [driver check procedure](driver-check-procedure.md)
 - <https://apps-robots.uc3m.es/robots/wiki/Qu%C3%A9_llevar_a_Demos_(TEO)>
