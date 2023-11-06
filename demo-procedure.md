@@ -2,31 +2,27 @@
 
 ## Preparation
 
-1. Remove obstacles (table, curtains, chairs... or another objects that may interfere)
-2. Place the robot in a position where it can have space and cannot hit any obstacle
-3. Turn on the [power supplies](/fig/power-supply.jpg), adjust them to 42 volts and check that the emergency button of the power suppies is raised up.
-4. In the back of the robot, there is a [panel](/fig/main-switches.jpg). Press the `General` button first. The button should light up.
-5. Then you must turn on:
-   * The power buttons of the PCs that are involved in the demo. These buttons are labeled as `CABEZA CPU`, `MANIPULADOR CPU`, `LOCOMOTOR CPU`. It is important to keep in mind is that the `manipulation` computer (labeled as `MANIPULADOR CPU`) contains the `yarp server` (used for the communication of processes between the different PCs), so it is necessary to turn this PC on to get everything working correctly.
-   * Turn on the power buttons of the motors belonging to the limbs involved in the demo, labeled as `CABEZA CUELLO`, `MANIPULADOR IZQUIERDO`, `MANIPULADOR DERECHO`, `LOCOMOTOR IZQUIERDO`, `LOCOMOTOR DERECHO`.
-6. Then, turn on each of the [switches](/fig/pc-switches.jpg) corresponding to the computers. The buttons of the second column are responsible for turning on the computers of the `head`, `manipulation`, and `locomotion`, in this order. The buttons of the first column are used to reset the computers in the same order as the second column.
-7. If it is needed or it is interesting for the demo:
-   * Turn on the television
-   * Turn on the chest lights (you can use a mobile application named: [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&gl=ES) to change the colors sequence)
-8. Have the [emergency buttons](/fig/emergency-buttons.jpg) of the motors close to you and open the ones you are going to use.
-9. Double click on the desktop icon `teo-main yarpmanager`:
-   * Click on `Refresh status` button (blue button in fourth position).
-   * In `Resource` (Bottom right), computers that have been previously turned on must be listed as `available` (green). If there are problems, restart again in the order indicated, or follow the procedure indicated in [TEO_Network_troubleshooting](https://apps-robots.uc3m.es/robots/wiki/TEO_Network_troubleshooting)
-10. Click on `Run` (green "play" button)
-11. Check the operation of each program through `teoTools_App`
+1. Remove any obstacles (table, curtains, chairs... or other objects that may interfere).
+1. Place the robot in a position where it can have space and cannot hit any obstacle.
+1. Make sure all emergency stop buttons (main and per robot part) are closed.
+1. Turn on both [42V power supplies](fig/power-supply.jpg) (check they are actually at 42V before proceeding further) and open the main emergency button.
+1. On the [rear panel](/fig/main-switches.jpg) of the robot, press the "General" red button first. The button should light up.
+1. Press other relevant buttons and make sure they light up: manipulation PC and the robot parts you want to use.
+1. Turn on the manipulation PC.
+1. Wait until the manipulation PC has finished booting. You can monitor this through `ping manipulation` issued from another PC connected to the robot's local network.
+1. Issue `ssh teo@manipulation` from said external PC (alternatively: `ssh teo@2.2.2.51`).
+1. Open the [emergency buttons](/fig/emergency-buttons.jpg) for the robot parts you need. Keep these buttons close and ready to be used.
+1. Issue `launchCanBus --from manipulation.ini` or the INI file most suitable for your demo, check for possible errors or warnings.
 
-## Demostration Instructions
+## Demonstration Instructions
 
-* [teo-self-presentation](https://github.com/roboticslab-uc3m/teo-self-presentation)
-* [teo-follow-me](https://github.com/roboticslab-uc3m/teo-follow-me)
-* [teo-waiter](https://github.com/roboticslab-uc3m/teo-waiter)
-* [teo-demos-misc](https://github.com/roboticslab-uc3m/teo-demos-misc)
+Refer to the specific instructions of the demo you want to launch:
 
-## Also see
+- [teo-self-presentation](https://github.com/roboticslab-uc3m/teo-self-presentation)
+- [teo-follow-me](https://github.com/roboticslab-uc3m/teo-follow-me)
+- [teo-waiter](https://github.com/roboticslab-uc3m/teo-waiter)
+- [teo-demos-misc](https://github.com/roboticslab-uc3m/teo-demos-misc)
 
-* <https://apps-robots.uc3m.es/robots/wiki/Qué_llevar_a_Demos_(TEO)>
+## See also
+
+- <https://apps-robots.uc3m.es/robots/wiki/Qu%C3%A9_llevar_a_Demos_(TEO)>

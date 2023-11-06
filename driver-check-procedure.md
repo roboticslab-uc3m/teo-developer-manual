@@ -13,7 +13,7 @@ Basic steps to power things up and check the drivers of the robot:
 1. Issue `ssh teo@manipulation` from said external PC (alternatively: `ssh teo@2.2.2.51`).
 1. Identify the desired CAN bus interface (check our [diagrams](diagrams.md#joint-indexes)).
 1. For instance, to check the right arm, issue `candump can2`.
-1. Open the emergency button corresponding to said robot part (arms).
+1. Open the [emergency button](fig/emergency-buttons.jpg) corresponding to said robot part (arms).
 1. Check that the status LEDs on all iPOS drives are green.
 1. Otherwise, a red LED would usually hint a communication problem. In that case, close the emergency button and review all CAN connectors (usually it is enough to press them a bit harder), then check again.
 1. At the same time the emergency button was opened, you should see the boot-up CAN messages issued by the drives showing up in the terminal, one per drive, using a COB-ID of the form 714 (hexadecimal), where 700h is the command specifier and 14h (=20) the drive ID (refer to our [diagrams](diagrams.md#joint-indexes) and mind the hex-to-decimal conversion).
