@@ -24,7 +24,7 @@
 
 * [teo-self-presentation](https://github.com/roboticslab-uc3m/teo-self-presentation)
 * [teo-follow-me](https://github.com/roboticslab-uc3m/teo-follow-me)
-* [teo-waiter](https://github.com/roboticslab-uc3m/waiter)
+* [teo-waiter](https://github.com/roboticslab-uc3m/teo-waiter)
 * [teo-demos-misc](https://github.com/roboticslab-uc3m/teo-demos-misc)
 
 ## Also see
