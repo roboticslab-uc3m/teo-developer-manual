@@ -1,0 +1,104 @@
+site_name: TEO Developer Manual
+
+repo_name: roboticslab-uc3m/teo-developer-manual
+repo_url: https://github.com/roboticslab-uc3m/teo-developer-manual
+edit_uri: blob/master/docs/
+
+theme:
+  name: material
+  language: en
+  logo: fig/roboticslab.svg
+  favicon: fig/favicon.ico
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light-blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light-blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+extra:
+  social:
+    - icon: material/web
+      link: http://roboticslab.uc3m.es/
+    - icon: fontawesome/brands/github
+      link: https://github.com/roboticslab-uc3m
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/uc3mRoboticsLab
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@RoboticsLabUC3M
+
+exclude_docs: |
+  fig/README.md
+  fig/editable/README.md
+
+nav:
+- index.md
+- introduction.md
+- Cognitive architecture: architecture.md
+- Software repositories:
+  - overview/index.md
+  - PC Software: overview/pc.md
+  - Firmware: overview/firmware.md
+  - Demonstration: overview/demonstration.md
+  - Research: overview/research.md
+  - Development: overview/development.md
+- Tutorial:
+  - tutorial/index.md
+  - Motor Control: tutorial/motor.md
+  - Trajectory Execution: tutorial/trajectories.md
+  - RGB-D Sensor: tutorial/rgbd.md
+  - Mesh From Real Depth: tutorial/mesh.md
+  - Scene Reconstruction: tutorial/kinfu.md
+  - Force/Torque Sensors: tutorial/ft.md
+- diagrams.md
+- tables.md
+- dynamic-information.md
+- switches-and-power.md
+- connectors.md
+- network-information.md
+- driver-check-procedure.md
+- demo-procedure.md
+- additional-resources.md
+
+use_directory_urls: false
+
+markdown_extensions:
+  - attr_list # for mkdocs-pdf
+  - toc:
+      permalink: '#'
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - open-in-new-tab
+  - git-revision-date-localized
+  - table-reader
+  - include-markdown
+  - mermaid2
+  - mkdocs-pdf

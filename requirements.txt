@@ -1,0 +1,9 @@
+mkdocs
+mkdocs-material
+mkdocs-open-in-new-tab
+mkdocs-git-revision-date-localized-plugin
+mkdocs-table-reader-plugin
+mkdocs-include-markdown-plugin
+mkdocs-mermaid2-plugin
+mkdocs-pdf
+pymdown-extensions

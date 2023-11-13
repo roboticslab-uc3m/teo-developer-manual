@@ -1,6 +1,6 @@
 # Tutorial: Trajectory Execution
 
-Now that you should know how to instruct your robot to go from point A to point B in a simple motion instruction (see [Tutorial: Motor Control](./tutorial/motor.md)), this tutorial will cover more complex, arbitrary multi-setpoint trajectories.
+Now that you should know how to instruct your robot to go from point A to point B in a simple motion instruction (see [Tutorial: Motor Control](motor.md)), this tutorial will cover more complex, arbitrary multi-setpoint trajectories.
 
 ## Position-controlled high frequency trajectories
 
@@ -13,7 +13,7 @@ In short, this is your preferred control mode if you need to:
 2. translate a "live" source of targets (i.e. **online-based**) into robot motion, acquired through a controller device such as a joystick, fetched from a visual servoing system, or generated with a time-parameterized formula, for instance.
 
 However, it is **not** a good choice whenever the distance between points is too high and/or the expected time step per instruction is close to the order of one second or more (most usually, we want to issue position commands every 10-50 milliseconds, hence the "high frequency").
-In that case, stick to [Tutorial: Motor Control](./tutorial/motor.md) and the [`yarp::dev::IPositionControl`](http://www.yarp.it/git-master/classyarp_1_1dev_1_1IPositionControl.html) interface.
+In that case, stick to [Tutorial: Motor Control](motor.md) and the [`yarp::dev::IPositionControl`](http://www.yarp.it/git-master/classyarp_1_1dev_1_1IPositionControl.html) interface.
 
 The adequate YARP interface to achieve position-controlled high frequency trajectories is [`yarp::dev::IPositionDirect`](http://www.yarp.it/git-master/classyarp_1_1dev_1_1IPositionDirect.html).
 

@@ -5,6 +5,7 @@ First, activate the `teoSim` RGB-D Sensor: In the YARP application manager insta
 ## Via GUIs
 
 To view the depth image, perform the sequence:
+
 1. In the YARP application manager instance, navigate through `Applications` > `teoSimTools_App` > right-click on the `yarpview` corresponding to the `depthImage` > `Run`
 2. In the YARP application manager instance, navigate through `Applications` > `teoSimTools_App` > right-click on the connection (bottom frame) corresponding to the `depthImage` > `Connect`
 

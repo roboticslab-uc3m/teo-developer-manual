@@ -6,7 +6,7 @@ Basic steps to power things up and check the drivers of the robot:
 
 1. Make sure all emergency stop buttons (main and per robot part) are closed.
 1. Turn on both [42V power supplies](fig/power-supply.jpg) (check they are actually at 42V before proceeding further) and open the main emergency button.
-1. On the [rear panel](/fig/main-switches.jpg) of the robot, press the "General" red button first. The button should light up.
+1. On the [rear panel](fig/main-switches.jpg) of the robot, press the "General" red button first. The button should light up.
 1. Press other relevant buttons and make sure they light up: manipulation PC and the desired robot part.
 1. Turn on the manipulation PC.
 1. Wait until the manipulation PC has finished booting. You can monitor this through `ping manipulation` issued from another PC connected to the robot's local network.
@@ -25,7 +25,7 @@ Once all connection issues (if present) have been sorted out, you can proceed to
 
 1. Assuming we want to send joint commands to the right arm, while still logged in via SSH to the manipulation PC: `launchCanBus --from manipulation-rightArm.ini`.
 1. Identify any errors, if present. The controller has restart mechanisms that may attempt to recover from errors and may or may not succeed.
-1. [Absolute encoders](/fig/cui-absolute-circuit.jpg) are prone to fail. They are given a fixed number of retries. If it is not possible to establish communication, the YARP plugin related to this iPOS drive and encoder also fails on initialization. Terminate the `launchCanBus` process and try again.
+1. [Absolute encoders](fig/cui-absolute-circuit.jpg) are prone to fail. They are given a fixed number of retries. If it is not possible to establish communication, the YARP plugin related to this iPOS drive and encoder also fails on initialization. Terminate the `launchCanBus` process and try again.
 1. On either the robot's PC through another SSH session or on an external PC connected to the robot's local network, issue `yarp rpc /teo/rightArm/rpc:i`.
 1. On startup, robot joints should be set in position control mode. Within the RPC session, issue `get icmd cmds`. This should return a list of `pos` vocabs.
 1. If any vocab is not equal to `pos` (usually in case of failure its value is `cfgn`, which means "not configured"), identify the error in the console output.

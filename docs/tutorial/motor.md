@@ -1,6 +1,6 @@
 # Tutorial: Motor Control
 
-Throughout this section, refer to the [Joint Indexes (YARP ports)](diagrams.html#joint-indexes)  diagram to see port names and joint indexes, as well as the [Joint Directions of Rotation](diagrams.html#joint-directions-of-rotation) diagram.
+Throughout this section, refer to the [Joint Indexes (YARP ports)](../diagrams.md#joint-indexes)  diagram to see port names and joint indexes, as well as the [Joint Directions of Rotation](../diagrams.md#joint-directions-of-rotation) diagram.
 
 ## Directly talking to ports
 
@@ -29,7 +29,6 @@ In line with the hacks mentioned above, refer to a more exhaustive list at: [yar
 Two options to launch the YARP motor GUI for `teoSim`:
 
 - Via terminal:
-
   ```bash
   yarpmotorgui --from yarpmotorgui/teoSim.ini
   ```

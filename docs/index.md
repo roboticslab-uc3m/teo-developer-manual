@@ -4,11 +4,11 @@
 
 [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) Developer Manual @ [roboticslab-uc3m](https://github.com/roboticslab-uc3m)
 
-Click on the option you want, or use the arrows to move sequentially
+Click on the option you want, or use the `P` and `N` keys to navigate through the sections (Previous, Next).
 
 ## Additional notes
 
-* The content of this documentation is generated from files hosted on [GitHub](https://github.com/roboticslab-uc3m/teo-developer-manual)
+* The content of this documentation is generated from files hosted on [GitHub](https://github.com/roboticslab-uc3m/teo-developer-manual).
 
 ## If you have any doubts or comments
 

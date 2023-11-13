@@ -24,11 +24,12 @@
 ## Link Names
 
 ```mermaid
-!INCLUDE "./fig/editable/teo.mermaid"
+{% include "fig/editable/teo.mermaid" %}
 ```
 
-- Github: [teo-link-names.pdf](fig/teo-link-names.pdf)
-- Gitbook: {% pdf src="fig/teo-link-names.pdf", width="100%", height="1100" %}{% endpdf %}
+[teo-link-names.pdf](fig/teo-link-names.pdf)
+
+![TEO link names](fig/teo-link-names.pdf){ type=application/pdf style="width: 100%; height: 967px;" }
 
 ## COGs
 
@@ -46,8 +47,9 @@
 
 ### F/T sensors (Mechanical)
 
-- Github: [Jr3 50M31 corregido.pdf](fig/Jr3_50M31_corregido.pdf)
-- Gitbook: {% pdf src="fig/Jr3_50M31_corregido.pdf", width="100%", height="590" %}{% endpdf %}
+[Jr3 50M31 corregido.pdf](fig/Jr3_50M31_corregido.pdf)
+
+![Jr3 50M31 corregido](fig/Jr3_50M31_corregido.pdf){ type=application/pdf style="width: 100%; height: 509px;" }
 
 ## Lacquey Fetch
 
@@ -55,10 +57,12 @@ This sketches were made with SolidWorks in order to provide the position of the 
 
 ### Lacquey Fetch (Hand)
 
-- Github: [fetch-hand.pdf](fig/fetch-hand.pdf)
-- Gitbook: {% pdf src="fig/fetch-hand.pdf", width="100%", height="590" %}{% endpdf %}
+[fetch-hand.pdf](fig/fetch-hand.pdf)
+
+![fetch-hand](fig/fetch-hand.pdf){ type=application/pdf style="width: 100%; height: 509px;" }
 
 ### Lacquey Fetch (Proximal Falange)
 
-- Github: [fetch-proximal-falange.pdf](fig/fetch-proximal-falange.pdf)
-- Gitbook: {% pdf src="fig/fetch-proximal-falange.pdf", width="100%", height="590" %}{% endpdf %}
+[fetch-proximal-falange.pdf](fig/fetch-proximal-falange.pdf)
+
+![fetch-proximal-falange](fig/fetch-proximal-falange.pdf){ type=application/pdf style="width: 100%; height: 509px;" }

@@ -155,9 +155,9 @@ yarprun --server /head
 - [speech](https://github.com/roboticslab-uc3m/speech)
 - `YARP_COLORED_OUTPUT=1`
 
-## Mapping hostnames to IP addreses in your computer
+## Mapping hostnames to IP addresses in your computer
 
-You can edit the `/etc/hosts` file of your system for mapping some hostnames to IP addreses. Now, you can associate the name of teo pc's
+You can edit the `/etc/hosts` file of your system for mapping some hostnames to IP addresses. Now, you can associate the name of teo pc's
 with their IPs:
 
 ```bash

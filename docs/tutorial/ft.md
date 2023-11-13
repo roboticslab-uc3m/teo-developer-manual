@@ -5,6 +5,7 @@ Requires at least YARP 3.4. First, activate the `teoSim` Force/Torque Sensors: I
 ## Via GUIs
 
 To view the force/torque signals, perform the sequence:
+
 1. In the YARP application manager instance, navigate through `Applications` > `teoSimTools_App` > right-click on the corresponding `yarpscope` > `Run`
 2. In the YARP application manager instance, navigate through `Applications` > `teoSimTools_App` > right-click on the corresponding (bottom frame) connection > `Connect`
 

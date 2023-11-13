@@ -6,11 +6,11 @@
 1. Place the robot in a position where it can have space and cannot hit any obstacle.
 1. Make sure all emergency stop buttons (main and per robot part) are closed.
 1. Turn on both [42V power supplies](fig/power-supply.jpg) (check they are actually at 42V before proceeding further) and open the main emergency button.
-1. On the [rear panel](/fig/main-switches.jpg) of the robot, press the "General" red button first. The button should light up.
+1. On the [rear panel](fig/main-switches.jpg) of the robot, press the "General" red button first. The button should light up.
 1. Press other relevant buttons and make sure they light up: manipulation PC and the robot parts you want to use.
 1. Turn on the manipulation PC.
 1. Wait until the manipulation PC has finished booting. You can monitor this through `ping manipulation` issued from another PC connected to the robot's local network.
-1. Open the [emergency buttons](/fig/emergency-buttons.jpg) for the robot parts you need. Keep these buttons close and ready to be used.
+1. Open the [emergency buttons](fig/emergency-buttons.jpg) for the robot parts you need. Keep these buttons close and ready to be used.
 
 ## Demonstration Instructions
 
@@ -24,4 +24,4 @@ Refer to the specific instructions of the demo you want to launch:
 ## See also
 
 - [driver check procedure](driver-check-procedure.md)
-- <https://apps-robots.uc3m.es/robots/wiki/Qu%C3%A9_llevar_a_Demos_(TEO)>
+- wiki: [Qué llevar a Demos (TEO)](https://apps-robots.uc3m.es/robots/wiki/Qu%C3%A9_llevar_a_Demos_(TEO))

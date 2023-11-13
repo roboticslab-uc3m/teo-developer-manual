@@ -7,10 +7,11 @@ Read the Introduction section of the Developer manual: [Developer Manual (Introd
 ## Minimum installation for simulator
 
 As a bare minimum to try the simulator, install the following (note: there is a shortcut via the superbuild https://github.com/roboticslab-uc3m/teo-main but let's follow this minimalistic procedure instead), each with their own dependencies:
-- https://github.com/roboticslab-uc3m/openrave-yarp-plugins
-- https://github.com/roboticslab-uc3m/teo-openrave-models
-- https://github.com/roboticslab-uc3m/teo-configuration-files
-- https://github.com/roboticslab-uc3m/tools
+
+- [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins)
+- [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models)
+- [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files)
+- [tools](https://github.com/roboticslab-uc3m/tools)
 
 ## Now what can I do?
 
@@ -75,6 +76,7 @@ Note that you can directly interface with the world port. While this is consider
 Great news! Interfacing with the robot in simulation will be exactly the same as with the real robot! 2x1! Yay! It in fact shares common interfaces with all YARP-speaking robots! Nx1!!
 
 Essentially, we can interact with the robot:
+
 1. Directly talking to ports. This is considered a **bad practice when APIs are available**, but use cases include: fumbling around on a day just like today, speaking with a port with no API (e.g. no client network wrapper), debugging, or just plain laziness. Our own set of hacks (it's hackish because protocols may be subject to change) can be found at: [yarp-tricks (from developer-manual)](https://robots.uc3m.es/developer-manual/appendix/yarp-tricks.html)
 2. Via GUI. In certain cases, we have GUIs!
 3. **Best practice:** Within our programs and scripts, using the APIs provided by YARP. They are available in many programming languages (C++, Python, MATLAB...). Our own set of examples can be found at: [examples (from yarp-devices)](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples)
