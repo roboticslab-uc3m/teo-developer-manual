@@ -22,10 +22,5 @@ jobs:
         fetch-depth: 0 # for the 'Last updated' timestamp
     - name: Install requirements
       run: pip install -r requirements.txt
-    - name: Build site
-      run: mkdocs build
-    - uses: crazy-max/ghaction-github-pages@v4
-      with:
-        build_dir: site
-      env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - name: Build and deploy site
+      run: mkdocs gh-deploy --no-history
