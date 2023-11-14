@@ -53,18 +53,18 @@ exclude_docs: |
   fig/editable/README.md
 
 nav:
-- index.md
+- Home: README.md
 - introduction.md
-- Cognitive architecture: architecture.md
-- Software repositories:
-  - overview/index.md
+- Cognitive Architecture: architecture.md
+- Software Repositories:
+  - overview/README.md
   - PC Software: overview/pc.md
   - Firmware: overview/firmware.md
   - Demonstration: overview/demonstration.md
   - Research: overview/research.md
   - Development: overview/development.md
 - Tutorial:
-  - tutorial/index.md
+  - tutorial/README.md
   - Motor Control: tutorial/motor.md
   - Trajectory Execution: tutorial/trajectories.md
   - RGB-D Sensor: tutorial/rgbd.md
