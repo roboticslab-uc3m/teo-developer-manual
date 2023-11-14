@@ -1,4 +1,4 @@
-[![roboticslab-uc3m logo](fig/roboticslab-banner-350px.png)](https://github.com/roboticslab-uc3m)
+[![roboticslab-uc3m logo](docs/fig/roboticslab-banner-350px.png)](https://github.com/roboticslab-uc3m)
 
 # TEO Developer Manual
 
