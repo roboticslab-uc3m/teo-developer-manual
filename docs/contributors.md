@@ -41,5 +41,7 @@ This is a (roughly) chronological list of people who contributed to the design a
         - Álvaro Martínez ([@AlvaroMartinezR](https://github.com/AlvaroMartinezR))
     - PyBullet:
         - Ignacio Montesino Valle ([@imontesino](https://github.com/imontesino))
+    - CoppeliaSim:
+        - Juan G. Víctores ([@jgvictores](https://github.com/jgvictores))
     - Webots:
         - Juan G. Víctores ([@jgvictores](https://github.com/jgvictores))
