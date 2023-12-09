@@ -49,5 +49,5 @@ To shut everything down:
 
 ## See also
 
-- [YARP RPC cheatsheet](https://github.com/roboticslab-uc3m/developer-manual/blob/master/appendix/yarp-tricks.md)
+- [YARP RPC cheatsheet](https://robots.uc3m.es/developer-manual/appendix/yarp-tricks.html)
 - [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues/): report any hardware-related issues here!
