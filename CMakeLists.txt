@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.12 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.12)
 
 # Define a project.
 project(TEO_DEVELOPER_MANUAL LANGUAGES NONE)
@@ -10,18 +10,8 @@ find_package(YARP 3.2 REQUIRED)
 # Set some useful variables - paths relative to the installation prefix.
 yarp_configure_external_installation(teo-developer-manual)
 
-# Collect Markdown files. Globbing is evil, but we don't care. All we
-# need CMake here for is to support superbuild-like repos through YCM.
-file(GLOB md ${CMAKE_SOURCE_DIR}/*.md)
-
-# Install files, create a copy in the local build tree.
-yarp_install(FILES ${md}
-             DESTINATION ${TEO-DEVELOPER-MANUAL_CONTEXTS_INSTALL_DIR})
-
-# Install directories, create a copy in the local build tree.
-yarp_install(DIRECTORY csv
-                       fig
-                       overview
+# Install docs, and also create a copy in the local build tree.
+yarp_install(DIRECTORY docs
              DESTINATION ${TEO-DEVELOPER-MANUAL_CONTEXTS_INSTALL_DIR})
 
 # Store the package in the user registry.
