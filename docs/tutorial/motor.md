@@ -53,8 +53,8 @@ The preferred approach, using the APIs provided by YARP within our programs and 
     - [roboticslab::YarpOpenraveControlBoard](https://robots.uc3m.es/openrave-yarp-plugins/classroboticslab_1_1YarpOpenraveControlBoard.html)
     - [openrave-yarp-plugins/libraries/YarpPlugins/YarpOpenraveControlBoard](https://github.com/roboticslab-uc3m/openrave-yarp-plugins/tree/master/libraries/YarpPlugins/YarpOpenraveControlBoard)
   - Implementation in real robot
-    - [roboticslab::CanBusControlBoard](https://robots.uc3m.es/yarp-devices/classroboticslab_1_1CanBusControlBoard.html)
-    - [yarp-devices/libraries/YarpPlugins/CanBusControlBoard](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/libraries/YarpPlugins/CanBusControlBoard)
+    - [roboticslab::CanBusBroker](https://robots.uc3m.es/yarp-devices/classroboticslab_1_1CanBusBroker.html)
+    - [yarp-devices/libraries/YarpPlugins/CanBusBroker](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/libraries/YarpPlugins/CanBusBroker)
 - Examples (in the `remote` line, switch to `/teoSim/leftArm` or the limb of your selection)
   - C++
     - [yarp-devices/examples/cpp/exampleRemoteControlBoard](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/cpp/exampleRemoteControlBoard)
