@@ -4,7 +4,7 @@ Popular RGBD cameras such as the Kinect sensor or the Intel RealSense devices ca
 
 ### Pre-requisites
 
-OpenCV 4.x is the minimum version at which the OpenCV project provided a KinectFusion implementation. However, as of 4.8.0, this algorithm still remains in the contrib repository and it is hidden behind a CMake flag due to licensing limitations. Follow the [instructions](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-opencv.md) to build OpenCV 4.x with contrib from sources.
+OpenCV 4.x is the minimum version at which the OpenCV project provided a KinectFusion implementation. However, as of 4.8.0, this algorithm still remains in the contrib repository and it is hidden behind a CMake flag due to licensing limitations. Follow the [instructions](https://github.com/roboticslab-uc3m/installation-guides/blob/master/docs/install-opencv.md) to build OpenCV 4.x with contrib from sources.
 
 During the configuration step, tell CMake how to find the contrib modules (make sure opencv/opencv_contrib was cloned):
 
@@ -20,9 +20,9 @@ cmake /source/dir -DOPENCV_ENABLE_NONFREE=TRUE
 
 If you can use `ccmake` to inspect the final configuration, check that `BUILD_opencv_rgbd` is set to `ON`.
 
-In order to perform mesh reconstruction, PCL will be used under the hood (check the [installation guide](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-pcl.md)).
+In order to perform mesh reconstruction, PCL will be used under the hood (check the [installation guide](https://github.com/roboticslab-uc3m/installation-guides/blob/master/docs/install-pcl.md)).
 
-In order to build our components, YARP will be needed ([instructions](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-yarp.md)).
+In order to build our components, YARP will be needed ([instructions](https://github.com/roboticslab-uc3m/installation-guides/blob/master/docs/install-yarp.md)).
 
 Finally, clone and build our [vision-related repository](https://github.com/roboticslab-uc3m/vision). If OpenCV has been correctly installed, the *sceneReconstruction* application should be available. In addition, also set `ENABLE_examples` to `ON` or, alternatively, build the *exampleSceneReconstructionClient* app independently (in examples/cpp/).
 
