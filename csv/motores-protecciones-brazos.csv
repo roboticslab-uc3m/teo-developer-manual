@@ -1,0 +1,27 @@
+,,Hombro Frontal,Hombro Sagital,Hombro Axial,Codo Frontal,Muñeca Axial,Muñeca Frontal
+,,,,,,,
+Ref Motor,,339282,339282,339282,339282,339282,339282
+driver,,iPOS3604,iPOS3604,iPOS3604,iPOS3604,iPOS3602,iPOS3604
+,,,,,,,
+Corriente Nominal (A),Inom,0.849,0.849,0.849,0.849,0.849,0.849
+Temperatura Max del bobinado (ºC),Tmax,125,125,125,125,125,125
+Temperatura final del bobinado (ºC),"Tw,∞",100,100,80,100,80,100
+Corriente Max de trabajo (A),Ipeak,5.38,5.38,5.38,5.38,3.20,5.38
+Resistencia termica bobinado (K/W),Rth1,3.96,3.96,3.96,3.96,3.96,3.96
+Resistencia termica carcasa (K/W),Rth2,5.70,5.70,5.70,5.70,5.70,5.70
+Constante de tiempo termica (s),τw,18.25,18.25,18.25,18.25,18.25,18.25
+Coeficiente de resistencia Cu (K-1),αCU,0.0039,0.0039,0.0039,0.0039,0.0039,0.0039
+Resistencia del motor (Ω),Rmot,6.69,6.69,6.69,6.69,6.69,6.69
+PROTECCION DE CORRIENTES DE PICO,,,,,,,
+Factor de sobrecarga,K,8.1145,8.1145,6.0482,8.1145,3.5975,8.1145
+Tiempo de Corte de sobrecarga (s),ton,0.2793,0.2793,0.5059,0.2793,1.4679,0.2793
+PROTECCION DE CORRIENTES DE i2t,,,,,,,
+Perdidas por efecto Joule (W),PJ,7.7640,7.7640,5.6936,7.7640,5.6936,7.7640
+"Resistencia del bobinado a Tw,∞(Ω)",RTW,8.6468,8.6468,8.1250,8.6468,8.1250,8.6468
+Corriente I2t (A),II2t,0.9476,0.9476,0.8371,0.9476,0.8371,0.9476
+Tiempo de Corte de I2t (s),t,25.3053,25.3053,14.5759,25.3053,14.5759,25.3053
+,,,,,,,
+Motor,Tensión (V),Peso (Gr),Par max (Nm),Par RMS (Nm),I max (A),I RMS (A),Vel. Nom (rpm)
+Flat Brushless EC 45 30W (339282),36,110,0.337,0.0666,5.38,0.849,4760
+Driver,,,,,,,
+iPOS3604MX-CAN,36,",,,",",,,",",,,","10 (2,5s)",4,",,,"

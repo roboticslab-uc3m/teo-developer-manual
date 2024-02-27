@@ -1,0 +1,30 @@
+Name,CollisionLink,X(mm),Y(mm),Z(mm),Mass(g)
+RootWaist,Link 0,-10.985,-0.323,33.148,2500
+AxialWaist,Link 1,-2.235,-0.979,-18.814,1000
+FrontalWaist,Link 2,32.985,-7.876,220.667,14235.45
+AxialNeck,Link 3,0.302,0.193,-45.2,1000
+FrontalNeck,Link 4,-2.729,-0.086,67.027,2000
+RightFrontalShoulder,Link 5,-2.267,-56.164,8.456,2000
+RightSagittalShoulder,Link 6,-8.472,-4.826,-27.321,1000
+RightAxialShoulder,Link 7,0.347,0.245,107.382,1000
+RightFrontalElbow,Link 8,0.237,-0.04,-49.98,1000
+RightAxialWrist,Link 9,-1.151,0.603,24.64,631.49
+RightFrontalWrist,Link 10,-2.314,0.07,-108.635,1170
+LeftFrontalShoulder,Link 11,-2.272,56.186,8.165,2000
+		LeftSagittalShoulder,Link 12,-8.047,4.937,-27.619,1000
+		LeftAxialShoulder,Link 13,-0.172,0.249,100.649,1000
+		LeftFrontalElbow,Link 14,0.287,-0.116,-53.185,1000
+		LeftAxialWrist,Link 15,-1.151,0.603,24.64,631.49
+		LeftFrontalWrist,Link 16,-2.314,0.07,-108.635,1170
+RightAxialHip,Link 17,0.089,-0.389,-65.985,849.45
+		RightSagittalHip,Link 18,-0.636,1.058,0.349,1454.59
+		RightFrontalHip,Link 19,-10.862,-0.006,-161.205,1891.52
+		RightFrontalKnee,Link 20,-6.614,-0.411,-146.413,1948.24
+		RightFrontalAnkle,Link 21,2.577,-13.536,0.182,1503.59
+		RightSagittalAnkle,Link 22,10.03,0.936,-66.9,3133.4
+LeftAxialHip,Link 23,0.089,-0.389,-65.985,849.45
+		LeftSagittalHip,Link 24,-0.11,-0.988,0.214,1454.59
+		LeftFrontalHip,Link 25,-10.862,-0.006,-161.205,1891.52
+		LeftFrontalKnee,Link 26,-6.614,-0.411,-146.413,1948.24
+		LeftFrontalAnkle,Link 27,1.999,13.793,0.035,1503.59
+		LeftSagittalAnkle,Link 28,10.136,-0.799,-66.9,3133.4

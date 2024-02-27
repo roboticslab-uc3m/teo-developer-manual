@@ -1,0 +1,97 @@
+graph TD
+
+%% head and some trunk
+FrontalNeck[FrontalNeck]
+AxialNeck[AxialNeck]
+FrontalNeck-->|FrontalNeck| AxialNeck
+
+FrontalTrunk[FrontalTrunk]
+AxialNeck-->|AxialNeck|FrontalTrunk
+
+
+%% rightArm
+FrontalRightShoulder[FrontalRightShoulder]
+FrontalTrunk-->|FrontalRightShoulder|FrontalRightShoulder
+
+SagittalRightShoulder[SagittalRightShoulder]
+FrontalRightShoulder-->|SagittalRightShoulder|SagittalRightShoulder
+
+AxialRightShoulder[AxialRightShoulder]
+SagittalRightShoulder-->|AxialRightShoulder|AxialRightShoulder
+
+FrontalRightElbow[FrontalRightElbow]
+AxialRightShoulder-->|FrontalRightElbow|FrontalRightElbow
+
+AxialRightWrist[AxialRightWrist]
+FrontalRightElbow-->|AxialRightWrist|AxialRightWrist
+
+FrontalRightWrist[FrontalRightWrist]
+AxialRightWrist-->|FrontalRightWrist|FrontalRightWrist
+
+
+%% more trunk
+AxialTrunk[AxialTrunk]
+FrontalTrunk-->|FrontalTrunk|AxialTrunk
+
+Root[Root]
+AxialTrunk-->|AxialTrunk|Root
+
+
+%% rightLeg
+AxialRightHip[AxialRightHip]
+Root-->|AxialRightHip|AxialRightHip
+
+SagittalRightHip[SagittalRightHip]
+AxialRightHip-->|SagittalRightHip|SagittalRightHip
+
+FrontalRightHip[FrontalRightHip]
+SagittalRightHip-->|FrontalRightHip|FrontalRightHip
+
+FrontalRightKnee[FrontalRightKnee]
+FrontalRightHip-->|FrontalRightKnee|FrontalRightKnee
+
+FrontalRightAnkle[FrontalRightAnkle]
+FrontalRightKnee-->|FrontalRightAnkle|FrontalRightAnkle
+
+SagittalRightAnkle[SagittalRightAnkle]
+FrontalRightAnkle-->|SagittalRightAnkle|SagittalRightAnkle
+
+
+%% leftLeg
+AxialLeftHip[AxialLeftHip]
+Root-->|AxialLeftHip|AxialLeftHip
+
+SagittalLeftHip[SagittalLeftHip]
+AxialLeftHip-->|SagittalLeftHip|SagittalLeftHip
+
+FrontalLeftHip[FrontalLeftHip]
+SagittalLeftHip-->|FrontalLeftHip|FrontalLeftHip
+
+FrontalLeftKnee[FrontalLeftKnee]
+FrontalLeftHip-->|FrontalLeftKnee|FrontalLeftKnee
+
+FrontalLeftAnkle[FrontalLeftAnkle]
+FrontalLeftKnee-->|FrontalLeftAnkle|FrontalLeftAnkle
+
+SagittalLeftAnkle[SagittalLeftAnkle]
+FrontalLeftAnkle-->|SagittalLeftAnkle|SagittalLeftAnkle
+
+
+%% leftArm
+FrontalLeftShoulder[FrontalLeftShoulder]
+FrontalTrunk-->|FrontalLeftShoulder|FrontalLeftShoulder
+
+SagittalLeftShoulder[SagittalLeftShoulder]
+FrontalLeftShoulder-->|SagittalLeftShoulder|SagittalLeftShoulder
+
+AxialLeftShoulder[AxialLeftShoulder]
+SagittalLeftShoulder-->|AxialLeftShoulder|AxialLeftShoulder
+
+FrontalLeftElbow[FrontalLeftElbow]
+AxialLeftShoulder-->|FrontalLeftElbow|FrontalLeftElbow
+
+AxialLeftWrist[AxialLeftWrist]
+FrontalLeftElbow-->|AxialLeftWrist|AxialLeftWrist
+
+FrontalLeftWrist[FrontalLeftWrist]
+AxialLeftWrist-->|FrontalLeftWrist|FrontalLeftWrist
