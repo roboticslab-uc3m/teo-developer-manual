@@ -14,6 +14,7 @@ This is a (roughly) chronological list of people who contributed to the design a
     - Iván Monteagudo García
     - Juan G. Víctores ([@jgvictores](https://github.com/jgvictores))
     - Bartek Łukawski ([@PeterBowman](https://github.com/PeterBowman))
+    - Elisabeth Menéndez ([@elisabeth-ms](https://github.com/elisabeth-ms))
     - Jaime Mas Santillán ([@TheArmega](https://github.com/TheArmega))
 
 - Firmware and peripherals:
