@@ -1,0 +1,11 @@
+Device,Brand,Model,YARP device,Desciption/Comments
+EC Motor,Maxon,339282/339287/400108/402686/411815,,30/50/70 W
+Motor Driver,Technosoft,iPOS 3602/3604/4808 (MX),TechnosoftIpos,3602 -> front wrist 3604 -> all except legs and trunk 4808 -> legs and trunk
+Relative Encoder,CUI Inc,AMT 203-V,TechnosoftIpos,
+Absolute Encoder,CUI Inc,AMT 203-V,CuiAbsolute,Uses PIC18F2580
+Force-Torque Sensor,JR3,50M31A3-125-DH,Jr3,50M31A3-125-DH -> wrist ((( unknown ))) -> ankle
+Inertial Sensor,XSENS,MTi-28A53G35,xsensmtx,Product ID: MTi-28A53G35 Device ID: 00305355
+RGBD Sensor,ASUS,XtionPRO Live,OpenNI2Server,RGB and Depth Sensor
+RGB Camera,Point Grey,Flea3 FL3-U3-88S2C-C,AravisGigE,USB3
+Fetch Hand,Lacquey,Fetch Hand,LacqueyFetch,Three finger underactuated
+CAN board,PEAK-System,PCAN-M.2,CanBusPeak,Four channels
