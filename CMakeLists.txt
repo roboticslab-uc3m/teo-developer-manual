@@ -3,16 +3,14 @@ cmake_minimum_required(VERSION 3.12)
 # Define a project.
 project(TEO_DEVELOPER_MANUAL LANGUAGES NONE)
 
-# Find dependencies
+# Pick up our cmake modules.
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
+
+# Find dependencies.
 find_package(YCM 0.11 REQUIRED)
-find_package(YARP 3.2 REQUIRED)
 
-# Set some useful variables - paths relative to the installation prefix.
-yarp_configure_external_installation(teo-developer-manual)
-
-# Install docs, and also create a copy in the local build tree.
-yarp_install(DIRECTORY docs
-             DESTINATION ${TEO-DEVELOPER-MANUAL_CONTEXTS_INSTALL_DIR})
+# Add custom rule to generate and install the MkDocs site.
+include(AddMkDocsTarget)
 
 # Store the package in the user registry.
 set(CMAKE_EXPORT_PACKAGE_REGISTRY ON)
